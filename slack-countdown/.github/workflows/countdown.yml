@@ -1,0 +1,37 @@
+name: Daily Slack Countdown
+
+# When to run.
+on:
+  # Scheduled run. GitHub Actions cron is ALWAYS in UTC.
+  # Hawaii (HST) is UTC-10 with no daylight saving, so 8:00 AM HST = 18:00 UTC.
+  # We use 18:07 instead of 18:00 because GitHub's scheduler can be delayed
+  # under load, and an off-the-hour minute tends to fire more promptly.
+  schedule:
+    - cron: "7 18 * * *"
+
+  # Lets you trigger a run by hand from the Actions tab to test it.
+  workflow_dispatch:
+
+jobs:
+  send-countdown:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Get the repository code (countdown.py).
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # 2. Install Python 3. No "pip install" step is needed because the
+      #    script only uses the Python standard library.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 3. Run the script. The Slack webhook secret is passed in as an
+      #    environment variable. It is stored encrypted in GitHub and is
+      #    never written into the code.
+      - name: Post the countdown to Slack
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python countdown.py
