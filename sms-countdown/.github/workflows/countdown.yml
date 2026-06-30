@@ -1,0 +1,43 @@
+name: Daily SMS Countdown
+
+# When to run.
+on:
+  # Scheduled run. GitHub Actions cron is ALWAYS in UTC.
+  # Hawaii (HST) is UTC-10 with no daylight saving, so 8:00 AM HST = 18:00 UTC.
+  # We use 18:07 instead of 18:00 because GitHub's scheduler can be delayed
+  # under load, and an off-the-hour minute tends to fire more promptly.
+  schedule:
+    - cron: "7 18 * * *"
+
+  # Lets you trigger a run by hand from the Actions tab to test it.
+  workflow_dispatch:
+
+jobs:
+  send-countdown:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Get the repository code (countdown.py, requirements.txt).
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # 2. Install Python 3.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 3. Install the Twilio library.
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # 4. Run the script. The four secrets are passed in as environment
+      #    variables. They are stored encrypted in GitHub and are never
+      #    written into the code.
+      - name: Send the countdown text
+        env:
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
+          MY_PHONE_NUMBER: ${{ secrets.MY_PHONE_NUMBER }}
+        run: python countdown.py
