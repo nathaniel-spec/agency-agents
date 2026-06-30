@@ -3,7 +3,7 @@
 Run with:  python -m pytest    (or just:  python test_countdown.py)
 
 These tests cover the date math and message wording without ever touching
-Twilio, so they need no credentials and no network.
+Slack, so they need no webhook URL and no network.
 """
 
 from datetime import datetime

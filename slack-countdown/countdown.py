@@ -1,27 +1,31 @@
 #!/usr/bin/env python3
 """
-Daily SMS countdown to August 15, 2026.
+Daily Slack countdown to August 15, 2026.
 
 Once a day this script works out how many whole days remain until
-August 15, 2026 (counted in the Pacific/Honolulu timezone) and sends a
-single text message about it via Twilio.
+August 15, 2026 (counted in the Pacific/Honolulu timezone) and posts a
+single message to a Slack channel via an "Incoming Webhook".
 
 Message rules:
   * N > 1   -> "N days until August 15"
   * N == 1  -> "1 day until August 15"
   * N == 0  -> "August 15 is here"
-  * N < 0   -> send nothing (the date has passed)
+  * N < 0   -> post nothing (the date has passed)
 
 All the date math uses Python's ``zoneinfo`` so the day boundary lands at
 local midnight in Hawaii, never at some arbitrary server hour. No naive
 datetimes are used anywhere.
 
-Twilio credentials and phone numbers are read from environment variables
-(supplied by GitHub Actions secrets) and are never hardcoded.
+This script uses only the Python standard library — there are no
+third-party dependencies to install. The Slack webhook URL is read from an
+environment variable (supplied by a GitHub Actions secret) and is never
+hardcoded.
 """
 
 import os
 import sys
+import json
+import urllib.request
 from datetime import datetime, date
 from zoneinfo import ZoneInfo
 
@@ -62,7 +66,7 @@ def days_remaining(now: datetime) -> int:
 
 
 def build_message(days: int) -> str | None:
-    """Turn a day count into the text to send, or ``None`` to send nothing."""
+    """Turn a day count into the text to post, or ``None`` to post nothing."""
     if days < 0:
         # The target date is in the past. Nothing to say.
         return None
@@ -89,21 +93,24 @@ def get_required_env(name: str) -> str:
     return value
 
 
-def send_sms(body: str) -> None:
-    """Send ``body`` as an SMS from the Twilio number to the personal number."""
-    # Imported here (not at module top) so the shared date logic and the
-    # dependency-free Slack script can import from this file without needing
-    # the twilio package installed.
-    from twilio.rest import Client
+def send_slack(body: str) -> None:
+    """Post ``body`` to Slack via an Incoming Webhook URL."""
+    webhook_url = get_required_env("SLACK_WEBHOOK_URL")
 
-    account_sid = get_required_env("TWILIO_ACCOUNT_SID")
-    auth_token = get_required_env("TWILIO_AUTH_TOKEN")
-    from_number = get_required_env("TWILIO_FROM_NUMBER")
-    to_number = get_required_env("MY_PHONE_NUMBER")
+    # Slack Incoming Webhooks accept a simple JSON payload; "text" is the
+    # message that shows up in the channel.
+    payload = json.dumps({"text": body}).encode("utf-8")
+    request = urllib.request.Request(
+        webhook_url,
+        data=payload,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
 
-    client = Client(account_sid, auth_token)
-    message = client.messages.create(body=body, from_=from_number, to=to_number)
-    print(f"Sent message {message.sid}: {body!r}")
+    with urllib.request.urlopen(request) as response:
+        # Slack returns the literal text "ok" (HTTP 200) on success.
+        result = response.read().decode("utf-8").strip()
+        print(f"Slack responded {response.status}: {result!r} for {body!r}")
 
 
 # ---------------------------------------------------------------------------
@@ -121,7 +128,7 @@ def main() -> None:
         print(f"Target date {TARGET_DATE} has passed ({days} days). Nothing to send.")
         return
 
-    send_sms(body)
+    send_slack(body)
 
 
 if __name__ == "__main__":

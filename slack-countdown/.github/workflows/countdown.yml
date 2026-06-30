@@ -1,4 +1,4 @@
-name: Daily SMS Countdown
+name: Daily Slack Countdown
 
 # When to run.
 on:
@@ -17,27 +17,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Get the repository code (countdown.py, requirements.txt).
+      # 1. Get the repository code (countdown.py).
       - name: Check out repository
         uses: actions/checkout@v4
 
-      # 2. Install Python 3.
+      # 2. Install Python 3. No "pip install" step is needed because the
+      #    script only uses the Python standard library.
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      # 3. Install the Twilio library.
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      # 4. Run the script. The four secrets are passed in as environment
-      #    variables. They are stored encrypted in GitHub and are never
-      #    written into the code.
-      - name: Send the countdown text
+      # 3. Run the script. The Slack webhook secret is passed in as an
+      #    environment variable. It is stored encrypted in GitHub and is
+      #    never written into the code.
+      - name: Post the countdown to Slack
         env:
-          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
-          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
-          TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
-          MY_PHONE_NUMBER: ${{ secrets.MY_PHONE_NUMBER }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: python countdown.py
