@@ -25,8 +25,6 @@ import sys
 from datetime import datetime, date
 from zoneinfo import ZoneInfo
 
-from twilio.rest import Client
-
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
@@ -93,6 +91,11 @@ def get_required_env(name: str) -> str:
 
 def send_sms(body: str) -> None:
     """Send ``body`` as an SMS from the Twilio number to the personal number."""
+    # Imported here (not at module top) so the shared date logic and the
+    # dependency-free Slack script can import from this file without needing
+    # the twilio package installed.
+    from twilio.rest import Client
+
     account_sid = get_required_env("TWILIO_ACCOUNT_SID")
     auth_token = get_required_env("TWILIO_AUTH_TOKEN")
     from_number = get_required_env("TWILIO_FROM_NUMBER")

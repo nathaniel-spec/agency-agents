@@ -1,3 +1,6 @@
+# Only needed for the SMS (Twilio) option. The Slack option
+# (countdown_slack.py) uses the Python standard library and needs nothing here.
+#
 # Official Twilio Python helper library, used to send the SMS.
 # Pinned to a major version so future breaking releases don't surprise the job.
 twilio>=9.0.0,<10.0.0

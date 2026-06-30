@@ -1,6 +1,6 @@
-# Daily SMS Countdown to August 15, 2026
+# Daily Countdown to August 15, 2026
 
-Every morning at **8:00 AM Hawaii time**, this project sends you one text:
+Every morning at **8:00 AM Hawaii time**, this project sends you one message:
 
 > `42 days until August 15`
 
@@ -10,12 +10,36 @@ the number ticks down at Hawaii's local midnight.
 
 Message rules:
 
-| Days left | Text you receive       |
+| Days left | Message you receive    |
 |-----------|------------------------|
 | 42        | `42 days until August 15` |
 | 1         | `1 day until August 15`   |
 | 0         | `August 15 is here`       |
 | past it   | *(nothing is sent)*       |
+
+## Pick how it reaches you
+
+There are two delivery options. **Pick one** — don't enable both, or you'll get
+two messages a day.
+
+| | **Slack (easiest)** | **Text message (SMS) via Twilio** |
+|---|---|---|
+| Setup effort | ~3 minutes | ~15 minutes |
+| Accounts needed | A Slack workspace | A Twilio account |
+| Cost | Free | Small per-text + monthly number fee |
+| Phone number to buy | No | Yes |
+| Secrets to add | 1 (`SLACK_WEBHOOK_URL`) | 4 |
+| Python dependencies | None | `twilio` |
+| Script / workflow | `countdown_slack.py` / `countdown-slack.yml` | `countdown.py` / `countdown.yml` |
+
+If you don't specifically need an SMS to your phone, **Slack is the simpler
+path** — jump to *Setup — Slack option* below and ignore the Twilio parts.
+(There's no first-party "free WhatsApp" API, so Slack is the genuinely
+no-cost messaging route here.)
+
+After you've chosen, **delete the workflow you're not using** so it doesn't run:
+- Using Slack? Delete `.github/workflows/countdown.yml`.
+- Using SMS?   Delete `.github/workflows/countdown-slack.yml`.
 
 ---
 
@@ -26,14 +50,19 @@ only runs workflows found in `.github/workflows/` at the repo root.)
 
 ```
 your-repo/
-├── countdown.py                  # The script that does the counting + texting
-├── requirements.txt              # Python dependency: the twilio library
-├── test_countdown.py             # Offline tests for the logic (no Twilio needed)
+├── countdown.py                  # Shared date logic + the SMS (Twilio) sender
+├── countdown_slack.py            # The Slack sender (reuses countdown.py's logic)
+├── requirements.txt              # Python dependency: twilio (SMS path only)
+├── test_countdown.py             # Offline tests for the logic (no accounts needed)
 ├── README.md                     # This file
 └── .github/
     └── workflows/
-        └── countdown.yml         # The daily schedule + the step that runs it
+        ├── countdown.yml         # Daily schedule for the SMS version
+        └── countdown-slack.yml   # Daily schedule for the Slack version
 ```
+
+Keep both scripts even if you only use one — `countdown_slack.py` imports the
+date logic from `countdown.py`. Just delete the workflow you aren't using.
 
 ---
 
@@ -53,7 +82,53 @@ to fire sooner.
 
 ---
 
-## Setup — step by step
+## Setup — Slack option (easiest)
+
+Do this once; it takes about 3 minutes. You need a Slack workspace where you can
+add an app (your own free workspace works fine).
+
+### Part A — Create a Slack Incoming Webhook
+
+A webhook is a private URL that posts a message to one channel when you send it
+some text.
+
+1. Decide which channel the message should land in (e.g. a private channel
+   called `#countdown`, or your own DMs). Create it in Slack if needed.
+2. Go to **https://api.slack.com/apps** and click **Create New App → From
+   scratch**. Give it a name like `Countdown` and pick your workspace.
+3. In the app's left sidebar, click **Incoming Webhooks** and toggle
+   **Activate Incoming Webhooks** to **On**.
+4. Click **Add New Webhook to Workspace**, choose the channel from step 1, and
+   **Allow**.
+5. Copy the **Webhook URL** it gives you. It looks like
+   `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXX`.
+   Treat it like a password — anyone with it can post to that channel.
+
+### Part B — Put this code in a GitHub repository
+
+Follow *Part B — Put this code in a GitHub repository* under the SMS setup
+below (it's identical). Then delete `.github/workflows/countdown.yml` so only
+the Slack workflow runs.
+
+### Part C — Add the one Slack secret to GitHub
+
+1. In your repo: **Settings → Secrets and variables → Actions → New repository
+   secret**.
+2. Name it exactly `SLACK_WEBHOOK_URL` and paste the webhook URL as the value.
+
+### Part D — Test it now
+
+1. Open the repo's **Actions** tab (enable workflows if prompted).
+2. Click **Daily Slack Countdown → Run workflow → Run workflow**.
+3. Within a minute the message should appear in your chosen Slack channel. If
+   not, open the run's log — the script prints a clear error if the secret is
+   missing.
+
+That's the whole Slack setup. You can stop here and ignore the Twilio section.
+
+---
+
+## Setup — SMS option (Twilio)
 
 You only need to do this once. It takes about 15 minutes. It assumes you have a
 GitHub account but have never used Twilio or GitHub Actions.
