@@ -138,6 +138,7 @@ Evidence Collector verifies improvements.
 | **Enterprise Feature Runbook** | Enterprise feature development | `strategy/runbooks/scenario-enterprise-feature.md` |
 | **Marketing Campaign Runbook** | Multi-channel campaign | `strategy/runbooks/scenario-marketing-campaign.md` |
 | **Incident Response Runbook** | Production incident handling | `strategy/runbooks/scenario-incident-response.md` |
+| **LinkedIn Outreach Runbook** | Creator outreach & partnerships | `strategy/runbooks/scenario-linkedin-outreach.md` |
 
 ---
 

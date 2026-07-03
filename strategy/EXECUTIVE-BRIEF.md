@@ -87,7 +87,8 @@ strategy/
     ├── scenario-startup-mvp.md     ← 4-6 week MVP build
     ├── scenario-enterprise-feature.md ← Enterprise feature development
     ├── scenario-marketing-campaign.md ← Multi-channel campaign
-    └── scenario-incident-response.md  ← Production incident handling
+    ├── scenario-incident-response.md  ← Production incident handling
+    └── scenario-linkedin-outreach.md  ← Creator outreach & partnerships
 ```
 
 ---
