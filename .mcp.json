@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sfb": {
+      "type": "http",
+      "url": "https://usesfb.ai/mcp"
+    }
+  }
+}
