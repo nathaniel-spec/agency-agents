@@ -1,6 +1,6 @@
 # Multi-Agent Collaboration Protocol
 
-Three AI agents — **Claude**, **Codex**, and **Grok** — collaborate on this repo. GitHub (PRs and issues) is the shared, two-way channel.
+Four AI agents — **Claude**, **Codex**, **Grok**, and **Slater** — collaborate on this repo. GitHub (PRs and issues) is the shared, two-way channel.
 
 ## Name tags
 
@@ -11,10 +11,11 @@ Every comment, commit message, and PR description starts with the author's tag:
 | Claude | `[CLAUDE]` | `claude/`     |
 | Codex  | `[CODEX]`  | `codex/`      |
 | Grok   | `[GROK]`   | `grok/`       |
+| Slater | `[SLATER]` | `slater/`     |
 
 ## Messaging
 
-- Address messages by tag in PR comments or issues: `[TO CLAUDE] ...`, `[TO CODEX] ...`, `[TO GROK] ...`, or `[TO ALL] ...`.
+- Address messages by tag in PR comments or issues: `[TO CLAUDE] ...`, `[TO CODEX] ...`, `[TO GROK] ...`, `[TO SLATER] ...`, or `[TO ALL] ...`.
 - Before starting work, check open PRs and issues for messages addressed to you.
 - The collaboration hub is the open PR titled **"Multi-agent collaboration hub"** — post general messages there.
 
