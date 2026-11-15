@@ -1,0 +1,138 @@
+{
+ "input": "https://theaiaccelerators.com/register",
+ "finalUrl": "https://theaiaccelerators.com/register",
+ "title": "AI-Powered Agency",
+ "redirects": [],
+ "meta": [
+  [
+   "viewport",
+   "width=device-width, initial-scale=1"
+  ],
+  [
+   "title",
+   "AI-Powered Agency"
+  ],
+  [
+   "og:title",
+   "AI-Powered Agency"
+  ],
+  [
+   "description",
+   "Discover How AI Agencies Are Scaling to $10k/Month in Just 12 Weeks: And How You Can Too"
+  ],
+  [
+   "og:description",
+   "Discover How AI Agencies Are Scaling to $10k/Month in Just 12 Weeks: And How You Can Too"
+  ],
+  [
+   "og:type",
+   "website"
+  ],
+  [
+   "twitter:type",
+   "website"
+  ]
+ ],
+ "links": [
+  "Privacy Policy | https://theaiaccelerators.com/privacy-policy",
+  "Terms of Service | https://theaiaccelerators.com/terms-and-condition"
+ ],
+ "buttons": [
+  "SAVE YOUR SEAT NOW",
+  "Reserve My Seat Now!\nLimited Spots Are Available",
+  "Reserve My Seat Now!\nLimited Spots Are Available",
+  "Reserve My Seat Now!\nLimited Spots Are Available",
+  "Reserve My Seat Now!\nLimited Spots Are Available"
+ ],
+ "forms": [],
+ "iframes": [],
+ "scripts": [
+  "https://stcdn.leadconnectorhq.com/_preview/BuCXqppA.js",
+  "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+ ],
+ "globals": [],
+ "text": "AI-Powered Agency\nFREE Live Webinar Event\nSAVE YOUR SEAT NOW\nHow AI Agencies Are Scaling Fast in Just 12 Weeks: And How You Can Too\nWithout Technical Skills, A Massive Budget, Or Quitting Your 9-5\nThis Must-See FREE Live Webinar Kicks Off On:\nSaturday, October 31st @ 12:00 PM EST\nReserve My Seat Now!\nLimited Spots Are Available\nShow up LIVE to get the '$5k Monthly Retainer Framework'\n(FREE when you attend)\nInside This Training, You’ll Learn:\n\nHow to go from $0 to your first $10K/month in 90 days or less.\n\nHow to position yourself ABOVE the competition, eliminating 99% of your competition overnight (you'll never hear \"let me get back to you\" again).\n\nThe \"10 steps ahead\" principle that instantly kills imposter syndrome - You don't need to master AI, you just need to solve problems your clients can't (and I'll show you exactly which ones).\n\nWhat not to say on a sales call (you'd be surprised how many people do this. Sadly, it kills deals even before they get the chance to present their offer).\n\nThe client acquisition system that fills your calendar with qualified, cash-ready prospects (works for cold outreach, warm intros, and LinkedIn).\n\nThe delivery system that lets you serve 5-8 clients without sacrificing your life (no more \"trading time for money\" trap)\n\nThe $5K Offer Framework that makes clients say, \"Where do I sign?\"\n\nYou'll learn the \"hidden niche selection\" strategy that'll help you find clients that have never been pitched before.\n\nMy exact n8n workflows (copy-paste ready) that have generated over $100K in real client revenu\n\nThis Isn't Just Another Webinar\nI'll show you how to go from $0 to your first $10K/month in 90 days or less.\nIt Kicks Off On Saturday, October 31st @ 12:00 PM EST\nReserve My Seat Now!\nLimited Spots Are Available\nShow up LIVE to get the '$5k Monthly Retainer Framework'\n(FREE when you attend)\nHosted By: Nick Puru\n\nNick Puru\n\nFounder, AI Accelerator (12,000+ Members) | Co-Founder, Reprise AI & Sync2\n\nNick Puru is a leading voice in practical AI adoption for business owners and entrepreneurs. He has helped tens of thousands of professionals use AI to increase revenue, streamline operations, and work more efficiently. As the founder of AI Accelerator, a 12,000+ member community, he teaches real-world AI systems that deliver measurable business results. Through his YouTube channel with 40,000+ subscribers and consulting work, Nick shows how to automate growth without technical overwhelm. His work focuses on turning AI into a competitive advantage, not a buzzword.\n\nReserve My Seat Now!\nLimited Spots Are Available\nShow up LIVE to get the \"$5k Monthly Retainer Framework\" (FREE when you attend)\nResults Don't Lie\nSee What's Possible Once You Show Up For The Live Masterclass\nReserve My Seat Now!\nLimited Spots Are Available\n\nThe income figures and results mentioned on this page — including $10K/month, $5K retainers, and $100K+ in client revenue — are real results from specific individuals and are not typical. Your results will vary based on your effort, experience, consistency, and a number of factors outside our control. Many people who attend trainings and join communities see little to no results. We make no guarantee that you will earn any specific income or build a successful business by attending this webinar or applying what you learn. This is a free educational training — not a business opportunity, franchise offer, or investment vehicle. Nothing shared during this event constitutes legal, financial, or tax advice. Also, this site is not a part of the Facebook website or Facebook Inc. Additionally, This site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.\n\n© 2026 The AI Accelerators All Rights Reserved | Privacy Policy | Terms of Service",
+ "hosts": {
+  "theaiaccelerators.com": 2,
+  "fonts.googleapis.com": 1,
+  "stcdn.leadconnectorhq.com": 38,
+  "static.cloudflareinsights.com": 1,
+  "images.leadconnectorhq.com": 21,
+  "fonts.gstatic.com": 7,
+  "backend.leadconnectorhq.com": 1
+ },
+ "requests": [
+  "GET https://theaiaccelerators.com/register",
+  "GET https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CRoboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&d",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BuCXqppA.js",
+  "GET https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+  "GET https://stcdn.leadconnectorhq.com/funnel/fontawesome/webfonts/fa-solid-900.woff2",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/5cf6c5a2-9115-4c6e-aa65-8ff02a5d2cfd.jpeg",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e3b55feecaeea97b0b9.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e3ba0bb969dd93a2208.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e3a55feecaeea97b089.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e39b87a281ad1a969c9.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e39a0c3fa1f7d628c22.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e37a0bb969dd93a21a4.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e37840bad1c11559aad.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e373be7ffaf0d59120b.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e3489ad2537e4a9e7a1.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e34ac05a0d91fb0c62c.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e3a3be7ffaf0d59123f.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e3bac05a0d91fb0c6c5.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e39b87a281ad1a96a04.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e39a0bb969dd93a21dc.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e373be7ffaf0d591217.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e37a0bb969dd93a21b0.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e3789ad2537e4a9e7cc.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e346e47ee7c82440fb6.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e34a0c3fa1f7d628bc0.png",
+  "GET https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/6ad94e34a0bb969dd93a216c.png",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2",
+  "GET https://stcdn.leadconnectorhq.com/_preview/sJ9i-sUo.js",
+  "POST https://theaiaccelerators.com/cdn-cgi/rum?",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CVhjUuMA.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BJgkKx-e.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/qQx4ctgp.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DeCe7ayY.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DlVAqYnp.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CrqjFaLb.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BJmiYrnc.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/Co8kV-VW.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C60J5m6h.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/D2GKgMhx.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/Cmx2XiJz.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CSsPqFKM.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/bDbikwI2.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DRNKrJGC.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C17z7VQ0.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/B-iXHOlY.js",
+  "GET https://backend.leadconnectorhq.com/funnels/funnel/geo-location/",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DAnMKlY_.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/TestimonialModal.DVJfVErF.css",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CPucouBs.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DArhIr5q.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DYa7OZHt.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/D7SxhFC7.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CEEDRTji.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CenvAvwo.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DDMTogyh.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/B-_2zyfK.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C5Mm3dg4.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/PdpQuickViewModal.DXR8JnWj.css",
+  "GET https://stcdn.leadconnectorhq.com/_preview/Drawer.UdnDdj5w.css",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CEgYiHGq.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CRcAi-w_.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DxGCXNpm.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/w0VRyP2_.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/Dq585mud.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/builds/meta/5bb6e8d6-bb05-4f9e-9616-62eac5b1fbff.json"
+ ],
+ "mobileHosts": 7
+}

@@ -1,0 +1,16 @@
+TITLE AI Accelerator (Webinar)
+- [contact_info] (0913921b-c) *Enter Your Information Below:*
+  - [short_text] (41a24bd1-7) First name | REQUIRED
+  - [short_text] (ab97231c-c) Last name | REQUIRED
+  - [phone_number] (781f5c03-a) Phone number | REQUIRED
+  - [email] (9c348347-7) Email | REQUIRED
+- [multiple_choice] (774c7d08-b) *What is your biggest struggle right now?* | choices: ['Finding Clients', 'What services to sell', 'How to close the deal with the client'] | REQUIRED
+- [long_text] (0eed7677-9) *What have you tried so far to resolve this?* | REQUIRED
+- [multiple_choice] (d235961b-3) *What's your current monthly income or revenue?* | choices: ['Under $2k per month', '$2k - $5k per month', '$5k - $10k per month', '$10k+ per month'] | REQUIRED
+HIDDEN ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'fbp', 'fbc', 'event_source_url', 'user_agent', 'page_title', 'referrer', 'fbclid', 'email', 'last_name', 'first_name', 'phone_number', 'user_id', 'product_id']
+LOGIC:
+THANKYOU b119abe3-73e7-4bfd-bfc5-f30999ea8bf9 END {"redirect_url": "https://theaiaccelerators.com/registration-complete?utm_source={{hidden:utm_source}}&utm_medium={{hidden:utm_medium}}&utm_campaign={{hidden:utm_campaign}}&utm_term={{hidden:utm_term}}&utm_content={{hidden:utm_content}}&fbclid={{hidden:fbclid}}"}
+THANKYOU default_tys Thanks for completing this typeform
+Now *create your own* — it's free, easy, & beautiful {"show_button": true, "share_icons": false, "button_mode": "default_redirect", "button_text": "Create a *typeform*"}
+SETTINGS keys ['language', 'progress_bar', 'meta', 'hide_navigation', 'is_public', 'is_trial', 'show_progress_bar', 'show_typeform_branding', 'are_uploads_public', 'show_time_to_complete', 'show_number_of_submissions', 'show_cookie_consent', 'show_question_number', 'hide_required_indicator', 'show_key_hint_on_choices', 'autosave_progress', 'free_form_navigation', 'use_lead_qualification', 'pro_subdomain_enabled', 'milestones', 'enrichment_in_renderer', 'email_consent_notifications_config', 'auto_translate', 'partial_responses_to_all_integrations', 'webmcp_enabled', 'webmcp_submit_hitl_enabled']
+{'partial_responses_to_all_integrations': True}

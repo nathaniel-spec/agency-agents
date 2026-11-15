@@ -1,0 +1,83 @@
+{
+ "input": "https://sync2.ai/",
+ "finalUrl": "https://sync2.ai/",
+ "title": "Sync2 | AI Call agent",
+ "redirects": [],
+ "meta": [
+  [
+   "viewport",
+   "width=device-width, initial-scale=1"
+  ],
+  [
+   "next-size-adjust",
+   ""
+  ],
+  [
+   "description",
+   "Default description"
+  ],
+  [
+   "google-site-verification",
+   "15UJIKX2AH6hbNetfgugj7uOZOLfZ8c_rLlOADQbzyQ"
+  ]
+ ],
+ "links": [
+  "Sync2 | https://sync2.ai/",
+  "How it works | https://sync2.ai/#how-it-works",
+  "Features | https://sync2.ai/#features",
+  "Results | https://sync2.ai/#results",
+  "FAQ | https://sync2.ai/#faq",
+  "Login | https://sync2.ai/signin",
+  "Book a Demo | https://sync2.ai/get-started",
+  "See how it works | https://sync2.ai/#how-it-works",
+  "Terms | https://sync2.ai/legal/terms",
+  "Privacy | https://sync2.ai/privacy-policy",
+  "team@sync2.ai | mailto:team@sync2.ai",
+  "Provider Login | https://sync2.ai/signin"
+ ],
+ "buttons": [
+  "Will patients know they're talking to AI?",
+  "How long to get set up?",
+  "Is this HIPAA compliant?",
+  "Does this replace our ad agency?",
+  "What specialties do you support?",
+  "What does my staff need to do?"
+ ],
+ "forms": [],
+ "iframes": [],
+ "scripts": [
+  "https://sync2.ai/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+  "https://sync2.ai/_next/static/chunks/1255-aab1fab69a431920.js",
+  "https://sync2.ai/_next/static/chunks/main-app-f3336e172256d2ab.js",
+  "https://sync2.ai/_next/static/chunks/polyfills-42372ed130431b0a.js",
+  "https://sync2.ai/_next/static/chunks/webpack-ea8aa0334925cd98.js"
+ ],
+ "globals": [],
+ "text": "Sync2\nHow it works\nFeatures\nResults\nFAQ\nLogin\nBook a Demo\n\nBUILT FOR MEDICAL AND AESTHETIC PRACTICES\n\nYour front desk,\npowered by AI\n\nSync2 answers every patient call, books consultations, and follows up automatically. Built for plastic surgery, med spas, dental, and aesthetic practices.\n\nBook a Demo\nSee how it works\n\nTRY IT LIVE\n\nTalk to our AI receptionist. Ask about booking a consultation.\n\nClick the mic to start\n\n2,400+\n\nCALLS HANDLED\n\n<1s\n\nAVG. ANSWER TIME\n\n93%\n\nRESOLUTION RATE\n\n24/7\n\nAVAILABILITY\n\nBUILT FOR\n\nPlastic Surgery\nMed Spa\nDental\nDermatology\nStem Cell\nRadiology\nWellness\n\nTHE PROBLEM\n\nYour ads work. Your front desk doesn't keep up.\n\nMost practices lose patients between the inquiry and the appointment.\n\n37%\n\nof calls to medical practices go unanswered. Those patients book with a competitor instead.\n\nPRACTICE MANAGEMENT INSTITUTE\n\n$100K+\n\nin lost revenue per year per provider from missed calls, no-shows, and dropped follow-ups.\n\nCLEVELAND CLINIC STUDY\n\n23%\n\nconsultation booking rate when your team responds in 5+ minutes. Under 60 seconds? That jumps to 60%.\n\nASPS RESEARCH DATA\n\nHOW IT WORKS\n\nThree steps. Fully automated.\n\n01\n\nPatient calls your clinic\n\nInbound call, form fill, or ad inquiry -- any time, day or night. Your AI receptionist picks up instantly.\n\n02\n\nAI handles the conversation\n\nAnswers questions about procedures, providers, and insurance. Books the appointment directly into your calendar.\n\n03\n\nPatient is booked and confirmed\n\nSMS and email confirmation sent. Reminder sequence activated. Synced to your EHR. Zero staff involvement.\n\nFEATURES\n\nEverything your front desk does. But better.\nInstant Response\n\nEvery call answered in under 1 second. Patients hear back before they Google your competitor.\n\nSmart Scheduling\n\nBooks into your real calendar with provider availability, service duration, and conflict detection built in.\n\nFollow-up Sequences\n\n7-day automated nurture via call, SMS, and email. Converts the leads that would otherwise ghost.\n\nEHR Integration\n\nNative sync with Practice Fusion, Dentrix, Nextech, ModMed, and more. Appointments land in your system of record.\n\nHIPAA Compliant\n\nEnd-to-end encryption, signed BAAs with every vendor. Built for healthcare from day one.\n\nReal-time Analytics\n\nSee every call, transcript, outcome, and booking. Daily digest emails. Know exactly what your AI is doing.\n\nRESULTS\n\nNumbers that matter\n\n2-3x\n\nMore booked consultations per month\n\n90%\n\nPatient inquiry response rate\n\n60%\n\nReduction in no-shows and cancellations\n\nROI CALCULATOR\n\nHow much revenue are you losing?\nMonthly leads\n100\nAvg. procedure value\n$5,000\n\nLOST MONTHLY\n\n$385,000\n\nat 23% conversion\n\nRECOVERED\n\n$185,000\n\nwith Sync2 at 60%\n\nINTEGRATIONS\n\nConnects to your existing systems\nPractice Fusion\nNextech\nModMed\nDentrix\nEaglesoft\nOpenDental\nAesthetic Record\n\nFAQ\n\nCommon questions\nWill patients know they're talking to AI?\nHow long to get set up?\nIs this HIPAA compliant?\nDoes this replace our ad agency?\nWhat specialties do you support?\nWhat does my staff need to do?\nReady to fill your consultation calendar?\n\nSee how Sync2 works for your practice. Live in 7-10 days.\n\nBook a Demo\n\n© 2026 Sync2 AI. All rights reserved.\n\nTerms\nPrivacy\nteam@sync2.ai\nProvider Login",
+ "hosts": {
+  "sync2.ai": 20
+ },
+ "requests": [
+  "GET https://sync2.ai/",
+  "GET https://sync2.ai/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+  "GET https://sync2.ai/_next/static/css/a6fc798b75e96a95.css",
+  "GET https://sync2.ai/_next/static/css/c82bc4b038891813.css",
+  "GET https://sync2.ai/_next/static/chunks/webpack-ea8aa0334925cd98.js",
+  "GET https://sync2.ai/_next/static/chunks/4bd1b696-182b6b13bdad92e3.js",
+  "GET https://sync2.ai/_next/static/chunks/1255-aab1fab69a431920.js",
+  "GET https://sync2.ai/_next/static/chunks/main-app-f3336e172256d2ab.js",
+  "GET https://sync2.ai/_next/static/chunks/2619-04bc32f026a0d946.js",
+  "GET https://sync2.ai/_next/static/chunks/1356-2ed480e29f4f7933.js",
+  "GET https://sync2.ai/_next/static/chunks/app/(full-width-pages)/(auth)/layout-acd692b4eae10fa8.js",
+  "GET https://sync2.ai/_next/static/chunks/app/layout-736b5c2634bef2f5.js",
+  "GET https://sync2.ai/_next/static/chunks/144d3bae-eff8d3c2b5b5f727.js",
+  "GET https://sync2.ai/_next/static/chunks/5175-4ca1c03fa57c5548.js",
+  "GET https://sync2.ai/_next/static/chunks/app/page-9595fba637c02204.js",
+  "GET https://sync2.ai/api/auth/me",
+  "GET https://sync2.ai/api/provider-auth/me",
+  "GET https://sync2.ai/api/patient-auth/me",
+  "GET https://sync2.ai/legal/terms?_rsc=3lb4g",
+  "GET https://sync2.ai/privacy-policy?_rsc=3lb4g"
+ ],
+ "mobileHosts": 1
+}

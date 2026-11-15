@@ -1,0 +1,686 @@
+{
+ "input": "https://www.youtube.com/@NicholasPuru/about",
+ "finalUrl": "https://www.youtube.com/@NicholasPuru/about",
+ "title": "Nick Puru | AI Automation - YouTube",
+ "redirects": [
+  "302 https://googleads.g.doubleclick.net/pagead/id -> https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+  "301 https://youtube.com/ -> https://www.youtube.com/",
+  "302 https://www.youtube.com/measurement/follow_on/962985656/?backend=innertube&cname=1&cver=2_20261112_10_00&data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20261112_10_00%3Bptype%3Dcview%3Btype%3Dcview%3Butuid%3D4FK5DEcMLB3CyJcbJfZEJA&foc_id=4FK5DEcMLB3CyJcbJfZEJA&label=followon_cvisit&ptype=cview&utuid=4FK5DEcMLB3CyJcbJfZEJA -> https://googleads.g.doubleclick.net/measurement/follow_on/962985656/?backend=innertube&cname=1&cver=2_20261112_10_00&data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20261112_10_00%3Bptype%3Dcview%3Btype%3Dcview%3Butuid%3D4FK5DEcMLB3CyJcbJfZEJA&foc_id=4FK5DEcMLB3CyJcbJfZEJA&label=followon_cvisit&ptype=cview&utuid=4FK5DEcMLB3CyJcbJfZEJA&cv_attributed=0",
+  "302 https://googleads.g.doubleclick.net/measurement/follow_on/962985656/?backend=innertube&cname=1&cver=2_20261112_10_00&data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20261112_10_00%3Bptype%3Dcview%3Btype%3Dcview%3Butuid%3D4FK5DEcMLB3CyJcbJfZEJA&foc_id=4FK5DEcMLB3CyJcbJfZEJA&label=followon_cvisit&ptype=cview&utuid=4FK5DEcMLB3CyJcbJfZEJA&cv_attributed=0 -> https://www.google.com/pagead/1p-user-list/962985656/?backend=innertube&cname=1&cver=2_20261112_10_00&data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20261112_10_00%3Bptype%3Dcview%3Btype%3Dcview%3Butuid%3D4FK5DEcMLB3CyJcbJfZEJA&foc_id=4FK5DEcMLB3CyJcbJfZEJA&label=followon_cvisit&ptype=cview&utuid=4FK5DEcMLB3CyJcbJfZEJA&cv_attributed=0&is_vtc=0&random=650710290"
+ ],
+ "meta": [
+  [
+   "X-UA-Compatible",
+   "IE=edge"
+  ],
+  [
+   "origin-trial",
+   "ApvK67ociHgr2egd6c2ZjrfPuRs8BHcvSggogIOPQNH7GJ3cVlyJ1NOq/COCdj0+zxskqHt9HgLLETc8qqD+vwsAAABteyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJQcml2YWN5U2FuZGJveEFkc0FQSXMiLCJleHBpcnkiOjE2OTUxNjc5OTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+  ],
+  [
+   "apple-itunes-app",
+   "app-id=544007664, app-argument=https://www.youtube.com/@NicholasPuru/about?referring_app=com.apple.mobilesafari-smartbanner, affiliate-data=ct=smart_app_banner_polymer&pt=9008"
+  ],
+  [
+   "theme-color",
+   "rgba(255, 255, 255, 0.98)"
+  ],
+  [
+   "viewport",
+   "width=device-width, initial-scale=1.0, viewport-fit=cover"
+  ],
+  [
+   "description",
+   "Learn the Best AI Systems to Grow Your Business while saving you time. Using AI Agents, Automation, and custom systems I teach the best strategies to help bu..."
+  ],
+  [
+   "keywords",
+   "AI \"Artificial Intelligence\" Automation \"AI Lead Generation\" \"Make Money with ChatGPT\" ChatGPT \"Ai Automation Agency\" \"Content Automation\" \"AI b2b lead gener..."
+  ],
+  [
+   "og:title",
+   "Nick Puru | AI Automation"
+  ],
+  [
+   "og:site_name",
+   "YouTube"
+  ],
+  [
+   "og:url",
+   "https://www.youtube.com/channel/UC4FK5DEcMLB3CyJcbJfZEJA"
+  ],
+  [
+   "og:image",
+   "https://yt3.googleusercontent.com/NwPQqY8zIjTjpCGduzTJx_ohf7RIWwf59PjDEzJ8IE1f-QDobnDSZHKUxQiR9eGD-Ouv9ufZ=s900-c-k-c0x00ffffff-no-rj"
+  ],
+  [
+   "og:image:width",
+   "900"
+  ],
+  [
+   "og:image:height",
+   "900"
+  ],
+  [
+   "og:description",
+   "Learn the Best AI Systems to Grow Your Business while saving you time. Using AI Agents, Automation, and custom systems I teach the best strategies to help businesses increase their bottom line. \n"
+  ],
+  [
+   "al:ios:app_store_id",
+   "544007664"
+  ],
+  [
+   "al:ios:app_name",
+   "YouTube"
+  ],
+  [
+   "al:ios:url",
+   "vnd.youtube://www.youtube.com/channel/UC4FK5DEcMLB3CyJcbJfZEJA"
+  ],
+  [
+   "al:android:url",
+   "https://www.youtube.com/channel/UC4FK5DEcMLB3CyJcbJfZEJA?feature=applinks"
+  ],
+  [
+   "al:android:app_name",
+   "YouTube"
+  ],
+  [
+   "al:android:package",
+   "com.google.android.youtube"
+  ],
+  [
+   "al:web:url",
+   "https://www.youtube.com/channel/UC4FK5DEcMLB3CyJcbJfZEJA?feature=applinks"
+  ],
+  [
+   "og:type",
+   "profile"
+  ],
+  [
+   "og:video:tag",
+   "AI"
+  ],
+  [
+   "og:video:tag",
+   "Artificial Intelligence"
+  ],
+  [
+   "og:video:tag",
+   "Automation"
+  ],
+  [
+   "og:video:tag",
+   "AI Lead Generation"
+  ],
+  [
+   "og:video:tag",
+   "Make Money with ChatGPT"
+  ],
+  [
+   "og:video:tag",
+   "ChatGPT"
+  ],
+  [
+   "og:video:tag",
+   "Ai Automation Agency"
+  ],
+  [
+   "og:video:tag",
+   "Content Automation"
+  ],
+  [
+   "og:video:tag",
+   "AI b2b lead generation"
+  ],
+  [
+   "og:video:tag",
+   "AI Agency"
+  ],
+  [
+   "og:video:tag",
+   "Automated Lead Generation"
+  ],
+  [
+   "og:video:tag",
+   "A.I."
+  ],
+  [
+   "og:video:tag",
+   "Social Media Lead Generation"
+  ],
+  [
+   "og:video:tag",
+   "zapier tutorial"
+  ],
+  [
+   "og:video:tag",
+   "Make Money With AI"
+  ],
+  [
+   "og:video:tag",
+   "Automate your business"
+  ],
+  [
+   "og:video:tag",
+   "AI in your business"
+  ],
+  [
+   "og:video:tag",
+   "n8n"
+  ],
+  [
+   "og:video:tag",
+   "n8n tutorial"
+  ],
+  [
+   "og:video:tag",
+   "ai agents"
+  ],
+  [
+   "og:video:tag",
+   "agents"
+  ],
+  [
+   "og:video:tag",
+   "how to use agents"
+  ],
+  [
+   "og:video:tag",
+   "how to use ai agents"
+  ],
+  [
+   "og:video:tag",
+   "sell ai"
+  ],
+  [
+   "og:video:tag",
+   "sell ai agents"
+  ],
+  [
+   "og:video:tag",
+   "n8n how to"
+  ],
+  [
+   "og:video:tag",
+   "how to use n8n"
+  ],
+  [
+   "og:video:tag",
+   "how to n8n"
+  ],
+  [
+   "fb:app_id",
+   "87741124305"
+  ],
+  [
+   "twitter:card",
+   "summary"
+  ],
+  [
+   "twitter:site",
+   "@youtube"
+  ],
+  [
+   "twitter:url",
+   "https://www.youtube.com/channel/UC4FK5DEcMLB3CyJcbJfZEJA"
+  ],
+  [
+   "twitter:title",
+   "Nick Puru | AI Automation"
+  ],
+  [
+   "twitter:description",
+   "Learn the Best AI Systems to Grow Your Business while saving you time. Using AI Agents, Automation, and custom systems I teach the best strategies to help businesses increase their bottom line. \n"
+  ],
+  [
+   "twitter:image",
+   "https://yt3.googleusercontent.com/NwPQqY8zIjTjpCGduzTJx_ohf7RIWwf59PjDEzJ8IE1f-QDobnDSZHKUxQiR9eGD-Ouv9ufZ=s900-c-k-c0x00ffffff-no-rj"
+  ],
+  [
+   "twitter:app:name:iphone",
+   "YouTube"
+  ],
+  [
+   "twitter:app:id:iphone",
+   "544007664"
+  ],
+  [
+   "twitter:app:name:ipad",
+   "YouTube"
+  ],
+  [
+   "twitter:app:id:ipad",
+   "544007664"
+  ],
+  [
+   "twitter:app:url:iphone",
+   "vnd.youtube://www.youtube.com/channel/UC4FK5DEcMLB3CyJcbJfZEJA"
+  ],
+  [
+   "twitter:app:url:ipad",
+   "vnd.youtube://www.youtube.com/channel/UC4FK5DEcMLB3CyJcbJfZEJA"
+  ],
+  [
+   "twitter:app:name:googleplay",
+   "YouTube"
+  ],
+  [
+   "twitter:app:id:googleplay",
+   "com.google.android.youtube"
+  ],
+  [
+   "twitter:app:url:googleplay",
+   "https://www.youtube.com/channel/UC4FK5DEcMLB3CyJcbJfZEJA"
+  ]
+ ],
+ "links": [
+  " | https://www.youtube.com/",
+  "Sign in | https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%2540NicholasPuru%252Fabout&hl=en&ec=65620",
+  "Home | https://www.youtube.com/",
+  "Subscriptions | https://www.youtube.com/feed/subscriptions",
+  "You | https://www.youtube.com/feed/you",
+  "History | https://www.youtube.com/feed/history",
+  "Sign in | https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%2540NicholasPuru%252Fabout&hl=en",
+  "Music | https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ",
+  "Live | https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig",
+  "Gaming | https://www.youtube.com/gaming",
+  "YouTube TV | https://tv.youtube.com/?utm_source=youtube_web&utm_medium=ep&utm_campaign=home&ve=34273",
+  "YouTube Music | https://music.youtube.com/",
+  "YouTube Kids | https://www.youtubekids.com/?source=youtube_web",
+  "YouTube Labs | https://www.youtube.com/labs",
+  "Report history | https://www.youtube.com/reporthistory",
+  "About | https://www.youtube.com/about/",
+  "Press | https://www.youtube.com/about/press/",
+  "Copyright | https://www.youtube.com/about/copyright/",
+  "Contact us | https://www.youtube.com/t/contact_us/",
+  "Creators | https://www.youtube.com/creators/",
+  "Advertise | https://www.youtube.com/ads/",
+  "Developers | https://developers.google.com/youtube",
+  "Terms | https://www.youtube.com/t/terms",
+  "Privacy | https://www.youtube.com/t/privacy",
+  "Policy & Safety | https://www.youtube.com/about/policies/",
+  "How YouTube works | https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen",
+  "Test new features | https://www.youtube.com/new",
+  "Home Home | https://www.youtube.com/",
+  "Shorts Shorts | https://www.youtube.com/shorts/",
+  "Subscriptions Subscriptions | https://www.youtube.com/feed/subscriptions",
+  "You You | https://www.youtube.com/feed/you",
+  "reprisesai.com | https://www.youtube.com/redirect?event=channel_header&redir_token=QUlxb01IWU5xSEo2cEx2RnJtN1NycDZ5c3ZSVHxBQnJ0NjluV1hSNjdJN3M1SXVWWXdXWV93RWwwbXZ0Y1AzR05QbWVHOU9Tb1ZiM3RwaUppUVpPLUJuZWZuNnJYanc2TDd1VXVYaUpOaTl4WnpDenhRLWlnVVN3NlVHT2FnTzhK&q=https%3A%2F%2Fwww.reprisesai.com%3Futm_source%3Dyoutube%26utm_medium%3Dbio",
+  "Community | https://www.youtube.com/@NicholasPuru/community",
+  "How to Automate ANY Business with AI (Complete Beginner's Guide) | https://www.youtube.com/watch?v=OsIF8U5sOz4",
+  " | https://www.youtube.com/@NicholasPuru/about",
+  "https://salesdone.ai | https://www.youtube.com/redirect?event=video_description&redir_token=QUlxb01IYWpER04yT0R3SnFNMGt4SWxxQk9TZXxBQnJ0NjluVDBHWVIyeWREemk2LXp2ZWRzYnNfWFc2cVlMQkRqbUJIOUczOGJlRnV0V3lSQXVlVkRjWnVJa1YtemRWVTlZVGxwNUxxSjRYYzhVWnFVb2hvZmN5eFRMMUtpNzhL&q=https%3A%2F%2Fsalesdone.ai%2F",
+  "https://go.teachly.ai/nickp | https://www.youtube.com/redirect?event=video_description&redir_token=QUlxb01IWXd1bFVWOGdGYU0xdTNTckZOM0RQUHxBQnJ0NjltLTJsU3BXeXc5NE9ZdnFaa0FHbVEyeDZ5SWlOa1REczBKbF8xRDlmUWRTckdOT0hYZzNycjRTQlN5SGlXZzQxVUZlTXhRWXMzeVF1NE1ZeTlRRjJ3TFNObUN1NlR2&q=https%3A%2F%2Fgo.teachly.ai%2Fnickp",
+  "https://www.skool.com/systems-to-scal... | https://www.youtube.com/redirect?event=video_description&redir_token=QUlxb01IWWVUNVZkUHpUQ3BQVUlkZ1NFdTEzWnxBQnJ0NjlsRUd2M1dwVFJ1TkpyTXpnUlBmSU9BemZyRHJHazlxUktYdkV5M0IzcXIza0tXQTAtTlNLYXNwZTltbktNejRUZXdfU2tFTlRaTWQwUUhUdE1KSHppbEdLeDhqb1VQ&q=https%3A%2F%2Fwww.skool.com%2Fsystems-to-scale-9517%2Fabout",
+  "https://n8n.partnerlinks.io/nick | https://www.youtube.com/redirect?event=video_description&redir_token=QUlxb01IWmEtSUF2ZUFQdnVpeEVTNDVNRlJyaHxBQnJ0NjluZU5YT1puTVZHV0VMMGdKcUo3RUo2X21EUUMwaldwSzd5UUtEMEtPalBkdHdKX05Pb0NON2JWa0wxcVJPcHlTeEF0ODlmdUt3OERVS2dZbTYtdXZWVlNjbWhsenZk&q=https%3A%2F%2Fn8n.partnerlinks.io%2Fnick",
+  "https://x.com/NicholasPuru | https://www.youtube.com/redirect?event=video_description&redir_token=QUlxb01IWUttbmZJYkUxY2hiSE1NazE4c3BaYnxBQnJ0NjlrS0FnQlk3MWJIWUROYjN2eVgxUHhtdzQyLVlrVDhNbFRuY012eURTQnRoX0h1Yk9EbmVCU2Q4Y2I1cFBuaHZER0J2TU5IS0ZkRWktX3JlZC1WYjh6M2ljMFppakN6&q=https%3A%2F%2Fx.com%2FNicholasPuru",
+  "https://www.linkedin.com/in/nicholas-... | https://www.youtube.com/redirect?event=video_description&redir_token=QUlxb01IYXFIa2JlZUQxaVFRQ25vU1JoTGpPaXxBQnJ0NjluMl9uWFJqaF9rT0Jaa1hMd2pvQ3FFcEN6Z3d0R1pNakVYbEt1eF8tZHpULXFEcTlPZEZmWXVXWDZEY2U1clpFMWZsOVVXc0ExTGlQWlp5VVNiTFo4WXdGRkpfNzlk&q=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fnicholas-puruczky-113818198%2F",
+  "READ MORE | https://www.youtube.com/watch?v=OsIF8U5sOz4",
+  " | https://www.youtube.com/@NicholasPuru/videos?view=0&sort=dd&shelf_id=2",
+  "Videos | https://www.youtube.com/@NicholasPuru/videos?view=0&sort=dd&shelf_id=2",
+  "3:59:34 | https://www.youtube.com/watch?v=vc5sJDc3L8A",
+  "How I'd Land My First AI Agency Client in 2027 (No Case Studies) | https://www.youtube.com/watch?v=vc5sJDc3L8A",
+  "25:07 | https://www.youtube.com/watch?v=EHpUBR2OXLo",
+  "This Boring Ugly GitHub Repo Makes $25K/Month | https://www.youtube.com/watch?v=EHpUBR2OXLo",
+  "9:01 | https://www.youtube.com/watch?v=LUykxdd7g3o",
+  "Be CAREFUL Using Claude Fable 5.2 on Max | https://www.youtube.com/watch?v=LUykxdd7g3o",
+  "15:04 | https://www.youtube.com/watch?v=1Uv6osWCb0E",
+  "The Future of AI... | https://www.youtube.com/watch?v=1Uv6osWCb0E",
+  "8:05 | https://www.youtube.com/watch?v=4A7uzDwAlN8",
+  "Be CAREFUL when using ChatGpt now! | https://www.youtube.com/watch?v=4A7uzDwAlN8",
+  "10:33 | https://www.youtube.com/watch?v=EcoCd1Ot7gA",
+  "The Best CEOs Don't Ask AI for Answers | https://www.youtube.com/watch?v=EcoCd1Ot7gA",
+  " | https://www.youtube.com/@NicholasPuru/videos?view=0&sort=p&shelf_id=3",
+  "Popular videos | https://www.youtube.com/@NicholasPuru/videos?view=0&sort=p&shelf_id=3",
+  "48:35 | https://www.youtube.com/watch?v=PwwvZQORy1I&pp=0gcJCccHAYcqIYzv",
+  "I Built an AI Agent That Does EVERYTHING for You! (100% Automated) | https://www.youtube.com/watch?v=PwwvZQORy1I&pp=0gcJCccHAYcqIYzv",
+  "33:19 | https://www.youtube.com/watch?v=Dif1hwBejCk",
+  "Stop Learning n8n in 2025... Learn THIS Instead | https://www.youtube.com/watch?v=Dif1hwBejCk",
+  "18:48 | https://www.youtube.com/watch?v=VQRiwK7q1Do",
+  "Stop Selling n8n Agents, Sell AI Systems - Here’s How (Insane Opportunity) | https://www.youtube.com/watch?v=VQRiwK7q1Do",
+  "22:02 | https://www.youtube.com/watch?v=vUnG7hsPe5E",
+  "How to Build an AI Agent for Data Analysis, Visualization, AND Reporting (n8n) | https://www.youtube.com/watch?v=vUnG7hsPe5E",
+  "15:30 | https://www.youtube.com/watch?v=0BeG0lqA374",
+  "AI Reverse Engineering Is the Most Dangerous Thing on the Internet | https://www.youtube.com/watch?v=0BeG0lqA374",
+  "32:21 | https://www.youtube.com/watch?v=8wDF9K1GPI8",
+  "This AI Phone Agent Can Handle EVERYTHING For You (free n8n template) | https://www.youtube.com/watch?v=8wDF9K1GPI8",
+  " | https://www.youtube.com/shorts/LO1iMo2bpOE",
+  "This Free Tool Just KILLED Claude’s Usage Limits | https://www.youtube.com/shorts/LO1iMo2bpOE",
+  " | https://www.youtube.com/shorts/oNoM8UmOeXU",
+  "How To Build And SELL An AI Service With Hermes Agent | https://www.youtube.com/shorts/oNoM8UmOeXU",
+  " | https://www.youtube.com/shorts/g51D7bwJfoo",
+  "Claude Just Released The SMARTEST AI Model | https://www.youtube.com/shorts/g51D7bwJfoo",
+  " | https://www.youtube.com/shorts/vGKy4ZX-CmU",
+  "140 FREE AI Employees That Run Your Business For You | https://www.youtube.com/shorts/vGKy4ZX-CmU",
+  " | https://www.youtube.com/shorts/HylDdGcSmjY",
+  "3 Claude Settings You NEED To Turn On | https://www.youtube.com/shorts/HylDdGcSmjY",
+  " | https://www.youtube.com/shorts/El1WoX8EGk4",
+  "Claude's New Cheapest Model is INSANE | https://www.youtube.com/shorts/El1WoX8EGk4",
+  " | https://www.youtube.com/channel/UC4FK5DEcMLB3CyJcbJfZEJA/posts",
+  "Posts | https://www.youtube.com/channel/UC4FK5DEcMLB3CyJcbJfZEJA/posts",
+  " | https://www.youtube.com/@NicholasPuru",
+  "Nick Puru | AI Automation | https://www.youtube.com/@NicholasPuru",
+  "3 days ago | https://www.youtube.com/post/UgkxmAg49Fp3_Yv3XtTZnD9-DmgXhEBUa0re",
+  "https://theaiaccelerators.com/agency | https://www.youtube.com/redirect?event=backstage_event&redir_token=QUlxb01IYllBM2FQUmlPTm82cHgyXzFSNEhIZHxBQnJ0NjlrTDh4V25JMHNJenk0Q1Q3ZVZUUXB2RkJUOGcyS3BucXhaQWl1dlVXYWY2YVAxV0FmbHNHRmNBOXlPdU83QWJINU1rbkcweXlFRHp5YlBHUmVNdWlwS0FVZVNaWndI&q=https%3A%2F%2Ftheaiaccelerators.com%2Fagency",
+  " | https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F&hl=en",
+  " | https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkxmAg49Fp3_Yv3XtTZnD9-DmgXhEBUa0re&hl=en",
+  "3 weeks ago | https://www.youtube.com/post/UgkxbdWbWZPT4rJQ5To_yonGaqAmiApPzNxl",
+  "https://theaiaccelerators.com/registe... | https://www.youtube.com/redirect?event=backstage_event&redir_token=QUlxb01IWld3Z1NXckJGTk1TcldyQ2FsNm9BZHxBQnJ0NjlsME5odUFGYjNjX2xLZHU5bnEtWlB1dkRGUzUwUUgtcTJRcFZ2MWFTcElVMzhKamVMZGZhQlVLRkFrajJRdGNwOWM0bHNBRGFVbFNpSkJVWTh3YjhuRmFRaHdObzhZ&q=https%3A%2F%2Ftheaiaccelerators.com%2Fregister-ads",
+  " | https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkxbdWbWZPT4rJQ5To_yonGaqAmiApPzNxl&hl=en",
+  "4 weeks ago | https://www.youtube.com/post/UgkxufXRJoD1BI7fZmHrSKlZsTib4zxi11Li",
+  "https://theaiaccelerators.com/agency | https://www.youtube.com/redirect?event=backstage_event&redir_token=QUlxb01IYXRwR3VhN3pMVkVVd1g2eGRKbmlkNXxBQnJ0NjlrR2w3RndwQndrVUdrb0FtOHVfdGo0Vi00elRJaFRCYkZZUjE2eTEyZFFteWtJR1ZSYUhFZWtqcnVDay13MVAyYVVmbktkekdJNTFsNnVFeGd6eU9VdDl4eTluVWRW&q=https%3A%2F%2Ftheaiaccelerators.com%2Fagency",
+  "1 | https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkxufXRJoD1BI7fZmHrSKlZsTib4zxi11Li&hl=en",
+  "1 month ago | https://www.youtube.com/post/UgkxFOeOB-Mw2llUCntPmc2iaekVXBpZIJLz",
+  "https://join.reprisesai.com/workshop | https://www.youtube.com/redirect?event=backstage_event&redir_token=QUlxb01IWXpTNW13ZWM1OGpmLUlETUVPYmN4cnxBQnJ0NjlsMXpBSlF6SWZMcGpvMjRsd2xGZmhyU3ZoeE9BMjZ4VGkwZTYtTm5EWnQ1RzFpUlJDbTVOQXAyZ0VSM2ZlVWM1eVIyeDE3UGZXLVNDaWh6YnVydWxYTmZaRWRNa2U5&q=https%3A%2F%2Fjoin.reprisesai.com%2Fworkshop",
+  "1 | https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkxFOeOB-Mw2llUCntPmc2iaekVXBpZIJLz&hl=en",
+  "1 month ago | https://www.youtube.com/post/Ugkx4-ZrbG2nWITH3LfAvrD2eI8QL4iq8ASk",
+  "https://join.reprisesai.com/workshop | https://www.youtube.com/redirect?event=backstage_event&redir_token=QUlxb01IYmVaOFNoc0NHWXFLbDFURE1aYlp1UHxBQnJ0NjluVkc0U2pUbEhJcTd5OEdhRzRnRVh3TzVUNTlaY2d3TWRUSjZ1NDZjM19MRUxzSUhpcGl2NWJSNGhwc3NJSndOd2xqOGc3WTU4LW1FLXNfaGcweXVtazhNZVYyZGxs&q=https%3A%2F%2Fjoin.reprisesai.com%2Fworkshop",
+  " | https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkx4-ZrbG2nWITH3LfAvrD2eI8QL4iq8ASk&hl=en",
+  "1 month ago | https://www.youtube.com/post/UgkxYEuI1osPqAX8WVZalE6kApm5hGwb05G1",
+  "https://theaiaccelerators.com/register | https://www.youtube.com/redirect?event=backstage_event&redir_token=QUlxb01IWlJLVGtTZGZvT1FMYUhUZ0pBWlNXZXxBQnJ0NjlrTkxGOGJvblpLNnR0Xzc3MVJRdkhTYXBSUi00aXotaUZteURlclp1MXdTb04xQ1RNeHFjVXlKZEtBa3pocEc0dk1MVXN0S0c5QnN1SWFra0hZZmp4Qk1YaHA4RGVw&q=https%3A%2F%2Ftheaiaccelerators.com%2Fregister",
+  " | https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fpost%252FUgkxYEuI1osPqAX8WVZalE6kApm5hGwb05G1&hl=en",
+  "Play all | https://www.youtube.com/watch_videos?video_ids=HsMkVIuunS0&type=0&title=Collaborations",
+  "9:01 | https://www.youtube.com/watch?v=HsMkVIuunS0",
+  "You Need to Make Your Team Insanely Good at AI | https://www.youtube.com/watch?v=HsMkVIuunS0",
+  "reprisesai.com/?utm_source=youtube&utm_medium=bio | https://www.youtube.com/redirect?event=channel_description&redir_token=QUlxb01IWmx2LUVhMXVoQkU3UzRhWjljMHp5RnxBQnJ0NjlsNi1MY1hQOVFqN3dDNmgwU1hsVTh1TlNoTHFEcXNZZHBncE91VHJWR2U1dFN5R2M1c1owZldocGVSbGs5R00zUHpVc2t4OEhGMDFWaV9jQXdyYVRwbExYT1JzMnJs&q=https%3A%2F%2Fwww.reprisesai.com%3Futm_source%3Dyoutube%26utm_medium%3Dbio",
+  "theaiaccelerators.com/agency?utm_source=youtube&utm_medium=bio | https://www.youtube.com/redirect?event=channel_description&redir_token=QUlxb01IWW0tQld2S3FnUDVSZXFJVkl3ZlRXcHxBQnJ0NjlrdmhoZnUyNjNUbXRCZ0FZMGxBbE9uZEFYRlVZMEEwd1ozX09zbGwwWHA2SWVlQVhKUE1uSE9HT19xbWF5dEg5LTE5eEJEbWpnaEo0VEF3STZLX3ZSVDY0MlFYSWpW&q=https%3A%2F%2Ftheaiaccelerators.com%2Fagency%3Futm_source%3Dyoutube%26utm_medium%3Dbio",
+  "skool.com/systems-to-scale-9517/about | https://www.youtube.com/redirect?event=channel_description&redir_token=QUlxb01IWUt4VU50VVhGSmV6ZWw3R3VWeTYzWnxBQnJ0NjltelA2czR2cnE4VzRtUGlRdzRVeWRBUTYwOWlFZkV6THBMc3lFR0ZPOGZCcUkyUVJMclVYRHZJUVNKWTg0eENQN1lITkU0V1A0MmkxQnNkSWlLT1gydEY4MG5wOVI0&q=https%3A%2F%2Fwww.skool.com%2Fsystems-to-scale-9517%2Fabout",
+  "ai-core.beehiiv.com | https://www.youtube.com/redirect?event=channel_description&redir_token=QUlxb01IYTFjbUtYdmZ1YXFQNUdXMWdkZ3VnT3xBQnJ0NjlsOExuSkF4VlVIeVNoUVpaZUNyS2ZLSjFYakpac0Q1TjJVSWstT19rSmxDU2Z2UUE2LU1QWW5zaXB6QmlFMHNIUWMxN1FhdnZ2eUVzblZPelh6R3ZtV3ZkMS1JM3VP&q=https%3A%2F%2Fai-core.beehiiv.com%2F",
+  "Sign in | https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F%2540NicholasPuru&hl=en",
+  "www.youtube.com/@NicholasPuru | http://www.youtube.com/@NicholasPuru"
+ ],
+ "buttons": [
+  "Skip navigation",
+  "Search",
+  "Show more",
+  "Show less",
+  "...more",
+  "and 3 more links",
+  "Subscribe",
+  "Tap to unmute",
+  "InfoShopping",
+  "Cancel",
+  "Confirm",
+  "Watch later",
+  "Share",
+  "Copy link",
+  "0:00 / 22:35",
+  "Live",
+  "•",
+  "•",
+  "READ MORE",
+  "Tap to unmute",
+  "Cancel",
+  "Confirm",
+  "InfoShopping",
+  "Watch later",
+  "Share",
+  "Copy link",
+  "/",
+  "Live",
+  "•",
+  "•",
+  "Show more",
+  "Share channel"
+ ],
+ "forms": [
+  {
+   "action": "https://www.youtube.com/results",
+   "method": "get",
+   "fields": [
+    {
+     "type": "text",
+     "name": "search_query",
+     "ph": "Search",
+     "req": false
+    }
+   ]
+  },
+  {
+   "action": "https://www.youtube.com/@NicholasPuru/search",
+   "method": "get",
+   "fields": [
+    {
+     "type": "text",
+     "name": "query",
+     "ph": "",
+     "req": false
+    }
+   ]
+  }
+ ],
+ "iframes": [
+  "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en",
+  "about:blank"
+ ],
+ "scripts": [
+  "https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/miniplayer.js",
+  "https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/offline.js",
+  "https://static.doubleclick.net/instream/ad_status.js",
+  "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+  "https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/endscreen.js",
+  "https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/captions.js",
+  "https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/remote.js",
+  "https://www.youtube.com/s/desktop/bb2198ae/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js",
+  "https://www.youtube.com/s/desktop/bb2198ae/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js",
+  "https://www.youtube.com/s/desktop/bb2198ae/jsbin/fetch-polyfill.vflset/fetch-polyfill.js",
+  "https://www.youtube.com/s/desktop/bb2198ae/jsbin/intersection-observer.min.vflset/intersection-observer.min.js",
+  "https://www.youtube.com/s/desktop/bb2198ae/jsbin/scheduler.vflset/scheduler.js",
+  "https://www.youtube.com/s/desktop/bb2198ae/jsbin/www-i18n-constants-en_US.vflset/www-i18n-constants.js",
+  "https://www.youtube.com/s/desktop/bb2198ae/jsbin/spf.vflset/spf.js",
+  "https://www.youtube.com/s/desktop/bb2198ae/jsbin/network.vflset/network.js",
+  "https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/base.js",
+  "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.e5B4WwMM34Q.es5.O/am=AAAAAAQAAEAAIDU/d=1/br=1/rs=AGKMywFVQXU3mg8RK-ZsTE3VSSxRk3mqtg/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk"
+ ],
+ "globals": [],
+ "text": "Skip navigation\nSign in\nHome\nShorts\nSubscriptions\nYou\nHistory\nSign in to like videos, comment, and subscribe.\nSign in\nExplore\nMusic\nLive\nGaming\nShow more\nMore from YouTube\nYouTube TV\nYouTube Music\nYouTube Kids\nYouTube Labs\nReport history\nAboutPressCopyrightContact usCreatorsAdvertiseDevelopers\nTermsPrivacyPolicy & SafetyHow YouTube worksTest new features\n© 2026 Google LLC\nNick Puru | AI Automation\n@NicholasPuru\n•\n96.1K subscribers\n•\n683 videos\nLearn the Best AI Systems to Grow Your Business while saving you time. Using AI Agents, Automation, and custom systems I teach the best strategies to help businesses increase their bottom line. \n...more\n reprisesai.com\nand 3 more links\nSubscribe\nCommunity\nHome\nVideos\nShorts\nLive\nPlaylists\nPosts\nHow to Automate ANY Business with AI (Complete Beginner's Guide)\nVideo unavailable\n0:00 / 22:35\nHow to Automate ANY Business with AI (Complete Beginner's Guide)\n17,602 views\n1y ago\n🤖 Transform your business with AI: https://salesdone.ai\n📚 Learn How to Start and Grow Your AI Business in 3 Days: https://go.teachly.ai/nickp\n🤚 Join the best community for AI entrepreneurs and connect with 15,000+ members: - https://www.skool.com/systems-to-scal...\n\nSign up to n8n (free) - https://n8n.partnerlinks.io/nick\n\n✉️ Business Inquiries:\nnick@reprisesai.com\n\n🙋 Connect With Me!\nInstagram -   / nicholas.puru  \nX - https://x.com/NicholasPuru\nLinkedIn - https://www.linkedin.com/in/nicholas-...\n\n00:00 – Opening & Context\n02:09 – The Core Problem\n03:49 – Overview of the Framework\n04:26 – Step 1: Define Clear Outcomes\n06:52 – Step 2: Understand the Real Business Model\n08:35 – Step 3: Break Work Into Atomic Tasks\n10:08 – Step 4: Spot AI Opportunities\n12:11 – Step 5: Set Priorities\n14:00 – Step 6: Apply It – Real Case Study\n19:26 – Action Plan: Putting the Framework Into Practice\n21:20 – Key Takeaways & Closing Thoughts\nREAD MORE\nVideos\n3:59:34\nHow I'd Land My First AI Agency Client in 2027 (No Case Studies)\n740\n10h ago\n25:07\nThis Boring Ugly GitHub Repo Makes $25K/Month\n4.8K\n3d ago\n9:01\nBe CAREFUL Using Claude Fable 5.2 on Max\n1.5K\n5d ago\n15:04\nThe Future of AI...\n1.6K\n5d ago\n8:05\nBe CAREFUL when using ChatGpt now!\n12K\n9d ago\n10:33\nThe Best CEOs Don't Ask AI for Answers\n1.1K\n11d ago\nPopular videos\n48:35\nI Built an AI Agent That Does EVERYTHING for You! (100% Automated)\n524K\n2y ago\n33:19\nStop Learning n8n in 2025... Learn THIS Instead\n248K\n1y ago\n18:48\nStop Selling n8n Agents, Sell AI Systems - Here’s How (Insane Opportunity)\n142K\n1y ago\n22:02\nHow to Build an AI Agent for Data Analysis, Visualization, AND Reporting (n8n)\n120K\n1y ago\n15:30\nAI Reverse Engineering Is the Most Dangerous Thing on the Internet\n120K\n1mo ago\n32:21\nThis AI Phone Agent Can Handle EVERYTHING For You (free n8n template)\n100K\n1y ago\nShorts\nThis Free Tool Just KILLED Claude’s Usage Limits\n1.1K views\nHow To Build And SELL An AI Service With Hermes Agent\n2K views\nClaude Just Released The SMARTEST AI Model\n1.9K views\n140 FREE AI Employees That Run Your Business For You\n6.9K views\n3 Claude Settings You NEED To Turn On\n2.5K views\nClaude's New Cheapest Model is INSANE\n573 views\nPosts\nNick Puru | AI Automation\n•\n3 days ago\nNobody tells you this, but… 12-hour days can feel like 2 when you work for yourself, running a profitable business you TRULY enjoy. My last 3 days: • 12 hours • 12 hours, 15 minutes • 12 hours, 30 minutes And honestly… they flew by. I get so into what I’m building that I barely notice how much time has passed. I’m blessed to run my own business and actually LOVE the work I do. If you want to learn how to start and grow a profitable AI business, come work 1:1 with me & my team inside AI Accelerator. Click here to see how we can help: https://theaiaccelerators.com/agency\n3\nNick Puru | AI Automation\n•\n3 weeks ago\nKnowing how to build AI automations is one thing. Getting a business to pay for them is another. This Saturday, I’m hosting a free live masterclass on starting an AI agency. We’ll break down: - What to sell businesses - How to find the right clients - How to start the conversation—even without a portfolio If you’ve been learning the tools but still aren’t sure how to turn those skills into a clear offer, come join me. 📅 Saturday, October 24 · 12 PM Eastern Register here: https://theaiaccelerators.com/registe...\n5\nNick Puru | AI Automation\n•\n4 weeks ago\n3 spots open: work 1:1 with me and my team to build your AI business It’s 1:1 help building your own AI business or agency. You get a clear plan for your offer, how to land your first clients, and how to deliver the work. Then we’re in your corner while you do it. It’s built for speed. Most people lose months guessing at what to build, who to sell to, and what to charge. We cut that down by showing you what’s already working, so you’re not figuring it out alone. we’ve put AI to work inside 100+ real businesses, and we build the systems we teach. You’re not getting theory from someone who’s never sold it. It’s a small group, so it fills fast. If you’re serious about growing your AI business, apply here and we’ll set up a free strategy call: https://theaiaccelerators.com/agency\n3\n1\nNick Puru | AI Automation\n•\n1 month ago\nMIT went through more than 300 AI projects this year. 95% of the pilots they studied returned nothing anyone could measure. The AI itself worked fine. The setup around it failed, in the same three ways: It doesn't remember the business, so someone re-explains everything every day. It works in the demo and breaks with real customers. It sits in a tab nobody opens. If you've tried ChatGPT or Claude and the business still runs the way it did last year, that's why. Tomorrow night you do what the other 5% did, for one job in your business: Tell AI about your business once, so it stops starting from zero. Hand it one real job your team does every week: follow-up, the weekly report, chasing documents. Test it before you trust it, against an answer key. 90 minutes, live and hands-on, in your own Claude account, with me and my chief engineer Keshav helping. You leave with that job working and a 7-day plan to use it for real. No coding. → Register for free Wednesday, October 7 · 7:00 PM ET · Zoom · Free Register here: https://join.reprisesai.com/workshop\n10\n1\nNick Puru | AI Automation\n•\n1 month ago\nThis Wednesday we're running a live workshop on one thing: how to use AI to take repetitive work off your team's plate. Here's why it matters.. Your best people spend hours a week on follow-up, reports and chasing documents. None of it is hard. It's constant, and it keeps them off the work that brings in revenue. Most teams try AI like a search bar: ask a question, copy the answer, change nothing. On Wednesday you fix that for one job. In 90 minutes, with me and my chief engineer Keshav, you build and test one working AI workflow in your own Claude account, then leave with a 7-day plan to use it in your business. Right now your seat is free. At 11:59 PM ET tonight, code OWNER stops working and it becomes a paid ticket: $77. Same seat, same workshop. Only the price changes. Wednesday, October 7 · 7:00 PM ET · Zoom Enter code OWNER at checkout (click \"Add promotion code\" under the price) and it's $0. Claim my free seat before midnight TONIGHT here: https://join.reprisesai.com/workshop\n11\nNick Puru | AI Automation\n•\n1 month ago\nIMPORTANT ANNOUNCEMENT: I'm hosting a free LIVE training today at 7p EST. You've seen the videos about students landing their first AI clients and what they're charging. But most of you still don't know what they actually sell, or how they get someone to pay for it. So tomorrow I'm going live on Zoom to walk through how people with no clients, no portfolio and no technical background go from $0 to $10k/mo in 90 days. The LIVE training is Wednesday, September 16th at 7 PM EST. I'll break down: * The exact offer to sell (one business, one build, one price) * How to land your first client with no portfolio * How to price and close a $5k retainer * How to deliver for 5-8 clients without a team Zoom caps the room at 300 people. If this is even 1% interesting, grab your seat here: https://theaiaccelerators.com/register\n11\nCollaborations\nPlay all\n9:01\nYou Need to Make Your Team Insanely Good at AI\nNick Puru Business\nand Nick Puru | AI Automation\n359\n2w ago\nNick Puru | AI Automation\nDescription\nLearn the Best AI Systems to Grow Your Business while saving you time. Using AI Agents, Automation, and custom systems I teach the best strategies to help businesses increase their bottom line. \n\nLinks\nTransform Your Business w/ AI\nreprisesai.com/?utm_source=youtube&utm_medium=bio\nStart & Scale Your AI Agency\ntheaiaccelerators.com/agency?utm_source=youtube&utm_medium=bio\nGet all my free AI resources\nskool.com/systems-to-scale-9517/about\nAI for Business Newsletter\nai-core.beehiiv.com\nMore info\n\tSign in to see email address\n\n\twww.youtube.com/@NicholasPuru\n\n\tUnited States\n\n\tJoined Apr 9, 2024\n\n\t96.1K subscribers\n\n\t683 videos\n\n\t21,830,706 views\nShare channel\n ",
+ "hosts": {
+  "www.youtube.com": 37,
+  "fonts.googleapis.com": 3,
+  "i.ytimg.com": 18,
+  "accounts.google.com": 1,
+  "www.google.com": 3,
+  "googleads.g.doubleclick.net": 3,
+  "fonts.gstatic.com": 96,
+  "youtube.com": 1,
+  "yt3.googleusercontent.com": 4,
+  "www.gstatic.com": 12,
+  "encrypted-tbn2.gstatic.com": 2,
+  "encrypted-tbn0.gstatic.com": 1,
+  "encrypted-tbn3.gstatic.com": 1,
+  "rr3---sn-2op5q5-5u.googlevideo.com": 1,
+  "rr5---sn-p5qlsndk.googlevideo.com": 1,
+  "static.doubleclick.net": 1,
+  "yt3.ggpht.com": 1
+ },
+ "requests": [
+  "GET https://www.youtube.com/@NicholasPuru/about",
+  "GET https://www.youtube.com/s/desktop/bb2198ae/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js",
+  "GET https://www.youtube.com/s/desktop/bb2198ae/jsbin/webcomponents-all-noPatch.vflset/webcomponents-all-noPatch.js",
+  "GET https://www.youtube.com/s/desktop/bb2198ae/jsbin/fetch-polyfill.vflset/fetch-polyfill.js",
+  "GET https://www.youtube.com/s/desktop/bb2198ae/jsbin/intersection-observer.min.vflset/intersection-observer.min.js",
+  "GET https://www.youtube.com/s/desktop/bb2198ae/jsbin/scheduler.vflset/scheduler.js",
+  "GET https://www.youtube.com/s/desktop/bb2198ae/jsbin/www-i18n-constants-en_US.vflset/www-i18n-constants.js",
+  "GET https://www.youtube.com/s/desktop/bb2198ae/jsbin/spf.vflset/spf.js",
+  "GET https://www.youtube.com/s/desktop/bb2198ae/jsbin/network.vflset/network.js",
+  "GET https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=YouTube+Marquee:opsz,wdth,wght@9..72,25..125,300..800&display=swap",
+  "GET https://www.youtube.com/s/desktop/bb2198ae/cssbin/www-onepick.css",
+  "GET https://www.youtube.com/s/_/ytmainappweb/_/ss/k=ytmainappweb.kevlar_base.VZmVVmrtaNw.L.W.O/am=AAAAAAQAMEAAsD8/d=0/br=1/rs=AGKMywHpgty4k1ZtreAyva2_DBXSvV5Egw",
+  "GET https://i.ytimg.com/generate_204",
+  "GET https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.e5B4WwMM34Q.es5.O/am=AAAAAAQAAEAAIDU/d=1/br=1/rs=AGKMywFVQXU3mg8RK-ZsTE3VSSxRk3mqtg/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_",
+  "GET https://www.youtube.com/s/desktop/bb2198ae/cssbin/www-main-desktop-watch-page-skeleton.css",
+  "GET https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature",
+  "GET https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png",
+  "GET https://googleads.g.doubleclick.net/pagead/id",
+  "GET https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+  "GET https://www.google.com/js/th/bEPdItsbp4Y2ZoxJCSGcXKYO86MeZOR9c1tGfmWyaxo.js",
+  "GET https://fonts.googleapis.com/css?family=Roboto:300italic,400italic,500italic,700italic",
+  "GET https://fonts.googleapis.com/css?family=Roboto+Mono:400",
+  "GET https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+  "GET https://youtube.com/",
+  "GET https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2",
+  "GET https://fonts.gstatic.com/s/youtubemarquee/v5/4C_uLib5EqLYrvNwmhJbK1iC8opN7itB.woff2",
+  "POST https://www.youtube.com/youtubei/v1/guide?prettyPrint=false",
+  "GET https://www.youtube.com/measurement/follow_on/962985656/?backend=innertube&cname=1&cver=2_20261112_10_00&data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20261112_10_00%3Bptype%3Dcview%3Btype%3Dcview%3Butuid%3D4FK5DEcMLB3",
+  "GET https://www.youtube.com/",
+  "GET https://yt3.googleusercontent.com/NwPQqY8zIjTjpCGduzTJx_ohf7RIWwf59PjDEzJ8IE1f-QDobnDSZHKUxQiR9eGD-Ouv9ufZ=s160-c-k-c0x00ffffff-no-rj",
+  "GET https://yt3.googleusercontent.com/Ze96vUUdaLq00VkAiszwu0vsV-6x5cu2rjii7-jHFKj0qqnqzAkPZNZqCtkrvqv3PzSSi_yc=w1138-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "GET https://i.ytimg.com/vi/vc5sJDc3L8A/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDnRgEwnMfV0wcJIb7Tl7ecDEI20w",
+  "GET https://i.ytimg.com/vi/EHpUBR2OXLo/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTWTn09TX_lhWmXMvD8lwCoss5Mg",
+  "GET https://i.ytimg.com/vi/LUykxdd7g3o/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA2GyBlGxcDz5XC201b8UIlIjXqvA",
+  "GET https://i.ytimg.com/vi/1Uv6osWCb0E/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC3OD4j1q6Mg1LCMSYZDarUUZ1v-w",
+  "GET https://i.ytimg.com/vi/4A7uzDwAlN8/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAYNtdCnf_IrsbD-6G5tLuWhgJZQw",
+  "GET https://i.ytimg.com/vi/EcoCd1Ot7gA/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBMWRjmJ8K1nvD4GLT644d6Cdx_9A",
+  "GET https://www.youtube.com/s/search/audio/failure.mp3",
+  "GET https://www.youtube.com/s/search/audio/no_input.mp3",
+  "GET https://www.youtube.com/s/search/audio/open.mp3",
+  "GET https://www.youtube.com/s/search/audio/success.mp3",
+  "GET https://googleads.g.doubleclick.net/measurement/follow_on/962985656/?backend=innertube&cname=1&cver=2_20261112_10_00&data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20261112_10_00%3Bptype%3Dcview%3Btype%3Dcview%3Butuid%3",
+  "GET https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2",
+  "GET https://www.google.com/pagead/1p-user-list/962985656/?backend=innertube&cname=1&cver=2_20261112_10_00&data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20261112_10_00%3Bptype%3Dcview%3Btype%3Dcview%3Butuid%3D4FK5DEcMLB3CyJ",
+  "GET https://www.youtube.com/generate_204?bnJoAQ",
+  "POST https://www.youtube.com/api/jnn/v1/GenerateIT",
+  "POST https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "GET https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/base.js",
+  "GET https://www.youtube.com/s/player/fad7e4e9/www-player.css",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/search/v16/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/menu/v1/24px.svg",
+  "GET https://www.gstatic.com/youtube/img/icons/web/youtube_fill/yt-logo-updated/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/arrow_up/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/chevron_right/v8/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/play/v4/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/overflow_vertical/v14/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/link/v9/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/person3/v3/24px.svg",
+  "GET https://www.gstatic.com/youtube/img/icons/web/youtube_outline/refresh/v1/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/chevron_down/v10/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/mic/v15/24px.svg",
+  "GET https://www.gstatic.com/youtube/img/icons/web/youtube_fill/youtube_shorts_brand_24/v2/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/text_bubble/v4/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/thumb_up/v24/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/thumb_down/v25/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/share/v13/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/text_bubble/v4/18px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/play/v4/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/person_circle/v10/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/home/v11/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/shorts/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/subscriptions/v12/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/history/v2/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/audio/v15/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/live/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/gaming/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/chevron_up/v10/24px.svg",
+  "GET https://www.gstatic.com/youtube/img/icons/web/youtube_fill/unplugged_logo/v2/24px.svg",
+  "GET https://www.gstatic.com/youtube/img/icons/web/youtube_fill/youtube_music/v2/24px.svg",
+  "GET https://www.gstatic.com/youtube/img/icons/web/youtube_fill/youtube_kids_round/v2/24px.svg",
+  "GET https://www.gstatic.com/youtube/img/icons/web/youtube_fill/youtube_labs_red_logo/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/flag/v11/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/x/v11/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/location_pin/v3/24px.svg",
+  "GET https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.e5B4WwMM34Q.es5.O/am=AAAAAAQAAEAAIDU/d=1/exm=kevlar_base_module,kevlar_base_sync_mod_chunk,kevlar_main_module/ed=1/br=1/rs=AGKMywFVQXU3mg8RK-",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/add_circle/v7/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/add_circle/v7/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/alert_bubble/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/audio/v15/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/bag/v7/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/bag/v7/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/bell/v12/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/bell/v12/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/clapperboard/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/clapperboard/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/clock/v10/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/clock/v10/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/copy/v3/24px.svg",
+  "GET https://www.gstatic.com/youtube/img/icons/web/youtube_fill/creator_studio_red_logo/v2/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/download/v11/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/fashion/v4/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/fashion/v4/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/flag/v11/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/gaming/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/gear/v10/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/gear/v10/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/help_circle/v2/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/home/v11/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/lightbulb/v4/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/lightbulb/v4/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/mic/v15/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/news/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/news/v3/24px.svg",
+  "GET https://www.gstatic.com/youtube/img/icons/web/youtube_fill/offline_no_content/v1/192px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/overflow_horizontal/v6/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/play_square_stack/v1/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/play_square_stack/v1/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/playlist/v5/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/podcast/v6/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/podcast/v6/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/search/v16/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/subscriptions/v12/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/thumb_up/v24/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/trash_can/v11/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/trash_can/v11/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/trending/v2/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/trending/v2/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/trophy/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/trophy/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/video/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/video/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/video_camera_add/v2/24px.svg",
+  "GET https://www.gstatic.com/youtube/img/icons/web/youtube_fill/youtube_round/v2/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/youtube_shorts/v11/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/youtube_shorts/v11/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/arrow_down/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/pause/v9/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/share/v13/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/text_bubble/v4/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/thumb_down/v25/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/volume_max/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/volume_max/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_fill_experimental/volume_mute/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/volume_mute/v3/24px.svg",
+  "GET https://www.gstatic.com/youtube/img/icons/web/youtube_outline/waveform/v1/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/chevron_left/v10/24px.svg",
+  "GET https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcQ8UFIq8a5wWi01B4-NgA0661XfqjE6Z2_PilvvOPiwz2uJ5Wb4V2Bt8NYJ7mFYOk-vYzaQvnqWTrbM9YYwFnG9aGjOvWz5ilkdBVhdpq_lBo3aQHQf3VLoYsstTiNFAolJiY_IY2FMQl1du-m-h8-JdsvTb_Kpv8S",
+  "GET https://encrypted-tbn2.gstatic.com/favicon-tbn?q=tbn:ANd9GcTg28k1b2OPoNo5WZx9-U_YUTdmBEbUYI1wXBEAvZdBdTBVMDI59LhtWs4R0zBUQayqese1YOXh0yLj9PbEHpCbxdkHMtMtRkOEie95LanVM83gRfbQRGc1-BY",
+  "GET https://encrypted-tbn0.gstatic.com/favicon-tbn?q=tbn:ANd9GcRInD9XVqX9PBs-GEpKm3XCQeetx0zhxBRKikcTJfq6C3jEBp4txKHqFWNqmByErVg6H8R09kGJ0wUQT0bndp50Lx4ZpatAtsdNDv9aTnf1qMcA",
+  "GET https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn:ANd9GcT4JhEbbxH-r8-4hyUvuqqrxtgHxhcDBHMyQokjrdx_pntRUtoNFvd98fNFDSvpm9Hcr5Xgro6-BZLIrZPjALEblT1g9dYl7gLIlT68DnSgME8I4BLcyJpb",
+  "POST https://rr3---sn-2op5q5-5u.googlevideo.com/videoplayback?expire=1794729516&ei=zBH5asfrEaibzN0Pu5npkAw&ip=fda3%3Ae722%3Aac3%3A10%3A211%3A7450%3Afefe%3Ac641&id=o-AKliYGI_s098V6t6r3tCQsYPLamkqoZIaIOv4dyJoOrv&source=youtube&",
+  "GET https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/remote.js",
+  "GET https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/captions.js",
+  "GET https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/endscreen.js",
+  "GET https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.e5B4WwMM34Q.es5.O/am=AAAAAAQAAEAAIDU/d=1/exm=De8mUc,QlbBce,kevlar_base_module,kevlar_base_sync_mod_chunk,kevlar_main_module/ed=1/br=1/rs=AGKM",
+  "POST https://rr5---sn-p5qlsndk.googlevideo.com/videoplayback?expire=1794729516&ei=zBH5asfrEaibzN0Pu5npkAw&ip=fda3%3Ae722%3Aac3%3A10%3A211%3A7450%3Afefe%3Ac641&id=o-AKliYGI_s098V6t6r3tCQsYPLamkqoZIaIOv4dyJoOrv&source=youtube&r",
+  "GET https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+  "GET https://www.youtube.com/api/timedtext?v=OsIF8U5sOz4&ei=zBH5asfrEaibzN0Pu5npkAw&caps=asr&opi=112496729&exp=xpo%2Cxpe&xoaf=7&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1794733116&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%",
+  "GET https://static.doubleclick.net/instream/ad_status.js",
+  "GET https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/offline.js",
+  "GET https://www.youtube.com/s/player/fad7e4e9/player_ias.vflset/en_US/miniplayer.js",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/mail/v9/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/phone/v3/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/info_circle/v12/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/youtube/v2/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/globe/v5/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/person_waves/v1/24px.svg",
+  "GET https://fonts.gstatic.com/s/i/youtube_outline_experimental/arrow_trend_up/v2/24px.svg",
+  "POST https://www.youtube.com/api/stats/qoe?cpn=AQqcWuLXvhcenkc-&el=detailpage&ns=yt&fexp=v1%2C100673025%2C1884%2C363%2C-76670628%2C49741%2C15271469%2C11737789%2C31835%2C2821%2C124674%2C77203%2C65%2C13917%2C26504%2C9252%2C1650",
+  "POST https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+  "POST https://www.youtube.com/youtubei/v1/log_event?alt=json",
+  "POST https://www.youtube.com/api/stats/qoe?cpn=WDj4bJQkpZ-QiDN4&el=profilepage&ns=yt&fexp=v1%2C100673025%2C1884%2C363%2C-76670628%2C49741%2C15271469%2C11737789%2C31835%2C2821%2C124674%2C77203%2C65%2C13917%2C26504%2C9252%2C165",
+  "GET https://yt3.googleusercontent.com/NwPQqY8zIjTjpCGduzTJx_ohf7RIWwf59PjDEzJ8IE1f-QDobnDSZHKUxQiR9eGD-Ouv9ufZ=s32-c-k-c0x00ffffff-no-rj-mo",
+  "GET https://yt3.ggpht.com/R739QbH1OF5mVIYN1BZevDf5pT-USlcwBLpBBou9vITdFC4lur4YXIj_8AvZu-2GvS6ETaYeG1psaQA=s1086-c-fcrop64=1,00f60000c0f5ffff-rw-nd-v1",
+  "GET https://i.ytimg.com/vi/PwwvZQORy1I/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB-xPhd3BEmYodMaThIoAN643y_AQ",
+  "GET https://i.ytimg.com/vi/Dif1hwBejCk/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAr7v7F_vAUjZw-Xe6r3lbcETA-3g",
+  "GET https://i.ytimg.com/vi/VQRiwK7q1Do/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAzd7G54lZq-gyKoDXl66nvy5v0Og",
+  "GET https://i.ytimg.com/vi/vUnG7hsPe5E/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBBn80mhCWp6fZuIuoJY3aIzdt4Jg",
+  "GET https://i.ytimg.com/vi/0BeG0lqA374/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBNcMUfdtDzvIiqsAgTeawNOGW7Vg",
+  "GET https://i.ytimg.com/vi/LO1iMo2bpOE/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLByOeLStL8rQNizq3o9FjgIrLljUg",
+  "GET https://i.ytimg.com/vi/oNoM8UmOeXU/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDQN6kijoJT_KA0MW9XVEl4lVZDfA",
+  "GET https://i.ytimg.com/vi/g51D7bwJfoo/oar1.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAGSGKKtijTNb_TeF_8yqRO34kFkw",
+  "GET https://i.ytimg.com/vi/vGKy4ZX-CmU/oar3.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA9pTLQp38Mj3cNeSnkEldUFlGy6w",
+  "GET https://i.ytimg.com/vi/HylDdGcSmjY/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLApZTB24-kqOzekpbab4XXFlGnHzg",
+  "GET https://i.ytimg.com/vi/HsMkVIuunS0/hq720.jpg?sqp=-oaymwEnCOgCEMoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAkNf56n7YEquvWBqS8Pul9V0wO4A",
+  "GET https://yt3.googleusercontent.com/NwPQqY8zIjTjpCGduzTJx_ohf7RIWwf59PjDEzJ8IE1f-QDobnDSZHKUxQiR9eGD-Ouv9ufZ=s160-c-k-c0x00ffffff-no-rj"
+ ],
+ "mobileHosts": 12
+}

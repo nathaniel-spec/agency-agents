@@ -1,0 +1,21 @@
+{
+ "input": "https://x.com/NicholasPuru",
+ "finalUrl": "https://x.com/NicholasPuru",
+ "title": "",
+ "redirects": [],
+ "meta": [],
+ "links": [],
+ "buttons": [],
+ "forms": [],
+ "iframes": [],
+ "scripts": [],
+ "globals": [],
+ "text": "",
+ "hosts": {
+  "x.com": 1
+ },
+ "requests": [
+  "GET https://x.com/NicholasPuru"
+ ],
+ "mobileHosts": 1
+}

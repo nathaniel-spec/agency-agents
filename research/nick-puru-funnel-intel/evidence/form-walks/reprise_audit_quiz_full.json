@@ -1,0 +1,230 @@
+{
+ "url": "https://www.reprisesai.com/how-it-works#assessment",
+ "log": [
+  {
+   "step": 0,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 1 of 8\nWhat is your average monthly revenue?\n\nSelect one answer to continue automatically.\n\nUnder $25K\n$25K–$50K\n$50K–$100K\n$100K–$250K\n$250K–$500K\n$500K+",
+   "inputs": [],
+   "opts": [
+    "Under $25K",
+    "$25K–$50K",
+    "$50K–$100K",
+    "$100K–$250K",
+    "$250K–$500K",
+    "$500K+"
+   ]
+  },
+  {
+   "step": 1,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 2 of 8\nHow many people are on your team?\n\nSelect one answer to continue automatically.\n\nJust me\n2–5\n6–20\n21–50\n51+\n← Back",
+   "inputs": [],
+   "opts": [
+    "Just me",
+    "2–5",
+    "6–20",
+    "21–50",
+    "51+",
+    "← Back"
+   ]
+  },
+  {
+   "step": 2,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 3 of 8\nWhat is your role in the business?\n\nSelect one answer to continue automatically.\n\nOwner / founder\nExecutive / decision-maker\nTeam / department lead\nOther\n← Back",
+   "inputs": [],
+   "opts": [
+    "Owner / founder",
+    "Executive / decision-maker",
+    "Team / department lead",
+    "Other",
+    "← Back"
+   ]
+  },
+  {
+   "step": 3,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 4 of 8\nWhat would you like to improve?\n\nSelect all that apply, then continue.\n\nResponding to leads and following up\nClient onboarding\nCustomer support and service\nReporting and administrative work\nFinding information and working with documents\nInvoicing and finance\nHiring and recruiting\nOther\n\nPlease select at least one area to improve.\n\n← Back\nContinue",
+   "inputs": [],
+   "opts": [
+    "Responding to leads and following up",
+    "Client onboarding",
+    "Customer support and service",
+    "Reporting and administrative work",
+    "Finding information and working with documents",
+    "Invoicing and finance",
+    "Hiring and recruiting",
+    "Other",
+    "← Back",
+    "Continue"
+   ]
+  },
+  {
+   "step": 4,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 5 of 8\nWhat is your business name or website?\n\nEnter your answer, then continue.\n\nBusiness name or website\n← Back\nContinue",
+   "inputs": [
+    {
+     "type": "text",
+     "name": "business",
+     "ph": "Your company or website"
+    }
+   ],
+   "opts": [
+    "Business name or website",
+    "← Back",
+    "Continue"
+   ]
+  },
+  {
+   "step": 5,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 6 of 8\nWhat is your name?\n\nEnter your answer, then continue.\n\nYour name\n← Back\nContinue",
+   "inputs": [
+    {
+     "type": "text",
+     "name": "name",
+     "ph": "Full name"
+    }
+   ],
+   "opts": [
+    "Your name",
+    "← Back",
+    "Continue"
+   ]
+  },
+  {
+   "step": 6,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 7 of 8\nWhat is your work email?\n\nEnter your answer, then continue.\n\nWork email\n← Back\nContinue",
+   "inputs": [
+    {
+     "type": "email",
+     "name": "email",
+     "ph": "you@company.com"
+    }
+   ],
+   "opts": [
+    "Work email",
+    "← Back",
+    "Continue"
+   ]
+  },
+  {
+   "step": 7,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 8 of 8\nWhat is your phone number?\n\nInclude your country code if you are outside the US or Canada.\n\nPhone number\n\nBy opting in, you consent to be contacted by Reprise AI by phone, text, and email - including autodialed, prerecorded, and AI-generated messages - even if your number is on a Do Not Call list. Consent is not required to purchase. You agree to our Privacy Policy and Terms of Service. Message frequency varies. Msg & data rates may apply. Unsubscribe from emails anytime via the link, texts by replying STOP, and calls by emailing nick@reprisesai.com\n\nClicking “Choose a Time” is your opt-in.\n\nEncrypted in transit. We respect your privacy.\n\n← Back\nChoose",
+   "inputs": [
+    {
+     "type": "tel",
+     "name": "phone",
+     "ph": "Your phone number"
+    }
+   ],
+   "opts": [
+    "Phone number",
+    "← Back",
+    "Choose a Time"
+   ]
+  },
+  {
+   "step": 8,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 8 of 8\nWhat is your phone number?\n\nInclude your country code if you are outside the US or Canada.\n\nPhone number\n\nBy opting in, you consent to be contacted by Reprise AI by phone, text, and email - including autodialed, prerecorded, and AI-generated messages - even if your number is on a Do Not Call list. Consent is not required to purchase. You agree to our Privacy Policy and Terms of Service. Message frequency varies. Msg & data rates may apply. Unsubscribe from emails anytime via the link, texts by replying STOP, and calls by emailing nick@reprisesai.com\n\nClicking “Choose a Time” is your opt-in.\n\nEncrypted in transit. We respect your privacy.\n\n← Back\nChoose",
+   "inputs": [
+    {
+     "type": "tel",
+     "name": "phone",
+     "ph": "Your phone number"
+    }
+   ],
+   "opts": [
+    "Phone number",
+    "← Back",
+    "Choose a Time"
+   ]
+  },
+  {
+   "step": 9,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 8 of 8\nWhat is your phone number?\n\nInclude your country code if you are outside the US or Canada.\n\nPhone number\n\nBy opting in, you consent to be contacted by Reprise AI by phone, text, and email - including autodialed, prerecorded, and AI-generated messages - even if your number is on a Do Not Call list. Consent is not required to purchase. You agree to our Privacy Policy and Terms of Service. Message frequency varies. Msg & data rates may apply. Unsubscribe from emails anytime via the link, texts by replying STOP, and calls by emailing nick@reprisesai.com\n\nClicking “Choose a Time” is your opt-in.\n\nEncrypted in transit. We respect your privacy.\n\n← Back\nChoose",
+   "inputs": [
+    {
+     "type": "tel",
+     "name": "phone",
+     "ph": "Your phone number"
+    }
+   ],
+   "opts": [
+    "Phone number",
+    "← Back",
+    "Choose a Time"
+   ]
+  },
+  {
+   "step": 10,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 8 of 8\nWhat is your phone number?\n\nInclude your country code if you are outside the US or Canada.\n\nPhone number\n\nBy opting in, you consent to be contacted by Reprise AI by phone, text, and email - including autodialed, prerecorded, and AI-generated messages - even if your number is on a Do Not Call list. Consent is not required to purchase. You agree to our Privacy Policy and Terms of Service. Message frequency varies. Msg & data rates may apply. Unsubscribe from emails anytime via the link, texts by replying STOP, and calls by emailing nick@reprisesai.com\n\nClicking “Choose a Time” is your opt-in.\n\nEncrypted in transit. We respect your privacy.\n\n← Back\nChoose",
+   "inputs": [
+    {
+     "type": "tel",
+     "name": "phone",
+     "ph": "Your phone number"
+    }
+   ],
+   "opts": [
+    "Phone number",
+    "← Back",
+    "Choose a Time"
+   ]
+  },
+  {
+   "step": 11,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 8 of 8\nWhat is your phone number?\n\nInclude your country code if you are outside the US or Canada.\n\nPhone number\n\nBy opting in, you consent to be contacted by Reprise AI by phone, text, and email - including autodialed, prerecorded, and AI-generated messages - even if your number is on a Do Not Call list. Consent is not required to purchase. You agree to our Privacy Policy and Terms of Service. Message frequency varies. Msg & data rates may apply. Unsubscribe from emails anytime via the link, texts by replying STOP, and calls by emailing nick@reprisesai.com\n\nClicking “Choose a Time” is your opt-in.\n\nEncrypted in transit. We respect your privacy.\n\n← Back\nChoose",
+   "inputs": [
+    {
+     "type": "tel",
+     "name": "phone",
+     "ph": "Your phone number"
+    }
+   ],
+   "opts": [
+    "Phone number",
+    "← Back",
+    "Choose a Time"
+   ]
+  },
+  {
+   "step": 12,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 8 of 8\nWhat is your phone number?\n\nInclude your country code if you are outside the US or Canada.\n\nPhone number\n\nBy opting in, you consent to be contacted by Reprise AI by phone, text, and email - including autodialed, prerecorded, and AI-generated messages - even if your number is on a Do Not Call list. Consent is not required to purchase. You agree to our Privacy Policy and Terms of Service. Message frequency varies. Msg & data rates may apply. Unsubscribe from emails anytime via the link, texts by replying STOP, and calls by emailing nick@reprisesai.com\n\nClicking “Choose a Time” is your opt-in.\n\nEncrypted in transit. We respect your privacy.\n\n← Back\nChoose",
+   "inputs": [
+    {
+     "type": "tel",
+     "name": "phone",
+     "ph": "Your phone number"
+    }
+   ],
+   "opts": [
+    "Phone number",
+    "← Back",
+    "Choose a Time"
+   ]
+  },
+  {
+   "step": 13,
+   "t": "YOUR FREE AI AUDIT CALL\nQuestion 8 of 8\nWhat is your phone number?\n\nInclude your country code if you are outside the US or Canada.\n\nPhone number\n\nBy opting in, you consent to be contacted by Reprise AI by phone, text, and email - including autodialed, prerecorded, and AI-generated messages - even if your number is on a Do Not Call list. Consent is not required to purchase. You agree to our Privacy Policy and Terms of Service. Message frequency varies. Msg & data rates may apply. Unsubscribe from emails anytime via the link, texts by replying STOP, and calls by emailing nick@reprisesai.com\n\nClicking “Choose a Time” is your opt-in.\n\nEncrypted in transit. We respect your privacy.\n\n← Back\nChoose",
+   "inputs": [
+    {
+     "type": "tel",
+     "name": "phone",
+     "ph": "Your phone number"
+    }
+   ],
+   "opts": [
+    "Phone number",
+    "← Back",
+    "Choose a Time"
+   ]
+  }
+ ],
+ "blocked": [
+  "POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1h1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708312634&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=31995592 ",
+  "POST https://www.google.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1h1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708312634&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=319955925.17947083 ",
+  "POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1h1v9251366175za208zb9225360811zd9225360811xf1&_p=1794708312634&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ& ",
+  "POST https://www.google.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1h1v9251366175za208zb9225360811zd9225360811xf1&_p=1794708312634&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=319955 ",
+  "[LOCK] POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1h1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708312634&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ& en=reprise_home_assessment_start&_ee=1&ep.release=lead-handling-2026-10-23&_et=5251\r\nen=reprise_home_assessment_step&_ee=1&ep.release=lead-handling-2026-10-23&epn.step=2&_et=6\r\nen=reprise_home_assessm",
+  "[LOCK] POST https://www.google.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1h1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708312634&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=319955 en=reprise_home_assessment_start&_ee=1&ep.release=lead-handling-2026-10-23&_et=5251\r\nen=reprise_home_assessment_step&_ee=1&ep.release=lead-handling-2026-10-23&epn.step=2&_et=6\r\nen=reprise_home_assessm",
+  "[LOCK] POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1h1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708312634&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ& en=reprise_home_assessment_step&_ee=1&ep.release=lead-handling-2026-10-23&epn.step=5&_et=2775\r\nen=reprise_home_assessment_step&_ee=1&ep.release=lead-handling-2026-10-23&epn.step=6&_et=1327\r\nen=reprise",
+  "[LOCK] POST https://www.google.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1h1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708312634&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=319955 en=reprise_home_assessment_step&_ee=1&ep.release=lead-handling-2026-10-23&epn.step=5&_et=2775\r\nen=reprise_home_assessment_step&_ee=1&ep.release=lead-handling-2026-10-23&epn.step=6&_et=1327\r\nen=reprise"
+ ]
+}

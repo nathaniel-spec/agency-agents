@@ -1,0 +1,182 @@
+{
+ "input": "https://theaiaccelerators.com/important",
+ "finalUrl": "https://theaiaccelerators.com/important",
+ "title": "Important",
+ "redirects": [
+  "302 https://c.clarity.ms/c.gif -> https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=E1B8EDD509AA45F7A4363E7923CE17C5&RedC=c.clarity.ms&MXFR=1770229AD57F6D1C30C23A88D17F6329",
+  "302 https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=E1B8EDD509AA45F7A4363E7923CE17C5&RedC=c.clarity.ms&MXFR=1770229AD57F6D1C30C23A88D17F6329 -> https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=E1B8EDD509AA45F7A4363E7923CE17C5&MUID=3915D8F8F7586B9F1115C0EAF6D36AC9"
+ ],
+ "meta": [
+  [
+   "viewport",
+   "width=device-width, initial-scale=1"
+  ],
+  [
+   "title",
+   "Important"
+  ],
+  [
+   "og:title",
+   "Important"
+  ],
+  [
+   "description",
+   "Check your inbox — your Google Meet link and calendar invite are on their way. Complete both steps below before the call."
+  ],
+  [
+   "og:description",
+   "Check your inbox — your Google Meet link and calendar invite are on their way. Complete both steps below before the call."
+  ],
+  [
+   "author",
+   "Nick Puru"
+  ],
+  [
+   "og:author",
+   "Nick Puru"
+  ],
+  [
+   "image",
+   "https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/69f3890eb7fe31537aa84294.png"
+  ],
+  [
+   "og:image",
+   "https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/69f3890eb7fe31537aa84294.png"
+  ],
+  [
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "twitter:image",
+   "https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/69f3890eb7fe31537aa84294.png"
+  ],
+  [
+   "og:type",
+   "website"
+  ],
+  [
+   "twitter:type",
+   "website"
+  ]
+ ],
+ "links": [
+  "Terms & Conditions | https://theaiaccelerators.com/conditions",
+  "Privacy Policy | https://theaiaccelerators.com/privacy-page"
+ ],
+ "buttons": [
+  "Enable sound",
+  "Enable sound",
+  "Enable sound",
+  "Enable sound",
+  "Enable sound",
+  "Enable sound",
+  "Enable sound",
+  "Enable sound",
+  "Enable sound"
+ ],
+ "forms": [],
+ "iframes": [],
+ "scripts": [
+  "https://scripts.clarity.ms/0.8.80-beta/clarity.js",
+  "https://www.clarity.ms/tag/xio6pbz1ss",
+  "https://connect.facebook.net/signals/config/634223582573401?v=2.9.439&r=stable&domain=theaiaccelerators.com&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://stcdn.leadconnectorhq.com/_preview/BuCXqppA.js",
+  "https://storage.googleapis.com/builder-preview/iframe/pixel.js",
+  "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+ ],
+ "globals": [
+  "fbq",
+  "_fbq",
+  "clarity"
+ ],
+ "text": "Important\nIMPORTANT: YOUR CALL IS CONFIRMED\nONE MORE STEP BEFORE YOU GO\nWATCH THE VIDEOS BELOW BEFORE YOUR CALL\nYOUR MOST COMMON QUESTIONS, ANSWERED UP FRONT\nCOME TO THE CALL READY TO TALK\nSEE WHAT PEOPLE IN THE PROGRAM ARE DOING\nSHOW UP ON TIME. SHOW UP PREPARED\nSCROLL DOWN AND PRESS PLAY\nIMPORTANT: YOUR CALL IS CONFIRMED\nONE MORE STEP BEFORE YOU GO\nWATCH THE VIDEOS BELOW BEFORE YOUR CALL\nYOUR MOST COMMON QUESTIONS, ANSWERED UP FRONT\nCOME TO THE CALL READY TO TALK\nSEE WHAT PEOPLE IN THE PROGRAM ARE DOING\nSHOW UP ON TIME. SHOW UP PREPARED\nSCROLL DOWN AND PRESS PLAY\nYou're Confirmed, But Before You Go.... Please Watch The Videos Below\n\nThese are some of the most common questions people ask on the call. I figured it'd be better to answer them up front.\n\nHere Are Some Of The Results People Are Getting From The Program\nThe income figures and client results mentioned on this page are real results from specific individuals and are not typical. Your results will vary based on your effort, skills, market, timing, consistency of implementation, and a number of factors outside our control. Many people who watch free videos and join mentorship programmes see little to no results. We make no guarantee that you will generate any specific level of income from applying what you learn here.\n\nThis site is not a part of the Facebook website or Facebook Inc. Additionally, this site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.\n© 2026 The AI Accelerators · All rights reserved.  |  Terms & Conditions  |  Privacy Policy",
+ "hosts": {
+  "theaiaccelerators.com": 2,
+  "fonts.googleapis.com": 2,
+  "stcdn.leadconnectorhq.com": 27,
+  "static.cloudflareinsights.com": 1,
+  "files.leadconnectorhq.com": 10,
+  "fonts.gstatic.com": 4,
+  "connect.facebook.net": 2,
+  "www.clarity.ms": 1,
+  "backend.leadconnectorhq.com": 1,
+  "scripts.clarity.ms": 1,
+  "c.clarity.ms": 2,
+  "c.bing.com": 1,
+  "p.clarity.ms": 4,
+  "storage.googleapis.com": 1,
+  "assets.cdn.filesafe.space": 8
+ },
+ "requests": [
+  "GET https://theaiaccelerators.com/important",
+  "GET https://fonts.googleapis.com/css?family=DM%20Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CPoppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BuCXqppA.js",
+  "GET https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap",
+  "GET https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+  "GET https://files.leadconnectorhq.com/file/6af43d4ffbdd54a827b5566d/90940917775.png",
+  "GET https://files.leadconnectorhq.com/file/6af43d81bd36322ae22b4712/76714055306.png",
+  "GET https://files.leadconnectorhq.com/file/6af43dae512d2edab6998130/74462515963.png",
+  "GET https://files.leadconnectorhq.com/file/6af43d17512d2edab6997190/30372037234.png",
+  "GET https://files.leadconnectorhq.com/file/6af43cd6fbdd54a827b54b71/15518082963.png",
+  "GET https://files.leadconnectorhq.com/file/6af43e8cfbdd54a827b57914/time-thumbnail.png",
+  "GET https://files.leadconnectorhq.com/file/6af43f38ddcd97ce5ac9d709/sales-thumbnail.png",
+  "GET https://files.leadconnectorhq.com/file/6af44a5ed3a37f5ae4668edd/guarantees-thumbnail.png",
+  "GET https://files.leadconnectorhq.com/file/6af44a8ad3a37f5ae46690b6/support-thumbnail.png",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2",
+  "GET https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
+  "GET https://files.leadconnectorhq.com/file/6af43b7f421749dec7bfe5dc/image-606060.png",
+  "GET https://stcdn.leadconnectorhq.com/_preview/sJ9i-sUo.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CVhjUuMA.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BJgkKx-e.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/qQx4ctgp.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DeCe7ayY.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DlVAqYnp.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CrqjFaLb.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BJmiYrnc.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/Co8kV-VW.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C60J5m6h.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/D2GKgMhx.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/Cmx2XiJz.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CSsPqFKM.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/bDbikwI2.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DRNKrJGC.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C17z7VQ0.js",
+  "POST https://theaiaccelerators.com/cdn-cgi/rum?",
+  "GET https://stcdn.leadconnectorhq.com/_preview/B-iXHOlY.js",
+  "GET https://connect.facebook.net/en_US/fbevents.js",
+  "GET https://www.clarity.ms/tag/xio6pbz1ss",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DAnMKlY_.js",
+  "POST https://backend.leadconnectorhq.com/funnels/event/conversion",
+  "GET https://stcdn.leadconnectorhq.com/_preview/TestimonialModal.DVJfVErF.css",
+  "GET https://stcdn.leadconnectorhq.com/_preview/Video.CIb6RWLs.css",
+  "GET https://scripts.clarity.ms/0.8.80-beta/clarity.js",
+  "GET https://c.clarity.ms/c.gif",
+  "GET https://connect.facebook.net/signals/config/634223582573401?v=2.9.439&r=stable&domain=theaiaccelerators.com&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2",
+  "GET https://stcdn.leadconnectorhq.com/_preview/VnSW5tvU.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DArhIr5q.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CVRpgkA8.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C5Mm3dg4.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CbcOYA9w.js",
+  "GET https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=E1B8EDD509AA45F7A4363E7923CE17C5&RedC=c.clarity.ms&MXFR=1770229AD57F6D1C30C23A88D17F6329",
+  "POST https://p.clarity.ms/collect",
+  "GET https://storage.googleapis.com/builder-preview/iframe/pixel.js",
+  "GET https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=E1B8EDD509AA45F7A4363E7923CE17C5&MUID=3915D8F8F7586B9F1115C0EAF6D36AC9",
+  "POST https://p.clarity.ms/collect",
+  "GET https://stcdn.leadconnectorhq.com/_preview/builds/meta/5bb6e8d6-bb05-4f9e-9616-62eac5b1fbff.json",
+  "GET https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/713c84d5-c649-42cc-ac52-30ff3ba26005.png",
+  "GET https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/e090015c-29b9-4615-80fe-79033a68f0df.png",
+  "GET https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/32d98d00-94cc-474b-9db9-f2cfc8e01848.png",
+  "GET https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/60168182-8816-4df3-beb6-339af646b7d2.png",
+  "GET https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/eca3ddb2-1274-4733-ad8d-d9f3522a298e.png",
+  "GET https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/2bf97f8a-ea2b-4b76-a328-7d323884c49d.png",
+  "GET https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/62288c76-35b4-4737-89bc-99fc26e10ea0.png",
+  "GET https://assets.cdn.filesafe.space/Py7kY54E8cGXzRw02j4W/media/64982fcd-b70f-46e8-bc3e-15d56dcb68bc.png",
+  "POST https://p.clarity.ms/collect",
+  "POST https://p.clarity.ms/collect"
+ ],
+ "mobileHosts": 17
+}

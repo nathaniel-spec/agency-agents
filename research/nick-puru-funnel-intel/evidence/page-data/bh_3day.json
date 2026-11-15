@@ -1,0 +1,421 @@
+{
+ "input": "https://ai-core.beehiiv.com/p/3-days-one-offer-starts-monday",
+ "finalUrl": "https://ai-core.beehiiv.com/p/3-days-one-offer-starts-monday",
+ "title": "3 days. One offer. Starts Monday.",
+ "redirects": [
+  "302 https://ai-core.beehiiv.com/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5aaa9ea5cd4e5f8 -> /cdn-cgi/challenge-platform/h/b/scripts/jsd/f8df4d4a0cd6/main.js?ray=a5aaa9ea5cd4e5f8"
+ ],
+ "meta": [
+  [
+   "viewport",
+   "width=device-width, initial-scale=1, shrink-to-fit=no"
+  ],
+  [
+   "mobile-web-app-capable",
+   "yes"
+  ],
+  [
+   "apple-mobile-web-app-capable",
+   "yes"
+  ],
+  [
+   "apple-mobile-web-app-status-bar-style",
+   "black-translucent"
+  ],
+  [
+   "theme-color",
+   "#FFFFFF"
+  ],
+  [
+   "description",
+   "The 3-Day AI Business Launch Challenge."
+  ],
+  [
+   "keywords",
+   "business, news, technology"
+  ],
+  [
+   "author",
+   ""
+  ],
+  [
+   "og:type",
+   "article"
+  ],
+  [
+   "og:url",
+   "https://ai-core.beehiiv.com/p/3-days-one-offer-starts-monday"
+  ],
+  [
+   "og:title",
+   "3 days. One offer. Starts Monday."
+  ],
+  [
+   "og:description",
+   "The 3-Day AI Business Launch Challenge."
+  ],
+  [
+   "og:site_name",
+   "The AI Core"
+  ],
+  [
+   "og:image",
+   "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/publication/thumbnail/c1cf34ae-3fac-4f4b-a8aa-926713c77850/landscape_Logo_Design__5_.png"
+  ],
+  [
+   "og:image:alt",
+   "3 days. One offer. Starts Monday."
+  ],
+  [
+   "twitter:url",
+   "https://ai-core.beehiiv.com/p/3-days-one-offer-starts-monday"
+  ],
+  [
+   "twitter:title",
+   "3 days. One offer. Starts Monday."
+  ],
+  [
+   "twitter:description",
+   "The 3-Day AI Business Launch Challenge."
+  ],
+  [
+   "twitter:image",
+   "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/publication/thumbnail/c1cf34ae-3fac-4f4b-a8aa-926713c77850/landscape_Logo_Design__5_.png"
+  ],
+  [
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "twitter:creator",
+   ""
+  ],
+  [
+   "fb:app_id",
+   "1932054120322754"
+  ],
+  [
+   "article:published_time",
+   "2026-08-13T15:35:51.636Z"
+  ],
+  [
+   "article:modified_time",
+   "2026-08-13T15:36:02Z"
+  ],
+  [
+   "robots",
+   "max-image-preview:large"
+  ]
+ ],
+ "links": [
+  " | https://ai-core.beehiiv.com/",
+  "Home | https://ai-core.beehiiv.com/",
+  "Posts | https://ai-core.beehiiv.com/archive",
+  "Join and be in Monday's cohort | https://www.skool.com/theaiaccelerator/about?utm_source=newsletter&utm_medium=challenge-event-agency",
+  "Jul 27, 2026 • 3 min read Your AI is fixing the wrong problem The loud problem g | https://ai-core.beehiiv.com/p/your-ai-is-fixing-the-wrong-problem",
+  "Sep 18, 2026 • 1 min read How to Get Paid for deploying AI A free training on wh | https://ai-core.beehiiv.com/p/how-to-get-paid-for-deploying-ai",
+  "Sep 4, 2026 • 3 min read GPT-6 costs $7 a task. Your assistant costs $22 an hour | https://ai-core.beehiiv.com/p/gpt-6-costs-7-a-task-your-assistant-costs-22-an-hour",
+  "View more | https://ai-core.beehiiv.com/",
+  " | https://twitter.com/user",
+  " | https://linkedin.com/user",
+  " | https://facebook.com/user",
+  " | https://instagram.com/user",
+  " | https://tiktok.com/user",
+  " | https://youtube.com/user",
+  " | https://discord.com/user",
+  "Powered by beehiiv | https://www.beehiiv.com/powered-by?publication_name=The+AI+Core&publication_logo=https%3A%2F%2Fmedia.beehiiv.com%2Fcdn-cgi%2Fimage%2Ffit%3Dscale-down%2Cformat%3Dauto%2Conerror%3Dredirect%2Cquality%3D80%2Fuploads%2Fpublication%2Flogo%2Fc1cf34ae-3fac-4f4b-a8aa-926713c77850%2FLogo_Design__5_.png&utm_source=the_ai_core&utm_medium=footer"
+ ],
+ "buttons": [
+  "Subscribe"
+ ],
+ "forms": [
+  {
+   "action": "https://ai-core.beehiiv.com/create",
+   "method": "post",
+   "fields": [
+    {
+     "type": "text",
+     "name": "subscribe_error_message",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "text",
+     "name": "subscribe_success_message",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "text",
+     "name": "ref",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "text",
+     "name": "bhba",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "text",
+     "name": "visit_token",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "text",
+     "name": "premium_offer_id",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "text",
+     "name": "fallback_path",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "text",
+     "name": "is_js_enabled",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "hidden",
+     "name": "sent_from_orchid",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "hidden",
+     "name": "signup_flow_id",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "hidden",
+     "name": "automation_ids",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "hidden",
+     "name": "double_opt",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "hidden",
+     "name": "auto_login_enabled",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "email",
+     "name": "email",
+     "ph": "Email",
+     "req": true
+    }
+   ]
+  },
+  {
+   "action": "https://ai-core.beehiiv.com/post_like",
+   "method": "post",
+   "fields": [
+    {
+     "type": "hidden",
+     "name": "post_id",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "hidden",
+     "name": "subscription_id",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "hidden",
+     "name": "user_id",
+     "ph": "",
+     "req": false
+    }
+   ]
+  }
+ ],
+ "iframes": [
+  "",
+  "",
+  "https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=https%3A%2F%2Fai-core.beehiiv.com",
+  ""
+ ],
+ "scripts": [
+  "https://client.px-cloud.net/PXeBumDLwe/main.min.js",
+  "https://elements.stytch.com/telemetry.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-VK830JKBQJ",
+  "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+  "https://platform.twitter.com/widgets.js",
+  "https://embed.bsky.app/static/embed.js"
+ ],
+ "globals": [
+  "dataLayer"
+ ],
+ "text": "Log in\nSubscribe\nHome\nPosts\n3 days. One offer. Starts Monday.\n3 days. One offer. Starts Monday.\n\nThe 3-Day AI Business Launch Challenge.\n\nAug 13, 2026\n\n•\n\n2 min read\n\nIf you want to be able to actually sell an AI service by this time next week, this is the one to read.\n\nOn Monday we're running the 3-Day AI Business Launch Challenge.\n\nThree days, one decision each day, and a deadline at the end of it. It's for people who can already build something and haven't been paid for it yet.\n\nWhat you walk out with\n\nNot notes. Not a folder of videos you'll never reopen. One document — your Launch Audit — that answers the four questions every stuck builder is missing at least two of:\n\nWho you sell to\n\nWhat expensive problem you fix for them\n\nHow much you charge, and on what terms\n\nHow you reach them, starting this week\n\nThen a human reviews it against a published rubric and tells you it's approved, or names the exact sections to fix.\n\nHere's exactly what we cover\n\nExactly WHICH lane to pick — build it, deploy it inside a business, or sell it to clients. Most people are stuck because they're quietly trying to do all three.\n\nExactly HOW to choose one market — who signs the check, and whether a customer is worth enough to make the math work before you spend a month on them.\n\nExactly WHAT the expensive problem is in that market, and how to tell it apart from the loud one.\n\nExactly HOW MUCH to charge — a price with terms you can say out loud without flinching.\n\nExactly WHAT to promise — a risk reversal limited to what you actually control, so you're not writing cheques your delivery can't cash.\n\nExactly WHICH route you'll use to reach buyers, and the 14-day activity number you're committing to.\n\nExactly WHAT happens next — the 90-day roadmap opens once your audit is approved.\n\nPeople who've made these decisions\n\nNoah picked one offer — an AI receptionist — and sold it to businesses already posting receptionist jobs. A few signed at $1.5k–$2k. Just over $5,000 in a month. Chris picked one route, walked into a local BNI chapter, and landed a $2,500 build plus $197/month. Salah walked into a six-location restaurant chain with one specific job and got his first client.\n\nNone of them had a website, a portfolio, or a case study. They had answers to the four questions.\n\nWhat I'm not promising: a paying client in three days. That isn't in my control or yours. What's deliverable in three days is a market, an offer, a price, a route and a reviewed plan — which is the thing standing between you and everything that comes after it.\n\nHow to be in it\n\nThe challenge runs inside AI Accelerator+ — $72/month, and you need to be a member to take part. Kickoff is Monday, the daily actions run through the week, and audits are submitted at the end of it.\n\nJoin and be in Monday's cohort\n\n-- Nick\n\nP.S. Four questions. If you can't answer all four in one sentence each right now, that's the whole reason the building hasn't turned into money — and it's a three-day problem, not a three-month one.\n\nKeep Reading\n\nJul 27, 2026\n\n•\n\n3 min read\n\nYour AI is fixing the wrong problem\n\nThe loud problem gets complained about. The expensive one gets quietly tolerated.\n\nSep 18, 2026\n\n•\n\n1 min read\n\nHow to Get Paid for deploying AI \n\nA free training on what to sell, where the clients are, and what to charge.\n\nSep 4, 2026\n\n•\n\n3 min read\n\nGPT-6 costs $7 a task. Your assistant costs $22 an hour.\n\nIt does the same job for about a third of what Claude costs. And it doesn't need watching.\n\nView more\nThe AI Core\n\nThis free newsletter is how you win the AI era.\n\nSubscribe\n© 2026 The AI Core.\nPowered by beehiiv\nLog in\nSubscribe",
+ "hosts": {
+  "ai-core.beehiiv.com": 120,
+  "media.beehiiv.com": 2,
+  "fonts.gstatic.com": 2,
+  "static.cloudflareinsights.com": 1,
+  "o922922.ingest.us.sentry.io": 1,
+  "client.px-cloud.net": 1,
+  "elements.stytch.com": 1,
+  "platform.twitter.com": 2,
+  "embed.bsky.app": 1,
+  "ift.px-cloud.net": 1,
+  "collector-pxebumdlwe.px-cloud.net": 2,
+  "syndication.twitter.com": 1,
+  "www.googletagmanager.com": 1,
+  "www.google-analytics.com": 1
+ },
+ "requests": [
+  "GET https://ai-core.beehiiv.com/p/3-days-one-offer-starts-monday",
+  "GET https://media.beehiiv.com/cdn-cgi/image/format=auto,onerror=redirect/uploads/publication/logo/c1cf34ae-3fac-4f4b-a8aa-926713c77850/Logo_Design__5_.png",
+  "GET https://ai-core.beehiiv.com/assets/SignupAction-CnFh5iQd.css",
+  "GET https://ai-core.beehiiv.com/assets/StaticPage-DWd83Mno.css",
+  "GET https://ai-core.beehiiv.com/assets/UpdatePassword-Pp6lW7cU.css",
+  "GET https://ai-core.beehiiv.com/assets/MotionConfig-CSCcozE6.css",
+  "GET https://ai-core.beehiiv.com/assets/usePostDataContext-5ZP57Ux_.css",
+  "GET https://ai-core.beehiiv.com/assets/useCommentThread-DUTKMVpU.css",
+  "GET https://ai-core.beehiiv.com/assets/PostHeader-ClrVEa2Z.css",
+  "GET https://ai-core.beehiiv.com/assets/translations-DE9D66-w.css",
+  "GET https://ai-core.beehiiv.com/assets/PostContent-QRaUUHcT.css",
+  "GET https://ai-core.beehiiv.com/assets/RichText-BND6LvRC.css",
+  "GET https://ai-core.beehiiv.com/assets/style-DrcqH1SC.css",
+  "GET https://ai-core.beehiiv.com/assets/tailwind-D78FKE37.css",
+  "GET https://ai-core.beehiiv.com/assets/manifest-511a6ba9.js",
+  "GET https://ai-core.beehiiv.com/assets/entry.client-CdK4wmVd.js",
+  "GET https://ai-core.beehiiv.com/assets/rolldown-runtime-BCiCTKAo.js",
+  "GET https://ai-core.beehiiv.com/assets/root-vendor-Cuz7G2PJ.js",
+  "GET https://ai-core.beehiiv.com/assets/clientFilter-CaA6tR89.js",
+  "GET https://ai-core.beehiiv.com/assets/utils-CjUr88hv.js",
+  "GET https://ai-core.beehiiv.com/assets/isCrawler-BqhPm6nE.js",
+  "GET https://ai-core.beehiiv.com/assets/lazyBlock-BrYhIDCw.js",
+  "GET https://ai-core.beehiiv.com/assets/ComponentErrorBoundary-WMwf6odx.js",
+  "GET https://ai-core.beehiiv.com/assets/Text-Bg3RxI35.js",
+  "GET https://ai-core.beehiiv.com/assets/metaPixel-C5_juuHq.js",
+  "GET https://ai-core.beehiiv.com/assets/useDisplayMode-B5nrDHDH.js",
+  "GET https://ai-core.beehiiv.com/assets/useSignupRedirects-R3xfiExz.js",
+  "GET https://ai-core.beehiiv.com/assets/buildPostAuthRedirectUrl-BEWD2J3J.js",
+  "GET https://ai-core.beehiiv.com/assets/pushSubscription-M4b00wOL.js",
+  "GET https://ai-core.beehiiv.com/assets/recommendationsEmbed-Dp2ogjN6.js",
+  "GET https://ai-core.beehiiv.com/assets/CsrfContext-BJwwOVAP.js",
+  "GET https://ai-core.beehiiv.com/assets/useNectarClickTracking-BSrGS7JQ.js",
+  "GET https://ai-core.beehiiv.com/assets/nectarTracking-DVhy24gW.js",
+  "GET https://ai-core.beehiiv.com/assets/useNectarAnalyticsContext-DjrDP22h.js",
+  "GET https://ai-core.beehiiv.com/assets/Button-DlM6H6wN.js",
+  "GET https://ai-core.beehiiv.com/assets/PageContext-CZZ6yxH-.js",
+  "GET https://ai-core.beehiiv.com/assets/toast-ZrwQjSUv.js",
+  "GET https://ai-core.beehiiv.com/assets/usePushNotification-Ck10ktPs.js",
+  "GET https://ai-core.beehiiv.com/assets/useSetLastViewedResource-BZxx08hc.js",
+  "GET https://ai-core.beehiiv.com/assets/useTypedLoaderData-BIEWmPef.js",
+  "GET https://ai-core.beehiiv.com/assets/community-CMMn_4pn.js",
+  "GET https://ai-core.beehiiv.com/assets/useNotifications-DX5FWjgD.js",
+  "GET https://ai-core.beehiiv.com/assets/logout-D6lkRDII.js",
+  "GET https://ai-core.beehiiv.com/assets/SlideUpModal-CvveQcim.js",
+  "GET https://ai-core.beehiiv.com/assets/stytch-B2D3IsFn.js",
+  "GET https://ai-core.beehiiv.com/assets/shouldRevalidateLoaderData-Dd55JENc.js",
+  "GET https://ai-core.beehiiv.com/assets/useGlobalModals-CoU90IX7.js",
+  "GET https://ai-core.beehiiv.com/assets/nectarTrackingFields-BN5KBl15.js",
+  "GET https://ai-core.beehiiv.com/assets/nectarPageBlock.generated-BR4BMxO_.js",
+  "GET https://ai-core.beehiiv.com/assets/useNonRevalidatingFetcher-TApNUuS-.js",
+  "GET https://ai-core.beehiiv.com/assets/nectarPageBlock-BCGgxQrk.js",
+  "GET https://ai-core.beehiiv.com/assets/root-CWsiEwfY.js",
+  "GET https://ai-core.beehiiv.com/assets/SignupAction-DYYhmvvy.js",
+  "GET https://ai-core.beehiiv.com/assets/StaticPage-DBs3gLu5.js",
+  "GET https://ai-core.beehiiv.com/assets/lib-B6jXkuzK.js",
+  "GET https://ai-core.beehiiv.com/assets/PostContent-BHUqY7B5.js",
+  "GET https://ai-core.beehiiv.com/assets/getCanonicalUrl-B0fJuyuo.js",
+  "GET https://ai-core.beehiiv.com/assets/getMergedMetaData-D9Yma0Bt.js",
+  "GET https://ai-core.beehiiv.com/assets/useMetaViewContent-CEFOg5tV.js",
+  "GET https://ai-core.beehiiv.com/assets/safeJsonParse-CEvYE7_v.js",
+  "GET https://ai-core.beehiiv.com/assets/getMetaDataLinks-BJc4Z0O3.js",
+  "GET https://ai-core.beehiiv.com/assets/getSameAsArray-D4xfSugy.js",
+  "GET https://ai-core.beehiiv.com/assets/PostDataProvider-CCmJpGIf.js",
+  "GET https://ai-core.beehiiv.com/assets/getPersonSchema-CEshrChK.js",
+  "GET https://ai-core.beehiiv.com/assets/PostPageProvider-DSUT43gW.js",
+  "GET https://ai-core.beehiiv.com/assets/Check.es-CXRIILte.js",
+  "GET https://ai-core.beehiiv.com/assets/ActionForm-B5SltjO_.js",
+  "GET https://ai-core.beehiiv.com/assets/StatusInputs-2A7nPZsQ.js",
+  "GET https://ai-core.beehiiv.com/assets/useToast-CoSHVlTE.js",
+  "GET https://ai-core.beehiiv.com/assets/Check.es-BwMaCoRa.js",
+  "GET https://ai-core.beehiiv.com/assets/proxy-CAF2rnwg.js",
+  "GET https://ai-core.beehiiv.com/assets/waveform-BZyz4Gp8.js",
+  "GET https://ai-core.beehiiv.com/assets/UpdatePassword.css-BxCRZR_Y.js",
+  "GET https://ai-core.beehiiv.com/assets/MotionConfig-B_Tvy9_9.js",
+  "GET https://ai-core.beehiiv.com/assets/usePostDataContext-BD9584kT.js",
+  "GET https://ai-core.beehiiv.com/assets/cn-CIJt2r-J.js",
+  "GET https://ai-core.beehiiv.com/assets/useCommentThread-DSqBYfZv.js",
+  "GET https://ai-core.beehiiv.com/assets/floating-ui.react-DnNar0en.js",
+  "GET https://ai-core.beehiiv.com/assets/PostHeader-R_DqPoWC.js",
+  "GET https://ai-core.beehiiv.com/assets/FooterReferralLink-CdP_hq1p.js",
+  "GET https://ai-core.beehiiv.com/assets/translations-BtS1Qhj6.js",
+  "GET https://ai-core.beehiiv.com/assets/dist-C4-6pYUs.js",
+  "GET https://ai-core.beehiiv.com/assets/useIsMobile-C1ikpxeV.js",
+  "GET https://ai-core.beehiiv.com/assets/SimpleModal-BjFGXIv1.js",
+  "GET https://ai-core.beehiiv.com/assets/useGDPRTranslations-DxCQ0x3Z.js",
+  "GET https://ai-core.beehiiv.com/assets/debounce-C3Skh1sV.js",
+  "GET https://ai-core.beehiiv.com/assets/RichText-CMLtg92M.js",
+  "GET https://ai-core.beehiiv.com/assets/rewriteSrc-CE-UieqK.js",
+  "GET https://ai-core.beehiiv.com/assets/useIsLoggedIn-DoqmDnJX.js",
+  "GET https://ai-core.beehiiv.com/assets/getEpisodeHostedVideo-He2eJnlX.js",
+  "GET https://ai-core.beehiiv.com/assets/isWebinarJoinable--uPyT2_8.js",
+  "GET https://ai-core.beehiiv.com/assets/useComponentFetcher-Bjlt6fSy.js",
+  "GET https://ai-core.beehiiv.com/assets/RedirectToHiddenInput-DE9Yg2Vz.js",
+  "GET https://ai-core.beehiiv.com/assets/tslib.es6-Bdj3tMJc.js",
+  "GET https://ai-core.beehiiv.com/assets/otpInput-Bto4k9DE.js",
+  "GET https://ai-core.beehiiv.com/assets/Input-DjKOITeb.js",
+  "GET https://ai-core.beehiiv.com/assets/clsx-DB0hHKMi.js",
+  "GET https://ai-core.beehiiv.com/assets/utils-BQPUbiYw.js",
+  "GET https://ai-core.beehiiv.com/assets/use-reduced-motion-DaLIOSad.js",
+  "GET https://ai-core.beehiiv.com/assets/_slug--JvIZdn0.js",
+  "GET https://ai-core.beehiiv.com/phosphor-icons-sprite.svg",
+  "GET https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+  "GET https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+  "GET https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+  "GET https://ai-core.beehiiv.com/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5aaa9ea5cd4e5f8",
+  "GET https://ai-core.beehiiv.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/f8df4d4a0cd6/main.js?ray=a5aaa9ea5cd4e5f8",
+  "POST https://ai-core.beehiiv.com/cdn-cgi/rum?",
+  "POST https://o922922.ingest.us.sentry.io/api/4509050642235392/envelope/?sentry_version=7&sentry_key=0409abfa150e5836265cfca81ae7722c&sentry_client=sentry.javascript.remix%2F10.45.0",
+  "POST https://ai-core.beehiiv.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/f8df4d4a0cd6/0.08505402721596855:1794705023:roptnnKr0DpUEI1KBtCU209Jxkimy9dnxDysujs4ehU/a5aaa9ea5cd4e5f8",
+  "GET https://client.px-cloud.net/PXeBumDLwe/main.min.js",
+  "GET https://elements.stytch.com/telemetry.js",
+  "GET https://ai-core.beehiiv.com/recommended_posts?post_id=553443e3-99f2-4fc6-9352-bf323504bae1",
+  "GET https://platform.twitter.com/widgets.js",
+  "GET https://embed.bsky.app/static/embed.js",
+  "GET https://ai-core.beehiiv.com/post_insights?post_id=553443e3-99f2-4fc6-9352-bf323504bae1",
+  "GET https://ai-core.beehiiv.com/merge_tags/553443e3-99f2-4fc6-9352-bf323504bae1?draft=false",
+  "POST https://ai-core.beehiiv.com/post_meta_information",
+  "GET https://ift.px-cloud.net/ns?c=60bff640-e098-11f1-abc6-dfab3a528f97",
+  "POST https://collector-pxebumdlwe.px-cloud.net/api/v2/collector",
+  "GET https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=https%3A%2F%2Fai-core.beehiiv.com",
+  "GET https://media.beehiiv.com/cdn-cgi/image/format=auto,fit=scale-down,onerror=redirect/uploads/publication/thumbnail/c1cf34ae-3fac-4f4b-a8aa-926713c77850/landscape_Logo_Design__5_.png",
+  "GET https://syndication.twitter.com/settings?session_id=d361708952699ca770ce8af8edb1902aebd88cd3",
+  "GET https://ai-core.beehiiv.com/assets/ServerRenderedComments-PQKtyINc.js",
+  "GET https://ai-core.beehiiv.com/assets/PostComments-1oo5e-W5.js",
+  "GET https://ai-core.beehiiv.com/assets/ImageUpload-BiiZJQQM.js",
+  "GET https://ai-core.beehiiv.com/assets/useImageUpload-BsJyQHvG.js",
+  "GET https://ai-core.beehiiv.com/assets/CaretDown.es-Ce49_1c7.js",
+  "GET https://ai-core.beehiiv.com/assets/CaretDown.es-D68FkzGs.js",
+  "GET https://ai-core.beehiiv.com/assets/lib-DEo6kJ98.js",
+  "GET https://ai-core.beehiiv.com/assets/extension-CHSGgQpp.js",
+  "GET https://ai-core.beehiiv.com/assets/dist-Kll2twSG.js",
+  "GET https://ai-core.beehiiv.com/assets/PostComments-BkkhVQpP.css",
+  "GET https://ai-core.beehiiv.com/assets/comment-BB7pVF8v.js",
+  "GET https://ai-core.beehiiv.com/assets/commentsTranslations-CTIXdNiZ.js",
+  "POST https://collector-pxebumdlwe.px-cloud.net/api/v2/collector",
+  "GET https://www.googletagmanager.com/gtag/js?id=G-VK830JKBQJ",
+  "POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za208zd9251366175xf1&_p=1794708048672&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&cid=1226694385.1794708052&frm=0&ngs=1&pscdl=noapi&rcb=9&s"
+ ],
+ "mobileHosts": 14
+}

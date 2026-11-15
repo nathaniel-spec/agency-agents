@@ -1,0 +1,138 @@
+{
+ "input": "https://theaiaccelerators.com/registration-complete",
+ "finalUrl": "https://theaiaccelerators.com/registration-complete",
+ "title": "Your Spot is Reserved!",
+ "redirects": [
+  "302 https://c.clarity.ms/c.gif -> https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=2C5E11BD24CA4CBA9071A3725C16E394&RedC=c.clarity.ms&MXFR=2FFC17E8358E621D37120FFA318E6CB3",
+  "302 https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=2C5E11BD24CA4CBA9071A3725C16E394&RedC=c.clarity.ms&MXFR=2FFC17E8358E621D37120FFA318E6CB3 -> https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=2C5E11BD24CA4CBA9071A3725C16E394&MUID=1F15A631C72C6E2939CFBE23C6A76F65"
+ ],
+ "meta": [
+  [
+   "viewport",
+   "width=device-width, initial-scale=1"
+  ],
+  [
+   "title",
+   "Your Spot is Reserved!"
+  ],
+  [
+   "og:title",
+   "Your Spot is Reserved!"
+  ],
+  [
+   "description",
+   "Congratulations, Your Spot Is Reserved!"
+  ],
+  [
+   "og:description",
+   "Congratulations, Your Spot Is Reserved!"
+  ],
+  [
+   "og:type",
+   "website"
+  ],
+  [
+   "twitter:type",
+   "website"
+  ]
+ ],
+ "links": [
+  "Google | https://calendar.google.com/calendar/render?action=TEMPLATE&text=Nick%20Puru%20Live%20Training%3A%20How%20To%20Start%20And%20Scale%20An%20AI%20Agency&dates=20261031T160000Z/20261031T170000Z&details=I%27ll%20show%20you%20how%20to%20find%20the%20clients%2C%20what%20services%20you%20should%20be%20selling%20to%20these%20businesses%2C%20and%20how%20to%20close%20the%20deal%2C%20and%20no%2C%20you%20don%27t%20need%20technical%20skills%2C%20or%20a%20massive%20budget%2C%20or%20quit%20your%209-5%20to%20get%20started&location=https%3A%2F%2Fus06web.zoom.us%2Fj%2F85810262072",
+  "Office 365 | https://outlook.office.com/calendar/0/deeplink/compose?subject=Nick%20Puru%20Live%20Training%3A%20How%20To%20Start%20And%20Scale%20An%20AI%20Agency&startdt=2026-10-31T16:00:00Z&enddt=2026-10-31T17:00:00Z&body=I%27ll%20show%20you%20how%20to%20find%20the%20clients%2C%20what%20services%20you%20should%20be%20selling%20to%20these%20businesses%2C%20and%20how%20to%20close%20the%20deal%2C%20and%20no%2C%20you%20don%27t%20need%20technical%20skills%2C%20or%20a%20massive%20budget%2C%20or%20quit%20your%209-5%20to%20get%20started&location=https%3A%2F%2Fus06web.zoom.us%2Fj%2F85810262072&path=/calendar/action/compose&rru=addevent",
+  "Outlook.com | https://outlook.live.com/calendar/0/deeplink/compose?subject=Nick%20Puru%20Live%20Training%3A%20How%20To%20Start%20And%20Scale%20An%20AI%20Agency&startdt=2026-10-31T16:00:00Z&enddt=2026-10-31T17:00:00Z&body=I%27ll%20show%20you%20how%20to%20find%20the%20clients%2C%20what%20services%20you%20should%20be%20selling%20to%20these%20businesses%2C%20and%20how%20to%20close%20the%20deal%2C%20and%20no%2C%20you%20don%27t%20need%20technical%20skills%2C%20or%20a%20massive%20budget%2C%20or%20quit%20your%209-5%20to%20get%20started&location=https%3A%2F%2Fus06web.zoom.us%2Fj%2F85810262072&path=/calendar/action/compose&rru=addevent",
+  "Yahoo | https://calendar.yahoo.com/?v=60&title=Nick%20Puru%20Live%20Training%3A%20How%20To%20Start%20And%20Scale%20An%20AI%20Agency&st=20261031T160000Z&et=20261031T170000Z&desc=I%27ll%20show%20you%20how%20to%20find%20the%20clients%2C%20what%20services%20you%20should%20be%20selling%20to%20these%20businesses%2C%20and%20how%20to%20close%20the%20deal%2C%20and%20no%2C%20you%20don%27t%20need%20technical%20skills%2C%20or%20a%20massive%20budget%2C%20or%20quit%20your%209-5%20to%20get%20started&in_loc=https%3A%2F%2Fus06web.zoom.us%2Fj%2F85810262072",
+  "Join Our WhatsApp Group → | https://chat.whatsapp.com/GmUGpTvPa4t4kxW1PfZFOE?mode=gi_t",
+  "Privacy Policy | https://theaiaccelerators.com/privacy-policy",
+  "Terms of Service | https://theaiaccelerators.com/terms-and-condition"
+ ],
+ "buttons": [
+  "Add to Calendar →",
+  "Apple",
+  "Outlook",
+  "Share the Webinar →",
+  "Close"
+ ],
+ "forms": [],
+ "iframes": [],
+ "scripts": [
+  "https://scripts.clarity.ms/0.8.80-beta/clarity.js",
+  "https://www.clarity.ms/tag/yi1bzj0hst",
+  "https://connect.facebook.net/signals/config/634223582573401?v=2.9.439&r=stable&domain=theaiaccelerators.com&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://stcdn.leadconnectorhq.com/_preview/BuCXqppA.js",
+  "https://storage.googleapis.com/builder-preview/iframe/pixel.js",
+  "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+ ],
+ "globals": [
+  "fbq",
+  "_fbq",
+  "clarity"
+ ],
+ "text": "Your Spot is Reserved!\nSuccessful!\nCongratulations, Your Spot Is Reserved!\nThe Training Kicks Off On Saturday, October 31st @ 12:00 PM EST\nSTEP 01\nAdd It to Your Calendar\n\nBlock 12:00pm–1:00pm EST on Saturday 31st October. Do it now before something else fills that slot. This is live and unrecorded, if you miss it, the session and the bonus are gone.\n\nAdd to Calendar →\nSTEP 02\nJoin Our WhatsApp Group\n\nGet reminders, updates, and connect with other AI agency builders ahead of the session. Questions before the 31st of October? Drop them in the group and Nick's team will answer.\n\nJoin Our WhatsApp Group →\nSTEP 03\nCome With Your Situation Ready\n\nThink about where you are right now. Do you have a niche? Have you tried landing clients? Where did it stall? The more specific you are about your situation, the more useful this session will be.\n\nThis is a working session. Come ready to make a decision, not just watch.\n\nSTEP 04\nShare With Someone Who Needs This\n\nKnow someone who's been trying to figure out the AI agency space? Send them the registration link. The more serious people in the room, the sharper the session.\n\nShare the Webinar →\n\nI’ve just Emailed your unique Access link. If you don’t see it in 5 minutes, check Promotions/Spam and drag it into your main inbox.\n\nThe income figures and results mentioned on this page including $10K/month, $5K retainers, and $100K+ in client revenue are real results from specific individuals and are not typical. Your results will vary based on your effort, experience, consistency, and a number of factors outside our control. Many people who attend trainings and join communities see little to no results. We make no guarantee that you will earn any specific income or build a successful business by attending this webinar or applying what you learn.\n\nThis is a free educational training not a business opportunity, franchise offer, or investment vehicle. Nothing shared during this event constitutes legal, financial, or tax advice. Also, this site is not a part of the Facebook website or Facebook Inc. Additionally, This site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.\n\n© 2026 The AI Accelerators All Rights Reserved\n\nPrivacy Policy | Terms of Service",
+ "hosts": {
+  "theaiaccelerators.com": 2,
+  "fonts.googleapis.com": 2,
+  "stcdn.leadconnectorhq.com": 25,
+  "static.cloudflareinsights.com": 1,
+  "fonts.gstatic.com": 6,
+  "connect.facebook.net": 2,
+  "www.clarity.ms": 1,
+  "backend.leadconnectorhq.com": 1,
+  "scripts.clarity.ms": 1,
+  "c.clarity.ms": 2,
+  "c.bing.com": 1,
+  "i.clarity.ms": 3,
+  "storage.googleapis.com": 1
+ },
+ "requests": [
+  "GET https://theaiaccelerators.com/registration-complete",
+  "GET https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CInter:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&di",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BuCXqppA.js",
+  "GET https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap",
+  "GET https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+  "GET https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
+  "GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2",
+  "GET https://stcdn.leadconnectorhq.com/_preview/sJ9i-sUo.js",
+  "POST https://theaiaccelerators.com/cdn-cgi/rum?",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CVhjUuMA.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BJgkKx-e.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/qQx4ctgp.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DeCe7ayY.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DlVAqYnp.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CrqjFaLb.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BJmiYrnc.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/Co8kV-VW.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C60J5m6h.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/D2GKgMhx.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/Cmx2XiJz.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CSsPqFKM.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/bDbikwI2.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DRNKrJGC.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C17z7VQ0.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/B-iXHOlY.js",
+  "GET https://connect.facebook.net/en_US/fbevents.js",
+  "GET https://www.clarity.ms/tag/yi1bzj0hst",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DAnMKlY_.js",
+  "POST https://backend.leadconnectorhq.com/funnels/event/conversion",
+  "GET https://connect.facebook.net/signals/config/634223582573401?v=2.9.439&r=stable&domain=theaiaccelerators.com&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2",
+  "GET https://stcdn.leadconnectorhq.com/_preview/TestimonialModal.DVJfVErF.css",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DPtsrz9L.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/VnSW5tvU.js",
+  "GET https://scripts.clarity.ms/0.8.80-beta/clarity.js",
+  "GET https://c.clarity.ms/c.gif",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DArhIr5q.js",
+  "GET https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=2C5E11BD24CA4CBA9071A3725C16E394&RedC=c.clarity.ms&MXFR=2FFC17E8358E621D37120FFA318E6CB3",
+  "POST https://i.clarity.ms/collect",
+  "GET https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=2C5E11BD24CA4CBA9071A3725C16E394&MUID=1F15A631C72C6E2939CFBE23C6A76F65",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C5Mm3dg4.js",
+  "GET https://storage.googleapis.com/builder-preview/iframe/pixel.js",
+  "POST https://i.clarity.ms/collect",
+  "GET https://stcdn.leadconnectorhq.com/_preview/builds/meta/5bb6e8d6-bb05-4f9e-9616-62eac5b1fbff.json",
+  "POST https://i.clarity.ms/collect"
+ ],
+ "mobileHosts": 15
+}

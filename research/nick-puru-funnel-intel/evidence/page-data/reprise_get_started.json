@@ -1,0 +1,155 @@
+{
+ "input": "https://www.reprisesai.com/get-started",
+ "finalUrl": "https://www.reprisesai.com/how-it-works#assessment",
+ "title": "How Reprise AI Works | AI Implementation",
+ "redirects": [
+  "307 https://www.reprisesai.com/get-started -> /how-it-works#assessment"
+ ],
+ "meta": [
+  [
+   "viewport",
+   "width=device-width, initial-scale=1"
+  ],
+  [
+   "description",
+   "See how Reprise AI identifies practical opportunities, defines success, builds systems and trains your team. Book a free AI audit call with our team to discuss the best starting point for your business."
+  ],
+  [
+   "generator",
+   "v0.app"
+  ],
+  [
+   "next-size-adjust",
+   ""
+  ]
+ ],
+ "generator": "v0.app",
+ "links": [
+  "reprise ai. | https://www.reprisesai.com/",
+  "Back to overview | https://www.reprisesai.com/",
+  "Client result: 18-second average lead response ↗ | https://www.reprisesai.com/case-studies",
+  "Book My Free AI Audit Call | https://www.reprisesai.com/how-it-works#assessment",
+  "AI Transformation | https://www.reprisesai.com/transformation",
+  "AI Engineering | https://www.reprisesai.com/engineering",
+  "AI Education | https://www.reprisesai.com/education",
+  "About Reprise | https://www.reprisesai.com/about",
+  "Case Studies | https://www.reprisesai.com/case-studies",
+  "Contact | https://www.reprisesai.com/contact",
+  "Learning Library | https://www.reprisesai.com/learn",
+  "Newsletter | https://www.reprisesai.com/newsletter",
+  "YouTube Tutorials | https://www.youtube.com/@NicholasPuru/videos",
+  "Frequently Asked Questions | https://www.reprisesai.com/faq",
+  "Privacy Policy | https://www.reprisesai.com/privacy",
+  "Terms of Service | https://www.reprisesai.com/terms"
+ ],
+ "buttons": [
+  "▶\nWatch the video · 4:16"
+ ],
+ "forms": [
+  {
+   "action": "https://www.reprisesai.com/how-it-works#assessment",
+   "method": "get",
+   "fields": [
+    {
+     "type": "radio",
+     "name": "revenue",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "radio",
+     "name": "revenue",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "radio",
+     "name": "revenue",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "radio",
+     "name": "revenue",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "radio",
+     "name": "revenue",
+     "ph": "",
+     "req": false
+    },
+    {
+     "type": "radio",
+     "name": "revenue",
+     "ph": "",
+     "req": false
+    }
+   ]
+  }
+ ],
+ "iframes": [],
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/destination?id=G-VK830JKBQJ&cx=c&gtm=4e6bc0h2",
+  "https://connect.facebook.net/signals/config/1264557215337731?v=2.9.439&r=stable&domain=www.reprisesai.com&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-MMQJKPSP",
+  "https://www.reprisesai.com/_next/static/chunks/fd9d1056-8f3b8583355f4c96.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "https://www.reprisesai.com/_next/static/chunks/2117-aa4c4d0152d8e8fc.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "https://www.reprisesai.com/_next/static/chunks/main-app-dd9357982cbe95c2.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "https://www.reprisesai.com/_next/static/chunks/2972-a0c4c8bfefc91c93.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "https://www.reprisesai.com/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "https://www.reprisesai.com/_vercel/insights/script.js",
+  "https://www.reprisesai.com/_next/static/chunks/webpack-9352ac76abb22292.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "https://tally.so/widgets/embed.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-VK830JKBQJ"
+ ],
+ "globals": [
+  "gtag",
+  "dataLayer",
+  "fbq",
+  "_fbq"
+ ],
+ "text": "reprise\nai.\nYour next step\nBack to overview\nClient result: 18-second average lead response ↗\nFOR SERVICE BUSINESSES DOING $25K+/MONTH\nLess manual work. More time to grow.\n\nWe identify AI opportunities, build systems around your existing tools and train your team to use them.\n\n▶\nWatch the video · 4:16\nBook My Free AI Audit Call\n\nFind your best starting point. No obligation to proceed.\n\nTHE OFFER, IN PLAIN ENGLISH\nWe identify, build and install\nAI systems for your business.\n\nThat can mean helping your team find information, building a custom tool, automating a workflow or making existing software work together. We start with the opportunities that matter to your operation.\n\nWhat an engagement includes\nWorkflow mapping and agreed success measures\nImplementation, integration and testing\nHuman review and exception handling where needed\nTeam training and an agreed support plan\n\nWe agree on scope, price and timeline before work begins.\n\nFREE AI AUDIT CALL\nBook your free\nAI audit call.\n\nAnswer a few quick questions about your business, then choose a time for a free AI audit call with our team.\n\n01\nTalk us through your business and the work you want to improve.\n02\nExplore where AI could free up your team.\n03\nDiscuss whether working together makes sense.\n\nBest suited to established service businesses doing $25K+/month, with a team and repeatable work to improve.\n\nYOUR FREE AI AUDIT CALL\nQuestion 1 of 8\nWhat is your average monthly revenue?\n\nSelect one answer to continue automatically.\n\nUnder $25K\n$25K–$50K\n$50K–$100K\n$100K–$250K\n$250K–$500K\n$500K+\nA CONVERSATION, NOT A COMMITMENT\nWe’ll tell you whether it makes sense.\n\nIf the process is too early, the integration is impractical or there’s a better way to solve the problem, we’ll explain that before proposing an engagement.\n\nreprise\nai.\n\nAI consulting, engineering and education.\nBuilt around how your business operates.\n\nServices\nAI Transformation\nAI Engineering\nAI Education\nCompany\nAbout Reprise\nCase Studies\nContact\nResources\nLearning Library\nNewsletter\nYouTube Tutorials\nFrequently Asked Questions\n© 2026 Reprise AI\nPrivacy Policy\nTerms of Service",
+ "hosts": {
+  "www.reprisesai.com": 22,
+  "tally.so": 1,
+  "www.googletagmanager.com": 3,
+  "connect.facebook.net": 2,
+  "www.google-analytics.com": 2
+ },
+ "requests": [
+  "GET https://www.reprisesai.com/get-started",
+  "GET https://www.reprisesai.com/how-it-works",
+  "GET https://www.reprisesai.com/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+  "GET https://www.reprisesai.com/reprise-home/go-ai-native-vsl-v7-poster.jpg",
+  "GET https://www.reprisesai.com/_next/static/css/5f0fd4fb9ac764ad.css?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/css/da6e9b4a73108890.css?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/css/f064a60df9a5089d.css?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/webpack-9352ac76abb22292.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/fd9d1056-8f3b8583355f4c96.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/2117-aa4c4d0152d8e8fc.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/main-app-dd9357982cbe95c2.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/2972-a0c4c8bfefc91c93.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/9120-64303e85a972137b.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/527-e860a2a1ea773fb1.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/4866-83e41d3f814e1937.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/app/how-it-works/page-597dcfa3db983593.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/8003-61124696cca922d6.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/3145-b6d71f0e95638de7.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://www.reprisesai.com/_next/static/chunks/app/layout-42c945d777a08ec0.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "GET https://tally.so/widgets/embed.js",
+  "GET https://www.googletagmanager.com/gtm.js?id=GTM-MMQJKPSP",
+  "GET https://connect.facebook.net/en_US/fbevents.js",
+  "GET https://www.reprisesai.com/_vercel/insights/script.js",
+  "GET https://www.googletagmanager.com/gtag/destination?id=G-VK830JKBQJ&cx=c&gtm=4e6bc0h2",
+  "GET https://www.reprisesai.com/?_rsc=hfrod",
+  "GET https://connect.facebook.net/signals/config/1264557215337731?v=2.9.439&r=stable&domain=www.reprisesai.com&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C7",
+  "GET https://www.reprisesai.com/_next/static/chunks/app/page-d67a187499a13f8c.js?dpl=dpl_5rRSj1vKWCPPPwDg1C9bbC1ovBhj",
+  "POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bc0h2v9251366175za200zb9225360811zd9225360811xf1&_p=1794708206570&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=235099148.1794708209&frm=0&ngs=1&pscdl=noapi&rcb",
+  "GET https://www.googletagmanager.com/gtag/js?id=G-VK830JKBQJ",
+  "POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bc0h2v9251366175za208zb9225360811zd9225360811xf1&_p=1794708206570&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=235099148.1794708209&frm=0&ngs=1&psc"
+ ],
+ "mobileHosts": 7
+}

@@ -1,0 +1,87 @@
+{
+ "url": "https://www.reprisesai.com/how-it-works#assessment",
+ "log": [
+  {
+   "step": 0,
+   "q": "FREE AI AUDIT CALL\nBook your free\nAI audit call.\n\nAnswer a few quick questions about your business, then choose a time for a free AI audit call with our team.\n\n01\nTalk us through your business and the work you want to improve.\n02\nExplore where AI could free up your team.\n03\nDiscuss whether working together makes sense.\n\nBest suited to established service businesses doing $25K+/month, with a team and repeatable work to improve.\n\nYOUR FREE AI AUDIT CALL\nQuestion 1 of 8\nWhat is your average monthly revenue?\n\nSelect one answer to continue automatically.\n\nUnder $25K\n$25K–$50K\n$50K–$100K\n$100K–$250K",
+   "opts": [
+    "Under $25K",
+    "$25K–$50K",
+    "$50K–$100K",
+    "$100K–$250K",
+    "$250K–$500K",
+    "$500K+"
+   ],
+   "inputs": []
+  },
+  {
+   "step": 1,
+   "q": "FREE AI AUDIT CALL\nBook your free\nAI audit call.\n\nAnswer a few quick questions about your business, then choose a time for a free AI audit call with our team.\n\n01\nTalk us through your business and the work you want to improve.\n02\nExplore where AI could free up your team.\n03\nDiscuss whether working together makes sense.\n\nBest suited to established service businesses doing $25K+/month, with a team and repeatable work to improve.\n\nYOUR FREE AI AUDIT CALL\nQuestion 2 of 8\nHow many people are on your team?\n\nSelect one answer to continue automatically.\n\nJust me\n2–5\n6–20\n21–50\n51+\n← Back",
+   "opts": [
+    "Just me",
+    "2–5",
+    "6–20",
+    "21–50",
+    "51+",
+    "← Back"
+   ],
+   "inputs": []
+  },
+  {
+   "step": 2,
+   "q": "FREE AI AUDIT CALL\nBook your free\nAI audit call.\n\nAnswer a few quick questions about your business, then choose a time for a free AI audit call with our team.\n\n01\nTalk us through your business and the work you want to improve.\n02\nExplore where AI could free up your team.\n03\nDiscuss whether working together makes sense.\n\nBest suited to established service businesses doing $25K+/month, with a team and repeatable work to improve.\n\nYOUR FREE AI AUDIT CALL\nQuestion 3 of 8\nWhat is your role in the business?\n\nSelect one answer to continue automatically.\n\nOwner / founder\nExecutive / decision-maker\nTea",
+   "opts": [
+    "Owner / founder",
+    "Executive / decision-maker",
+    "Team / department lead",
+    "Other",
+    "← Back"
+   ],
+   "inputs": []
+  },
+  {
+   "step": 3,
+   "q": "FREE AI AUDIT CALL\nBook your free\nAI audit call.\n\nAnswer a few quick questions about your business, then choose a time for a free AI audit call with our team.\n\n01\nTalk us through your business and the work you want to improve.\n02\nExplore where AI could free up your team.\n03\nDiscuss whether working together makes sense.\n\nBest suited to established service businesses doing $25K+/month, with a team and repeatable work to improve.\n\nYOUR FREE AI AUDIT CALL\nQuestion 4 of 8\nWhat would you like to improve?\n\nSelect all that apply, then continue.\n\nResponding to leads and following up\nClient onboarding\nC",
+   "opts": [
+    "Responding to leads and following up",
+    "Client onboarding",
+    "Customer support and service",
+    "Reporting and administrative work",
+    "Finding information and working with documents",
+    "Invoicing and finance",
+    "Hiring and recruiting",
+    "Other",
+    "← Back",
+    "Continue"
+   ],
+   "inputs": []
+  },
+  {
+   "step": 4,
+   "q": "FREE AI AUDIT CALL\nBook your free\nAI audit call.\n\nAnswer a few quick questions about your business, then choose a time for a free AI audit call with our team.\n\n01\nTalk us through your business and the work you want to improve.\n02\nExplore where AI could free up your team.\n03\nDiscuss whether working together makes sense.\n\nBest suited to established service businesses doing $25K+/month, with a team and repeatable work to improve.\n\nYOUR FREE AI AUDIT CALL\nQuestion 5 of 8\nWhat is your business name or website?\n\nEnter your answer, then continue.\n\nBusiness name or website\n← Back\nContinue",
+   "opts": [
+    "Business name or website",
+    "← Back",
+    "Continue"
+   ],
+   "inputs": [
+    {
+     "type": "text",
+     "name": "business",
+     "ph": "Your company or website"
+    }
+   ]
+  },
+  {
+   "note": "contact/free-text inputs reached; stopping before entering data"
+  }
+ ],
+ "blocked": [
+  "POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708282201&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1411409083.1794708283&frm=0&ng ",
+  "POST https://www.google.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708282201&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1411409083.1794708283&frm=0&ngs=1&pscdl= ",
+  "POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za208zb9225360811zd9225360811xf1&_p=1794708282201&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1411409083.1794708 ",
+  "POST https://www.google.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za208zb9225360811zd9225360811xf1&_p=1794708282201&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1411409083.1794708283&frm=0& ",
+  "POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708282201&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1411409083.1794708 en=reprise_home_assessment_start&_ee=1&ep.release=lead-handling-2026-10-23&_et=4424\r\nen=reprise_home_assessment_step&_ee=1&ep.release=lead-handling-2026-10-23&epn.step=2&_et=8\r\nen=reprise_home_assessment_step&_ee=1&ep.release=lead-handling-2026-10-23&epn.step=3&_et=1031\r\nen=reprise_home_assessment_s",
+  "POST https://www.google.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708282201&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1411409083.1794708283&frm=0& en=reprise_home_assessment_start&_ee=1&ep.release=lead-handling-2026-10-23&_et=4424\r\nen=reprise_home_assessment_step&_ee=1&ep.release=lead-handling-2026-10-23&epn.step=2&_et=8\r\nen=reprise_home_assessment_step&_ee=1&ep.release=lead-handling-2026-10-23&epn.step=3&_et=1031\r\nen=reprise_home_assessment_s"
+ ]
+}

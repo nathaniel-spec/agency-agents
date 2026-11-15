@@ -1,0 +1,76 @@
+{
+ "url": "https://join.reprisesai.com/workshop",
+ "log": [
+  {
+   "s": 0,
+   "t": "×\nRegister for Free\n\nSave your seat for the live workshop. Wednesday, October 7 at 7 PM ET.\n\nStep 1 of 3\n\nEmail\nContinue",
+   "inputs": [
+    {
+     "type": "email",
+     "name": "email",
+     "ph": "",
+     "id": ""
+    }
+   ],
+   "opts": [
+    "×",
+    "Email",
+    "Continue"
+   ]
+  },
+  {
+   "s": 1,
+   "t": "×\nRegister for Free\n\nSave your seat for the live workshop. Wednesday, October 7 at 7 PM ET.\n\nStep 2 of 3\n\nFirst name\nBack\nContinue",
+   "inputs": [
+    {
+     "type": "text",
+     "name": "first_name",
+     "ph": "",
+     "id": ""
+    }
+   ],
+   "opts": [
+    "×",
+    "First name",
+    "Back",
+    "Continue"
+   ]
+  },
+  {
+   "s": 2,
+   "t": "×\nRegister for Free\n\nSave your seat for the live workshop. Wednesday, October 7 at 7 PM ET.\n\nStep 3 of 3\n\nMobile number\n\nFree registration. No card required. By registering, you agree to receive webinar text reminders at this number. Reply STOP to opt out.\n\nBack\nRegister for Free",
+   "inputs": [
+    {
+     "type": "tel",
+     "name": "phone",
+     "ph": "Your mobile number",
+     "id": ""
+    }
+   ],
+   "opts": [
+    "×",
+    "Mobile number",
+    "Back",
+    "Register for Free"
+   ]
+  },
+  {
+   "s": 3,
+   "note": "no change; stop"
+  }
+ ],
+ "blocked": [
+  "POST https://join.reprisesai.com/cdn-cgi/rum? {\"startTime\":1794708366781,\"pageloadId\":\"bce6e81d-ab2f-4647-8e73-3a24bb2c4219\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://join.reprisesai.com/workshop\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.1",
+  "POST https://distillery.wistia.com/x eyJhY2NvdW50X2tleSI6Indpc3RpYS1wcm9kdWN0aW9uXzIwNjM4NjkiLCJldmVudF9kZXRhaWxzIjpbeyJrZXkiOiJpbml0aWFsaXplZCIsInZhbHVlIjoiMC4wIiwidGltZURlbHRhIjowLCJ1bmlxdWVQbGF5ZWRUaW1lIjowLCJ1bmlxdWVQbGF5ZWRSYXRpbyI6",
+  "POST https://pipedream.wistia.com/mput?topic=metrics {\"type\":\"sample\",\"key\":\"player/initembed-latency\",\"value\":162}\n{\"type\":\"sample\",\"key\":\"player/initembed-latency.legacy\",\"value\":162}\n{\"type\":\"count\",\"key\":\"player/option-sources\",\"value\":1,\"optionSour",
+  "POST https://pipedream.wistia.com/mput?topic=metrics {\"type\":\"count\",\"key\":\"player/distillery-error-response/undefined\",\"value\":1,\"request_id\":0,\"location\":\"https://fast.wistia.net\",\"agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, lik",
+  "POST https://distillery.wistia.com/x eyJhY2NvdW50X2tleSI6Indpc3RpYS1wcm9kdWN0aW9uXzIwNjM4NjkiLCJldmVudF9kZXRhaWxzIjpbeyJrZXkiOiJwbGF5IiwidmFsdWUiOiIwLjIiLCJ0aW1lRGVsdGEiOjExNTksInVuaXF1ZVBsYXllZFRpbWUiOjAsInVuaXF1ZVBsYXllZFJhdGlvIjowLCJs",
+  "POST https://pipedream.wistia.com/mput?topic=metrics {\"type\":\"count\",\"key\":\"player/hlsjs/error/bufferSeekOverHole\",\"value\":1,\"request_id\":1,\"hlsVideo\":{\"simpleVideo\":{\"player_version\":\"main\",\"state\":{\"onReadyPromise\":{},\"waiting\":0.3,\"startedWaitingAt\":",
+  "[LOCK] GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-23-v1-a1.ts ",
+  "[LOCK] POST https://pipedream.wistia.com/mput?topic=metrics {\"type\":\"count\",\"key\":\"player/hlsjs/error/fragLoadError\",\"value\":1,\"request_id\":2,\"hlsVideo\":{\"simpleVideo\":{\"player_version\":\"main\",\"state\":{\"onReadyPromise\":{},\"waiting\":-1,\"lastPlaybackMode\":\"playi",
+  "[LOCK] GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-23-v1-a1.ts ",
+  "[LOCK] POST https://pipedream.wistia.com/mput?topic=metrics {\"type\":\"count\",\"key\":\"player/hlsjs/error/fragLoadError\",\"value\":1,\"request_id\":3,\"hlsVideo\":{\"simpleVideo\":{\"player_version\":\"main\",\"state\":{\"onReadyPromise\":{},\"waiting\":-1,\"lastPlaybackMode\":\"playi",
+  "[LOCK] GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-23-v1-a1.ts ",
+  "[LOCK] POST https://pipedream.wistia.com/mput?topic=metrics {\"type\":\"count\",\"key\":\"player/played-10-seconds\",\"value\":1,\"request_id\":4,\"location\":\"https://fast.wistia.net\",\"agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessC"
+ ]
+}

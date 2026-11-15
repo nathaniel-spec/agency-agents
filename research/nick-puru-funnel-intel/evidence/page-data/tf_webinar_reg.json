@@ -1,0 +1,121 @@
+{
+ "input": "https://form.typeform.com/to/IfVonuWE",
+ "finalUrl": "https://form.typeform.com/to/IfVonuWE",
+ "title": "AI Accelerator (Webinar) | *Enter Your Information Below:*",
+ "redirects": [],
+ "meta": [
+  [
+   "theme-color",
+   "#FAFAFA"
+  ],
+  [
+   "viewport",
+   "width=device-width, initial-scale=1.0, viewport-fit=cover"
+  ],
+  [
+   "description",
+   "Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE."
+  ],
+  [
+   "x-ua-compatible",
+   "ie=edge"
+  ],
+  [
+   "apple-mobile-web-app-capable",
+   "yes"
+  ],
+  [
+   "robots",
+   "noindex,nofollow"
+  ],
+  [
+   "referrer",
+   "no-referrer-when-downgrade"
+  ],
+  [
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "msapplication-TileColor",
+   "#000000"
+  ],
+  [
+   "msapplication-config",
+   "https://public-assets.typeform.com/public/favicon/browserconfig.xml"
+  ],
+  [
+   "og:type",
+   "website"
+  ],
+  [
+   "og:url",
+   "https://form.typeform.com/to/IfVonuWE"
+  ],
+  [
+   "og:title",
+   "AI Accelerator (Webinar)"
+  ],
+  [
+   "og:description",
+   "Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE."
+  ],
+  [
+   "og:image",
+   "https://public-assets.typeform.com/public/admin/2VWurKeiR4R7.png/image/default"
+  ]
+ ],
+ "links": [
+  " | https://www.typeform.com/explore/?utm_campaign=IfVonuWE&utm_source=typeform.com-01KP9AC879BC2DVXYWJH8EKNFN-plus&utm_medium=typeform&utm_content=typeform-footer&utm_term=EN"
+ ],
+ "buttons": [
+  "OK",
+  "A\nFinding Clients",
+  "B\nWhat services to sell",
+  "C\nHow to close the deal with the client",
+  "D\nOther",
+  "OK"
+ ],
+ "forms": [],
+ "iframes": [],
+ "scripts": [
+  "https://renderer-assets.typeform.com/modern-renderer.e495da55863af78d.js"
+ ],
+ "globals": [
+  "dataLayer"
+ ],
+ "text": "1\nEnter Your Information Below:*\nFirst name*\nLast name*\nPhone number*\nEmail*\nOK\n2\nWhat is your biggest struggle right now?*\n*What is your biggest struggle right now?*\nA\nFinding Clients\nB\nWhat services to sell\nC\nHow to close the deal with the client\nD\nOther\nOK",
+ "hosts": {
+  "form.typeform.com": 2,
+  "renderer-assets.typeform.com": 19,
+  "font.typeform.com": 4
+ },
+ "requests": [
+  "GET https://form.typeform.com/to/IfVonuWE",
+  "GET https://renderer-assets.typeform.com/modern-renderer.e495da55863af78d.js",
+  "GET https://renderer-assets.typeform.com/vendors~form~blocks-validation-phone_number.1af838f44908fe5a.renderer.js",
+  "GET https://renderer-assets.typeform.com/vendors~uploads~form.da0f7cfd73763a3e.renderer.js",
+  "GET https://renderer-assets.typeform.com/vendors~form.b67f6f4c3873bca5.renderer.js",
+  "GET https://renderer-assets.typeform.com/form.bc99a30d22646e67.renderer.js",
+  "GET https://font.typeform.com/dist/google/inter/index.css",
+  "GET https://renderer-assets.typeform.com/vendors~b-r-contact_info~b-r-ranking~b-r-multi_format~blocks-renderer-google_calendar~b-r-calendly~blocks-renderer-dropdown~b-r-phone_number~blocks-renderer-paypal~b-r-payment.185c18f",
+  "GET https://renderer-assets.typeform.com/vendors~b-r-contact_info~b-r-multi_format~blocks-renderer-google_calendar~b-r-calendly~blocks-renderer-dropdown~b-r-phone_number~blocks-renderer-paypal~b-r-payment.5cee0dffab6ebb0d.re",
+  "GET https://renderer-assets.typeform.com/vendors~b-r-contact_info~b-r-ranking~b-r-multi_format~blocks-renderer-dropdown~b-r-phone_number~blocks-renderer-paypal~b-r-payment.713be893d5123b92.renderer.js",
+  "GET https://renderer-assets.typeform.com/vendors~b-r-contact_info~blocks-renderer-dropdown~b-r-phone_number~blocks-renderer-paypal~b-r-payment.060f92e3d071dd3a.renderer.js",
+  "GET https://renderer-assets.typeform.com/vendors~b-r-phone_number~b-r-contact_info.628f07a1a5641f65.renderer.js",
+  "GET https://renderer-assets.typeform.com/vendors~b-r-contact_info~b-r-payment.85b1d3c688441b7e.renderer.js",
+  "GET https://renderer-assets.typeform.com/default~b-r-contact_info~blocks-renderer-dropdown~b-r-phone_number~blocks-renderer-paypal~b-r-payment.94980db77dd7f0b7.renderer.js",
+  "GET https://renderer-assets.typeform.com/b-r-contact_info.efecc97d513a0316.renderer.js",
+  "GET https://renderer-assets.typeform.com/vendors~blocks-renderer-opinion_scale~blocks-renderer-rating~b-r-multi_format~b-r-nps~pc~b-r-multiple_choice~b-r-legal~mc~b-r-matrix~b-r-yes_no.b7a33466a56185cc.renderer.js",
+  "GET https://renderer-assets.typeform.com/vendors~b-r-yes_no~b-r-legal~mc~b-r-matrix~b-r-multiple_choice~pc.b534cc4ccc89a60e.renderer.js",
+  "GET https://renderer-assets.typeform.com/vendors~pc~b-r-legal~mc~b-r-multiple_choice~b-r-yes_no.d49790ab90d61aed.renderer.js",
+  "GET https://renderer-assets.typeform.com/vendors~b-r-legal~b-r-multiple_choice~b-r-yes_no.9cae542f7d2358f4.renderer.js",
+  "GET https://renderer-assets.typeform.com/default~pc~b-r-legal~mc~b-r-multiple_choice~b-r-yes_no.9ae9c8d4040d6c8e.renderer.js",
+  "GET https://renderer-assets.typeform.com/b-r-multiple_choice.05bedd684ffe9cc2.renderer.js",
+  "GET https://font.typeform.com/dist/google/inter/files/inter-latin-700-normal.woff2",
+  "GET https://font.typeform.com/dist/google/inter/files/inter-latin-400-normal.woff2",
+  "GET https://font.typeform.com/dist/google/inter/files/inter-latin-600-normal.woff2",
+  "POST https://form.typeform.com/forms/IfVonuWE/insights/performance/view-form-open"
+ ],
+ "mobileHosts": 5
+}

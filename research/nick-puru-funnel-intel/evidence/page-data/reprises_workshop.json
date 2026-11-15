@@ -1,0 +1,234 @@
+{
+ "input": "https://join.reprisesai.com/workshop",
+ "finalUrl": "https://join.reprisesai.com/workshop",
+ "title": "Become AI Native - Live Workshop, Wed Oct 7",
+ "redirects": [],
+ "meta": [
+  [
+   "viewport",
+   "width=device-width, initial-scale=1"
+  ],
+  [
+   "title",
+   "Become AI Native - Live Workshop, Wed Oct 7"
+  ],
+  [
+   "og:title",
+   "Become AI Native - Live Workshop, Wed Oct 7"
+  ],
+  [
+   "description",
+   "Live workshop for service business owners doing $50K+/month: watch us hand intake, follow-up and reporting to AI, built live on screen. Wed Oct 7, 7PM ET."
+  ],
+  [
+   "og:description",
+   "Live workshop for service business owners doing $50K+/month: watch us hand intake, follow-up and reporting to AI, built live on screen. Wed Oct 7, 7PM ET."
+  ],
+  [
+   "author",
+   "Become AI Native"
+  ],
+  [
+   "og:author",
+   "Become AI Native"
+  ],
+  [
+   "image",
+   "https://storage.googleapis.com/funnel-ai-production/image-generation/Py7kY54E8cGXzRw02j4W/c7d1b9b0-abbc-4b5e-a161-8d8afe5ef0f6.png"
+  ],
+  [
+   "og:image",
+   "https://storage.googleapis.com/funnel-ai-production/image-generation/Py7kY54E8cGXzRw02j4W/c7d1b9b0-abbc-4b5e-a161-8d8afe5ef0f6.png"
+  ],
+  [
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "twitter:image",
+   "https://storage.googleapis.com/funnel-ai-production/image-generation/Py7kY54E8cGXzRw02j4W/c7d1b9b0-abbc-4b5e-a161-8d8afe5ef0f6.png"
+  ],
+  [
+   "keywords",
+   "Become AI Native, live workshop, AI automation workshop, service business owners"
+  ],
+  [
+   "og:keywords",
+   "Become AI Native, live workshop, AI automation workshop, service business owners"
+  ],
+  [
+   "og:type",
+   "website"
+  ],
+  [
+   "twitter:type",
+   "website"
+  ],
+  [
+   "og:type",
+   "website"
+  ],
+  [
+   "og:title",
+   "Become AI Native - Live Workshop, Wed Oct 7"
+  ],
+  [
+   "og:description",
+   "Live workshop for service business owners doing $50K+/month: watch us hand intake, follow-up and reporting to AI, built live on screen. Wed Oct 7, 7PM ET."
+  ],
+  [
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "robots",
+   "index, follow"
+  ]
+ ],
+ "links": [],
+ "buttons": [
+  "Register for Free",
+  "Register for Free",
+  "Register for Free",
+  "×",
+  "Back",
+  "Continue"
+ ],
+ "forms": [
+  {
+   "action": "https://join.reprisesai.com/workshop",
+   "method": "get",
+   "fields": [
+    {
+     "type": "email",
+     "name": "email",
+     "ph": "",
+     "req": true
+    },
+    {
+     "type": "text",
+     "name": "first_name",
+     "ph": "",
+     "req": true
+    },
+    {
+     "type": "tel",
+     "name": "phone",
+     "ph": "Your mobile number",
+     "req": true
+    }
+   ]
+  }
+ ],
+ "iframes": [
+  "https://fast.wistia.net/embed/iframe/6zjeb0ir37"
+ ],
+ "scripts": [
+  "https://connect.facebook.net/signals/config/2115906985918097?v=2.9.439&r=stable&domain=join.reprisesai.com&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C78%2C77%2C11%2C182%2C102%2C20%2C154%2C142%2C46%2C85%2C90%2C184%2C111%2C150%2C177%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C116%2C162%2C72%2C186%2C110%2C185%2C212%2C264%2C37%2C84%2C284%2C283%2C282%2C14%2C25%2C28%2C40%2C62%2C118%2C68%2C10%2C73%2C112%2C113%2C114%2C120%2C145%2C38%2C36%2C147%2C148%2C149%2C144%2C143%2C173%2C86%2C176%2C174%2C175%2C57%2C69%2C67%2C138%2C19%2C180%2C52%2C334%2C335%2C336%2C333%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C55%2C164%2C87%2C127%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C125%2C161%2C165%2C53%2C126%2C29%2C26%2C134%2C79%2C43%2C167%2C166%2C168%2C158%2C156%2C30%2C42%2C66%2C124%2C179%2C80%2C21%2C129%2C93%2C76%2C23%2C97%2C98%2C131%2C96%2C152%2C151%2C155%2C109%2C178%2C181%2C41%2C350%2C372%2C257%2C239%2C70%2C240%2C238%2C375%2C366%2C59%2C258%2C122%2C146%2C92%2C136%2C61%2C54%2C56%2C128%2C135%2C141%2C140%2C65%2C74%2C169%2C88%2C89%2C130%2C44%2C39%2C60%2C63%2C115%2C183%2C1%2C139%2C16%2C137%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C133%2C101%2C100%2C188%2C189%2C106%2C107%2C9%2C117%2C187%2C58%2C159%2C99%2C91%2C81%2C132%2C121%2C170%2C50%2C160%2C0%2C94%2C153%2C157%2C171%2C45%2C123%2C13%2C190",
+  "https://connect.facebook.net/en_US/fbevents.js",
+  "https://stcdn.leadconnectorhq.com/_preview/BuCXqppA.js",
+  "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+ ],
+ "globals": [
+  "fbq",
+  "_fbq"
+ ],
+ "text": "Become AI Native - Live Workshop, Wed Oct 7\nFOR SERVICE-BUSINESS OWNERS · $50K+/MO\nUse AI to Handle More Client Work With the Team You Already Have\n\nIn 90 minutes, find the repeat work slowing your team down, build and test one AI workflow, and leave with a seven-day rollout plan.\n\nLIVE WED OCT 7 · 7 PM ET · REPLAY INCLUDED\nRegister for Free\nFree live workshop · Wednesday, October 7 at 7 PM ET\n\n90 minutes live · 72-hour replay included · free registration\n\n“\n\nWe no longer have those panicking moments every month.\n\nOperations lead at a client clinic, on what changed after installing an AI front desk\nWED OCT 7 · 7 PM ET\n90 MINUTES, LIVE\nFOR $50K+/MO OWNERS\nNO CODING\nTHE PROBLEM\nYour best people are doing $15/hr work\n\nFollowing up with inquiries. Pulling the weekly report together. Chasing documents. Turning meetings into action items. Answering the same customer questions. None of it is hard. It's constant, and it lands on the people you need doing the $500/hr work that drives revenue.\n\nMost teams try AI like a search bar: ask a question, copy the answer, change nothing. On Oct 7 you'll give AI the context to do one of those jobs properly, and check that it did.\n\nWHAT YOU'LL BUILD\n5 things you leave with\n\nHands-on, in your own Claude account (the free plan works). Fictional sample data is provided, so you never connect a business system.\n\n01\nYour Priority Brief\n\nA 10-minute AI interview finds the three recurring tasks eating your team's week, estimates the hours, and picks the one to fix first.\n\n02\nYour Company Brain\n\nYour offer, voice, rules and how this one process works, saved so AI stops starting from zero every chat.\n\n03\nOne Tested Workflow\n\nPick a starter kit: sales follow-up, weekly reporting, document tracking, meeting follow-through or customer support. Run it, test the edge cases, and check it against an answer key.\n\n04\nYour Seven-Day Plan\n\nRun it on your real business this week and measure whether it actually saves time.\n\n05\nLive Q&A and Hands-On Help\n\nFinish anything you started and get answers for your business.\n\nFIT\nWho this is for\nThis is for you if\nYou run a service business doing $50K+ a month with a team of 3–50\nYour best people spend hours a week on follow-up, reporting and admin\nYou've tried ChatGPT or a tool or two and nothing changed how the business runs\nNot for you if\nYou want a prompt-writing course\nYou want to start an AI agency\nYou want to watch, not build\nYOUR SEAT\nYOUR FREE SEAT\nFree\nNo payment or card required.\n90-minute live, hands-on workshop (Wed Oct 7, 7 PM ET)\nThe 22-file attendee packet: audit and brain prompts, project instructions, worksheet, results log and seven-day plan\n5 ready-to-use workflow kits: sales follow-up, weekly reporting, document tracking, meeting follow-through, customer support\nLive Q&A and hands-on help\n72-hour replay. Can't make it live? You still get the replay and the full packet.\nRegister for Free\nFROM THE HOSTS\nWhy we're running this\n\nMost owners know AI matters. Few have seen it do one real job inside their business, with the context and the checks that make it trustworthy. That's the whole point of these 90 minutes: you build it yourself, in your own account, with us helping.\n\nNick has built a seven-figure AI business and taught thousands of people how to put AI to work. Keshav is the CTO of Reprise AI and builds the systems our clients run every day.\n\n— Nick Puru & Keshav Sukirya, Reprise AI\n\nQUESTIONS\nBefore you join\nDo I need to be technical?\nNo. If you can use email and a spreadsheet, you can do this. No code, no software to buy.\nWhat do I need?\nA Claude account you've signed into beforehand (the free plan works). Sample data is provided, so you never connect a business system.\nHow long is it?\n90 minutes, including Q&A and hands-on help.\nIs there a replay?\nYes. Every registrant gets the 72-hour replay and the full packet, even if you can't make it live. The Q&A and hands-on help only happen live.\nIs this a pitch?\nYou spend the session building. At the end we take a few minutes to explain how we work with businesses that want it done for them. The packet and replay are yours either way.\nCan my team watch?\nYes. Share this page so each person can register for free and get their own reminders.\nRegister for Free\n© 2026 Reprise AI. All rights reserved.",
+ "hosts": {
+  "join.reprisesai.com": 2,
+  "fonts.googleapis.com": 2,
+  "stcdn.leadconnectorhq.com": 24,
+  "static.cloudflareinsights.com": 1,
+  "fonts.gstatic.com": 2,
+  "fast.wistia.net": 13,
+  "browser.sentry-cdn.com": 1,
+  "backend.leadconnectorhq.com": 1,
+  "connect.facebook.net": 2,
+  "distillery.wistia.com": 4,
+  "pipedream.wistia.com": 3,
+  "fast.wistia.com": 1,
+  "embed-cloudfront.wistia.com": 23
+ },
+ "requests": [
+  "GET https://join.reprisesai.com/workshop",
+  "GET https://fonts.googleapis.com/css?family=Inter%20Tight:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CPoppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BuCXqppA.js",
+  "GET https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+  "GET https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+  "GET https://fonts.gstatic.com/s/intertight/v9/NGSwv5HMAFg6IuGlBNMjxLsH8ag.woff2",
+  "GET https://fast.wistia.net/embed/iframe/6zjeb0ir37",
+  "GET https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+  "GET https://stcdn.leadconnectorhq.com/_preview/sJ9i-sUo.js",
+  "GET https://fast.wistia.net/assets/external/insideIframe.js",
+  "GET https://fast.wistia.net/assets/external/E-v1.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CVhjUuMA.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BJgkKx-e.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/qQx4ctgp.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DeCe7ayY.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DlVAqYnp.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CrqjFaLb.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/BJmiYrnc.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/Co8kV-VW.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C60J5m6h.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/D2GKgMhx.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/Cmx2XiJz.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/CSsPqFKM.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/bDbikwI2.js",
+  "GET https://fast.wistia.net/assets/external/insideIframe.js@c014139e2b0142411cfdefe5129e87a46bac08c4",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DRNKrJGC.js",
+  "POST https://join.reprisesai.com/cdn-cgi/rum?",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C17z7VQ0.js",
+  "GET https://browser.sentry-cdn.com/9.6.1/bundle.min.js",
+  "GET https://fast.wistia.net/assets/external/captions.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/B-iXHOlY.js",
+  "GET https://fast.wistia.net/assets/external/playPauseLoadingControl.js@c014139e2b0142411cfdefe5129e87a46bac08c4",
+  "GET https://fast.wistia.net/assets/external/tag-manager.js@c014139e2b0142411cfdefe5129e87a46bac08c4",
+  "GET https://fast.wistia.net/embed/captions/6zjeb0ir37.json",
+  "GET https://fast.wistia.net/assets/external/interFontFace.js@c014139e2b0142411cfdefe5129e87a46bac08c4",
+  "GET https://backend.leadconnectorhq.com/funnels/funnel/geo-location/",
+  "GET https://connect.facebook.net/en_US/fbevents.js",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DAnMKlY_.js",
+  "GET https://fast.wistia.net/assets/external/engines/hls_video.js@c014139e2b0142411cfdefe5129e87a46bac08c4",
+  "GET https://connect.facebook.net/signals/config/2115906985918097?v=2.9.439&r=stable&domain=join.reprisesai.com&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2C82%2C83%2C163%2C",
+  "POST https://distillery.wistia.com/x",
+  "POST https://pipedream.wistia.com/mput?topic=metrics",
+  "GET https://stcdn.leadconnectorhq.com/_preview/TestimonialModal.DVJfVErF.css",
+  "GET https://stcdn.leadconnectorhq.com/_preview/VnSW5tvU.js",
+  "GET https://fast.wistia.com/embed/medias/6zjeb0ir37.m3u8",
+  "GET https://fast.wistia.net/assets/images/blank.gif",
+  "GET https://stcdn.leadconnectorhq.com/_preview/DArhIr5q.js",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8",
+  "GET https://stcdn.leadconnectorhq.com/_preview/C5Mm3dg4.js",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-1-v1-a1.ts",
+  "POST https://pipedream.wistia.com/mput?topic=metrics",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-2-v1-a1.ts",
+  "GET https://fast.wistia.net/embed/captions/6zjeb0ir37.m3u8?language=eng",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-3-v1-a1.ts",
+  "GET https://fast.wistia.net/embed/captions/6zjeb0ir37.vtt?language=eng",
+  "POST https://distillery.wistia.com/x",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-4-v1-a1.ts",
+  "POST https://pipedream.wistia.com/mput?topic=metrics",
+  "GET https://stcdn.leadconnectorhq.com/_preview/builds/meta/5bb6e8d6-bb05-4f9e-9616-62eac5b1fbff.json",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-5-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-6-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-7-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-8-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-9-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-10-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-11-v1-a1.ts",
+  "POST https://distillery.wistia.com/x",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-12-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-13-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-14-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-15-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-16-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-17-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-18-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-19-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-20-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-21-v1-a1.ts",
+  "GET https://embed-cloudfront.wistia.com/deliveries/ea3081330f7712175bc7829f229be25990d20ea6.m3u8/seg-22-v1-a1.ts",
+  "POST https://distillery.wistia.com/x"
+ ],
+ "mobileHosts": 15
+}

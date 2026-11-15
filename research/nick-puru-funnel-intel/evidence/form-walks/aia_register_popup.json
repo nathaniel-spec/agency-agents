@@ -1,0 +1,25 @@
+{
+ "url": "https://theaiaccelerators.com/register",
+ "log": [
+  {
+   "s": 0,
+   "t": "AI-Powered Agency\nEnter Your Details Below To Register For The Webinar\nSaturday, October 31st @ 12:00 PM EST\nShow Up LIVE for your Free Bonus.\n\nBy submitting, I consent to receive marketing and promotional messages Message frequency may vary. Message & Data rates may apply. Reply STOP to opt-out.\n\nFREE Live Webinar Event\nSAVE YOUR SEAT NOW\nHow AI Agencies Are Scaling Fast in Just 12 Weeks: And How You Can Too\nWithout Technical Skills, A Massive Budget, Or Quitting Your 9-5\nThis Must-See FREE Live Webinar Kicks Off On:\nSaturday, October 31st @ 12:00 PM EST\nReserve My Seat Now!\nLimited Spots Are Available\nShow up LIVE to get the '$5k Monthly Retainer Framework'\n(FREE when you attend)\nInside This Training, You’ll Learn:\n\nHow to go from $0 to your first $10K/month in 90 days or less.\n\nHow to position yourself ABOVE the competition, eliminating 99% of your competition overnight (you'll never hear \"let me get back to you\" again).\n\nThe \"10 steps ahead\" principle that instantly kills imposter syndrome - You don't need to master AI, you just need to solve problems your clients can't (and I'll show you exactly which ones).\n\nWhat not to say on a sales call (you'd be surprised how many people do this. Sadly, it kills deals even before they get the chance to present their offer).\n\nThe client acquisition system that fills your calendar with qualified, cash-ready prospects (works for cold outreach, warm intros, and LinkedIn).\n\nThe delivery system that lets you serve 5-8 clients without sacr",
+   "inputs": [],
+   "opts": [
+    "SAVE YOUR SEAT NOW",
+    "Reserve My Seat Now!\nLimited Spots Are Available",
+    "Reserve My Seat Now!\nLimited Spots Are Available",
+    "Reserve My Seat Now!\nLimited Spots Are Available",
+    "Reserve My Seat Now!\nLimited Spots Are Available"
+   ]
+  },
+  {
+   "s": 1,
+   "note": "no change; stop"
+  }
+ ],
+ "blocked": [
+  "POST https://theaiaccelerators.com/cdn-cgi/rum? {\"startTime\":1794708491361,\"pageloadId\":\"af580d8f-11d2-483f-9778-3cea49eaa4d7\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://theaiaccelerators.com/register\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026",
+  "[LOCK] GET https://stcdn.leadconnectorhq.com/_preview/Dd1VhGB9.js "
+ ]
+}

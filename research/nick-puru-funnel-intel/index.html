@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nick Puru Funnel Intel</title>
+<meta name="description" content="Competitive-intelligence teardown of Nick Puru's (Nicholas Puruczky) Instagram-to-sale ecosystem: funnels, offers, copy, tech stack, with evidence.">
+<style>
+:root{--bg:#fbfaf7;--panel:#ffffff;--ink:#1d1f23;--muted:#5d6370;--line:#e3e0d8;--accent:#b4451f;--link:#1f5fae;
+--n-src:#e8eef9;--n-cap:#fdf0dd;--n-qual:#f6e3f2;--n-nur:#e4f3ec;--n-conv:#dfeffd;--n-money:#e3f5d8;--n-unk:#f1f1f1;--edge:#8a8f99;
+--v:#1e7a46;--vbg:#e2f4ea;--i:#8a5a00;--ibg:#fbefd4;--u:#6b6f78;--ubg:#ececec;--code:#f3f1ec}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141518;--panel:#1c1e22;--ink:#e9e7e2;--muted:#a3a7b0;--line:#30333a;--accent:#ff8a5c;--link:#8ab8ff;
+--n-src:#23304a;--n-cap:#3d311d;--n-qual:#3b2638;--n-nur:#1f3a2e;--n-conv:#1e3348;--n-money:#26391f;--n-unk:#2a2b2e;--edge:#7d828c;
+--v:#7fdca6;--vbg:#173426;--i:#f4c76b;--ibg:#3a2f14;--u:#b9bcc3;--ubg:#2b2c30;--code:#23252a}}
+:root[data-theme="dark"]{--bg:#141518;--panel:#1c1e22;--ink:#e9e7e2;--muted:#a3a7b0;--line:#30333a;--accent:#ff8a5c;--link:#8ab8ff;
+--n-src:#23304a;--n-cap:#3d311d;--n-qual:#3b2638;--n-nur:#1f3a2e;--n-conv:#1e3348;--n-money:#26391f;--n-unk:#2a2b2e;--edge:#7d828c;
+--v:#7fdca6;--vbg:#173426;--i:#f4c76b;--ibg:#3a2f14;--u:#b9bcc3;--ubg:#2b2c30;--code:#23252a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+header.top{padding:40px 16px 24px;border-bottom:1px solid var(--line);background:var(--panel)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+h1{font-size:clamp(26px,4vw,38px);line-height:1.15;margin:0 0 8px;letter-spacing:-.01em}
+h2{font-size:24px;margin:56px 0 12px;padding-top:8px;border-top:2px solid var(--ink)}
+h3{font-size:17px;margin:20px 0 6px}
+.lede{color:var(--muted);max-width:820px}
+nav.toc{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);overflow-x:auto;white-space:nowrap}
+nav.toc a{display:inline-block;padding:10px 10px;font-size:13px;text-decoration:none;color:var(--muted)}
+nav.toc a:hover{color:var(--ink)}
+.tag{display:inline-block;font:600 10.5px/1 ui-monospace,Menlo,monospace;padding:3px 6px;border-radius:4px;letter-spacing:.04em;vertical-align:1px}
+.tag.v{color:var(--v);background:var(--vbg)}.tag.i{color:var(--i);background:var(--ibg)}.tag.u{color:var(--u);background:var(--ubg)}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.kpi b{display:block;font-size:24px;line-height:1.2}
+.kpi span{color:var(--muted);font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--panel)}
+th,td{border-bottom:1px solid var(--line);padding:8px 8px;text-align:left;vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+.funnel-wrap{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px;overflow-x:auto}
+svg.funnel{min-width:980px;width:100%;height:auto;display:block}
+svg .nb{stroke:var(--line)}svg .node:hover .nb{stroke:var(--accent);stroke-width:2}
+svg .nt{font:600 12.5px system-ui,sans-serif;fill:var(--ink)}svg .ns{font:11px system-ui,sans-serif;fill:var(--muted)}
+svg .edge{fill:none;stroke:var(--edge);stroke-width:1.4}svg .elab{font:10.5px system-ui,sans-serif;fill:var(--muted)}
+svg .lane{font:700 12px system-ui,sans-serif;fill:var(--accent);letter-spacing:.03em}svg .col{font:600 11px system-ui,sans-serif;fill:var(--muted);text-transform:uppercase}
+svg .sep{stroke:var(--line);stroke-dasharray:4 4}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--muted);margin:8px 2px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:4px;vertical-align:-2px;border:1px solid var(--line)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:16px 0;overflow:hidden}
+.card-head{padding:12px 16px;border-bottom:1px solid var(--line)}
+.card-head h3{margin:2px 0}
+.stage{font:600 11px ui-monospace,monospace;color:var(--accent);text-transform:uppercase}
+.url{margin:0;font-size:12.5px;word-break:break-all}
+.card-body{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:16px;padding:14px 16px}
+.shots{display:flex;gap:8px;align-items:flex-start;max-height:420px;overflow:hidden;border-radius:8px;border:1px solid var(--line);background:var(--bg)}
+.shots a:first-child{flex:3}.shots a:last-child{flex:1}
+.shots img{width:100%;display:block}
+.meta p{margin:0 0 8px;font-size:13.5px;word-break:break-word}
+.meta .src{font-size:12px;color:var(--muted)}
+blockquote{margin:8px 0;padding:6px 12px;border-left:3px solid var(--accent);background:var(--panel);font-size:14px}
+blockquote cite{display:block;font-size:11.5px;color:var(--muted);font-style:normal;word-break:break-all}
+code{background:var(--code);padding:1px 5px;border-radius:4px;font-size:12.5px}
+ol li,ul li{margin:3px 0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.note{font-size:13px;color:var(--muted)}
+footer{margin:60px 0 40px;color:var(--muted);font-size:12.5px}
+.themebtn{float:right;font-size:12px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:4px 8px;cursor:pointer}
+@media (max-width:760px){.card-body,.two{grid-template-columns:1fr}.shots{max-height:300px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<button class="themebtn" type="button" onclick="(function(){var r=document.documentElement;var d=r.getAttribute('data-theme')==='dark'||(!r.getAttribute('data-theme')&&matchMedia('(prefers-color-scheme: dark)').matches);r.setAttribute('data-theme',d?'light':'dark')})()">Toggle theme</button>
+<p class="stage">Competitive intelligence · captured 15 Nov 2026 · public sources only</p>
+<h1>Nick Puru — Instagram-to-sale ecosystem teardown</h1>
+<p class="lede">Target: <a href="https://www.instagram.com/nicholas.puru">instagram.com/nicholas.puru</a> (Nick Puru / Nicholas Puruczky, Tampa FL). Every claim is labelled <span class="tag v">VERIFIED</span> (observed directly, source linked), <span class="tag i">INFERRED</span> (reasoned from observed evidence), or <span class="tag u">UNKNOWN</span> (not observable without login, purchase or submission). No forms were submitted, no messages sent, no purchases made, and no login walls bypassed.</p>
+</div></header>
+<nav class="toc"><div class="wrap">
+<a href="#summary">1 Summary</a><a href="#map">2 Funnel map</a><a href="#pages">3 Pages</a><a href="#content">4 Content &amp; CTAs</a><a href="#offers">5 Offers</a><a href="#psych">6 Copy &amp; psychology</a><a href="#tech">7 Tech stack</a><a href="#unknowns">8 Unknowns</a><a href="#recs">9 Recommendations</a><a href="#blueprint">10 Blueprint</a><a href="#method">Method</a>
+</div></nav>
+<main class="wrap">
+
+<h2 id="summary">1 · Executive summary</h2>
+<div class="grid">
+<div class="box kpi"><b>96.1K</b><span>YouTube subscribers, 683 videos <span class="tag v">VERIFIED</span></span></div>
+<div class="box kpi"><b>20.6K</b><span>Free Skool community members <span class="tag v">VERIFIED</span></span></div>
+<div class="box kpi"><b>$149/mo</b><span>AI Accelerator+ (36 members; $72/mo in Aug) <span class="tag v">VERIFIED</span></span></div>
+<div class="box kpi"><b>$15K–$150K+</b><span>Reprise AI implementation pricing, most $25–75K <span class="tag v">VERIFIED</span></span></div>
+</div>
+<p><b>What the business is.</b> Nick Puru runs two linked monetization engines on one personal brand:</p>
+<ol>
+<li><b>An "AI agency" education business (B2C, The AI Accelerators).</b> Short-form and YouTube content teaches AI tools, then routes viewers to a <b>free Skool community</b> (20.6k), a <b>$149/mo paid Skool</b> ("AI Accelerator +"), a <b>webinar</b> ("How To Start And Scale An AI Agency") and a <b>VSL → Typeform application → Calendly strategy call</b> funnel that sells a higher-priced mentorship (price <span class="tag u">UNKNOWN</span>). Applicants who report income under $2k/mo or say they can't invest are automatically redirected to the $149/mo Skool as a downsell <span class="tag v">VERIFIED</span> (Typeform logic).</li>
+<li><b>Reprise AI, a done-for-you AI implementation agency (B2B).</b> Co-founded with CTO Keshav Sukirya. Targets service businesses at $25–30K+/mo revenue with a free AI audit call (8-question quiz), a free "AI Business Growth Plan" lead magnet, a 90-minute live workshop, case studies and SEO pages. Publicly priced at $15K–$150K+ per engagement <span class="tag v">VERIFIED</span>.</li>
+</ol>
+<p><b>How Instagram fits.</b> Profile "Nick Puruczky | AI Automation", ~91K followers, 347 posts <span class="tag v">VERIFIED</span>. The bio ("🤖 I help businesses implement AI / 📹 90K YouTube / 👇 Free AI Growth Plan for your biz") links to <code>reprisesai.com/ai-business-growth-plan?utm_source=instagram&amp;utm_medium=bio</code>. In other words, <b>Instagram's primary CTA feeds the B2B agency lead magnet, not the coaching funnel</b>. 9 of the 12 latest reels close with "Comment NEED…" so viewers get a resource by DM. A podcast he appeared on describes that flow as ManyChat delivering a lead magnet or newsletter access. Three of the 12 reels are paid sponsorships (Cloudways, Tripo AI, Airbyte). Reels appear to be cross-posted as YouTube Shorts. The first direct profile load in this session hit the login wall; the reel data in <a href="#content">§4</a> comes from public reel pages that loaded logged out.</p>
+<p><b>Monetization model</b> <span class="tag i">INFERRED</span>: agency retainers and projects likely carry the revenue (AIA+ about page claims a "~$70k/mo AI agency"). Education adds recurring Skool revenue (36 × $149 ≈ $5.4K/mo ceiling at list price; some members are probably on older, lower pricing), high-ticket mentorship sales from strategy calls (volume and price <span class="tag u">UNKNOWN</span>), tool affiliates (n8n via PartnerStack, Teachly), and YouTube ad revenue. The two lanes keep their audiences apart on purpose. The workshop page says it is "Not for you if… you want to start an AI agency", and a newsletter post tells business owners to "skip to the bottom" for the Reprise offer.</p>
+<p><b>Strongest observable mechanics:</b> (1) one free community as the owned-audience hub; (2) application forms with hard gates that turn rejects into downsell revenue; (3) a post-booking page of nine objection-handling videos; (4) micro-commitment forms (one field per step) with SMS consent; (5) shared GA4 + per-funnel Meta pixels with fbp/fbc/fbclid hidden fields for attribution; (6) a YouTube library repurposed into 1,250 indexable SEO pages.</p>
+<p><b>Third engine — vertical "productised" B2B funnels.</b> Meta ads run from a Page called "Sync2" (5+ active ads, started 11 Nov 2026, targeting plastic and cosmetic surgery practices with a "Patient Profit System") and land on <code>go.reprisesai.com</code>. The root of that subdomain currently serves a CPA-firm offer: "$10K plus retainer", "cut monthly close in half in 14 days", and "If your monthly close cycle is not cut by 50% in the first 30 days, you do not pay the retainer" <span class="tag v">VERIFIED</span>. Sync2.ai itself sells an AI receptionist to medical and aesthetic practices.</p>
+<p><b>Observable weaknesses:</b> stale event dates still live (webinar dated Oct 31 and workshop dated Oct 7, both still live with working registration forms on Nov 15); the contact email on the agency site (<code>hello@repriseai.com</code>) uses a parked domain with a null MX record, so <b>mail to it cannot be delivered</b> <span class="tag v">VERIFIED</span>; social-proof numbers disagree from page to page (12k / 18k / 20.6k members; 40k / 90k / 96.1k subscribers; 60+ / 100+ companies; "~$70k/mo" vs "seven-figure business"); price floors also disagree ($15K on the FAQ vs $50K on the "best agencies" page); the CPA page still says "1 spot remaining for July" in November; and the Linktree still says "YouTube (40k+)".</p>
+
+<h2 id="map">2 · Funnel map</h2>
+<p class="note">Click any node to jump to its evidence. Solid arrows = links or redirects observed. Dashed = inferred or not observable.</p>
+<div class="legend"><span><i style="background:var(--n-src)"></i>Traffic source</span><span><i style="background:var(--n-cap)"></i>Capture page</span><span><i style="background:var(--n-qual)"></i>Qualification</span><span><i style="background:var(--n-nur)"></i>Nurture / show-up</span><span><i style="background:var(--n-conv)"></i>Booking</span><span><i style="background:var(--n-money)"></i>Paid offer</span><span><i style="background:var(--n-unk)"></i>Unknown / inferred</span></div>
+<div class="funnel-wrap"><svg viewBox="0 0 1280 900" role="img" aria-labelledby="fm-t fm-d" class="funnel"><title id="fm-t">Nick Puru funnel map</title><desc id="fm-d">Traffic sources on the left flow through capture pages, qualification and nurture steps to paid offers on the right. Top lane: AI-agency education business. Bottom lane: Reprise AI done-for-you agency.</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="var(--edge)"/></marker></defs>
+<text x="20" y="20" class="lane">LANE A — "Start an AI agency" education business (B2C)</text>
+<text x="20" y="502" class="lane">LANE B — Reprise AI done-for-you implementation (B2B)</text>
+<line x1="20" y1="470" x2="1260" y2="470" class="sep"/>
+<text x="20" y="888" class="col">Attention</text>
+<text x="250" y="888" class="col">Capture</text>
+<text x="500" y="888" class="col">Qualify / nurture</text>
+<text x="750" y="888" class="col">Convert</text>
+<text x="1000" y="888" class="col">Monetize</text>
+<path d="M190,67.0 C219.0,67.0 219.0,67.0 248,67.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,137.0 C219.0,137.0 219.0,67.0 248,67.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,137.0 C219.0,137.0 219.0,147.0 248,147.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,207.0 C219.0,207.0 219.0,67.0 248,67.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,277.0 C219.0,277.0 219.0,241.0 248,241.0" class="edge" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<path d="M190,357.0 C219.0,357.0 219.0,241.0 248,241.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,357.0 C469.0,357.0 469.0,87.0 748,87.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,357.0 C594.0,357.0 594.0,49.0 998,49.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,427.0 C594.0,427.0 594.0,49.0 998,49.0" class="edge" marker-end="url(#ah)"/>
+<path d="M440,67.0 C719.0,67.0 719.0,49.0 998,49.0" class="edge" marker-end="url(#ah)"/>
+<text x="719.0" y="54.0" class="elab" text-anchor="middle">upsell posts</text>
+<path d="M440,147.0 C469.0,147.0 469.0,141.0 498,141.0" class="edge" marker-end="url(#ah)"/>
+<path d="M690,141.0 C719.0,141.0 719.0,87.0 748,87.0" class="edge" marker-end="url(#ah)"/>
+<text x="719.0" y="110.0" class="elab" text-anchor="middle">qualified</text>
+<path d="M690,141.0 C844.0,141.0 844.0,49.0 998,49.0" class="edge" marker-end="url(#ah)"/>
+<text x="844.0" y="91.0" class="elab" text-anchor="middle">unqualified → downsell</text>
+<path d="M840.0,114 C840.0,114 840.0,128 840.0,128" class="edge" marker-end="url(#ah)"/>
+<path d="M930,157.0 C964.0,157.0 964.0,139.0 998,139.0" class="edge" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<text x="964.0" y="144.0" class="elab" text-anchor="middle">sales call</text>
+<path d="M1125.0,168 C1125.0,168 1125.0,188 1125.0,188" class="edge" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<path d="M440,241.0 C469.0,241.0 469.0,241.0 498,241.0" class="edge" marker-end="url(#ah)"/>
+<path d="M690,241.0 C719.0,241.0 719.0,242.0 748,242.0" class="edge" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<path d="M840.0,269 C840.0,269 840.0,58 840.0,58" class="edge" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<path d="M190,137.0 C219.0,137.0 219.0,549.0 248,549.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,67.0 C219.0,67.0 219.0,629.0 248,629.0" class="edge" marker-end="url(#ah)"/>
+<text x="219.0" y="344.0" class="elab" text-anchor="middle">bio link</text>
+<path d="M190,67.0 C219.0,67.0 219.0,317.0 248,317.0" class="edge" marker-end="url(#ah)"/>
+<path d="M250,317.0 C221.0,317.0 221.0,357.0 192,357.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,627.0 C344.0,627.0 344.0,671.0 498,671.0" class="edge" marker-end="url(#ah)"/>
+<text x="344.0" y="645.0" class="elab" text-anchor="middle">ads</text>
+<path d="M690,671.0 C844.0,671.0 844.0,551.0 998,551.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,707.0 C219.0,707.0 219.0,549.0 248,549.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,707.0 C594.0,707.0 594.0,807.0 998,807.0" class="edge" marker-end="url(#ah)"/>
+<path d="M190,357.0 C219.0,357.0 219.0,629.0 248,629.0" class="edge" marker-end="url(#ah)"/>
+<path d="M440,549.0 C469.0,549.0 469.0,571.0 498,571.0" class="edge" marker-end="url(#ah)"/>
+<path d="M440,629.0 C594.0,629.0 594.0,589.0 748,589.0" class="edge" marker-end="url(#ah)"/>
+<path d="M440,709.0 C719.0,709.0 719.0,551.0 998,551.0" class="edge" marker-end="url(#ah)"/>
+<path d="M690,571.0 C719.0,571.0 719.0,589.0 748,589.0" class="edge" marker-end="url(#ah)"/>
+<path d="M930,589.0 C964.0,589.0 964.0,551.0 998,551.0" class="edge" marker-end="url(#ah)"/>
+<text x="964.0" y="566.0" class="elab" text-anchor="middle">audit call</text>
+<path d="M440,789.0 C469.0,789.0 469.0,571.0 498,571.0" class="edge" marker-end="url(#ah)"/>
+<path d="M440,549.0 C719.0,549.0 719.0,637.0 998,637.0" class="edge" marker-end="url(#ah)"/>
+<a href="#content"><g class="node"><rect x="20" y="40" width="170" height="54" rx="8" fill="var(--n-src)" class="nb"/><text x="30" y="62" class="nt">Instagram @nicholas.puru</text><text x="30" y="80" class="ns">91.3K · 12 reels visible</text></g></a>
+<a href="#p-yt_about"><g class="node"><rect x="20" y="110" width="170" height="54" rx="8" fill="var(--n-src)" class="nb"/><text x="30" y="132" class="nt">YouTube @NicholasPuru</text><text x="30" y="150" class="ns">96.1K subs · 683 videos</text></g></a>
+<a href="#p-skool_profile"><g class="node"><rect x="20" y="180" width="170" height="54" rx="8" fill="var(--n-src)" class="nb"/><text x="30" y="202" class="nt">X · LinkedIn · Skool profile</text><text x="30" y="220" class="ns">bio links</text></g></a>
+<a href="#unknowns"><g class="node"><rect x="20" y="250" width="170" height="54" rx="8" fill="var(--n-unk)" class="nb" stroke-dasharray=&quot;5 3&quot;/><text x="30" y="272" class="nt">Meta ads (inferred)</text><text x="30" y="290" class="ns">/register-ads path + pixel</text></g></a>
+<a href="#p-beehiiv_home"><g class="node"><rect x="20" y="330" width="170" height="54" rx="8" fill="var(--n-src)" class="nb"/><text x="30" y="352" class="nt">The AI Core newsletter</text><text x="30" y="370" class="ns">beehiiv · shared GA4</text></g></a>
+<a href="#p-teachly_nickp"><g class="node"><rect x="20" y="400" width="170" height="54" rx="8" fill="var(--n-src)" class="nb"/><text x="30" y="422" class="nt">Affiliate link</text><text x="30" y="440" class="ns">go.teachly.ai/nickp</text></g></a>
+<a href="#p-skool_s2s_about"><g class="node"><rect x="250" y="40" width="190" height="54" rx="8" fill="var(--n-cap)" class="nb"/><text x="260" y="62" class="nt">Free Skool: AI Accelerator</text><text x="260" y="80" class="ns">20.6k members</text></g></a>
+<a href="#p-aia_agency"><g class="node"><rect x="250" y="120" width="190" height="54" rx="8" fill="var(--n-cap)" class="nb"/><text x="260" y="142" class="nt">VSL /agency</text><text x="260" y="160" class="ns">&quot;No experience… landing clients&quot;</text></g></a>
+<a href="#p-aia_register"><g class="node"><rect x="250" y="210" width="190" height="62" rx="8" fill="var(--n-cap)" class="nb"/><text x="260" y="232" class="nt">Webinar reg /register · -ads · -now</text><text x="260" y="250" class="ns">GHL form or Typeform</text></g></a>
+<a href="#p-tf_strategy_app"><g class="node"><rect x="500" y="110" width="190" height="62" rx="8" fill="var(--n-qual)" class="nb"/><text x="510" y="132" class="nt">Typeform application</text><text x="510" y="150" class="ns">8 screens · income + invest gate</text></g></a>
+<a href="#p-aia_reg_complete"><g class="node"><rect x="500" y="210" width="190" height="62" rx="8" fill="var(--n-nur)" class="nb"/><text x="510" y="232" class="nt">/registration-complete</text><text x="510" y="250" class="ns">calendar · WhatsApp · Zoom</text></g></a>
+<a href="#p-aia_schedule_call"><g class="node"><rect x="750" y="60" width="180" height="54" rx="8" fill="var(--n-conv)" class="nb"/><text x="760" y="82" class="nt">Calendly strategy call</text><text x="760" y="100" class="ns">mentorship-1hr/ai-accelerator</text></g></a>
+<a href="#p-aia_important"><g class="node"><rect x="750" y="130" width="180" height="54" rx="8" fill="var(--n-nur)" class="nb"/><text x="760" y="152" class="nt">/important pre-call page</text><text x="760" y="170" class="ns">9 objection videos + proof</text></g></a>
+<a href="#unknowns"><g class="node"><rect x="750" y="215" width="180" height="54" rx="8" fill="var(--n-unk)" class="nb" stroke-dasharray=&quot;5 3&quot;/><text x="760" y="237" class="nt">Live webinar (Zoom)</text><text x="760" y="255" class="ns">pitch content UNKNOWN</text></g></a>
+<a href="#p-teachly_nickp"><g class="node"><rect x="1000" y="20" width="250" height="58" rx="8" fill="var(--n-money)" class="nb"/><text x="1010" y="42" class="nt">AI Accelerator + · $149/mo</text><text x="1010" y="60" class="ns">Skool + Stripe · 3-Day Challenge</text></g></a>
+<a href="#offers"><g class="node"><rect x="1000" y="110" width="250" height="58" rx="8" fill="var(--n-unk)" class="nb" stroke-dasharray=&quot;5 3&quot;/><text x="1010" y="132" class="nt">High-ticket mentorship</text><text x="1010" y="150" class="ns">price/terms UNKNOWN</text></g></a>
+<a href="#p-skool_mentorship"><g class="node"><rect x="1000" y="190" width="250" height="54" rx="8" fill="var(--n-unk)" class="nb" stroke-dasharray=&quot;5 3&quot;/><text x="1010" y="212" class="nt">Skool &quot;AI Accelerator Mentorship&quot;</text><text x="1010" y="230" class="ns">private · inferred delivery</text></g></a>
+<a href="#p-reprisesai_home"><g class="node"><rect x="250" y="520" width="190" height="58" rx="8" fill="var(--n-cap)" class="nb"/><text x="260" y="542" class="nt">reprisesai.com</text><text x="260" y="560" class="ns">salesdone.ai → 308 here</text></g></a>
+<a href="#p-reprise_growth_plan"><g class="node"><rect x="250" y="600" width="190" height="58" rx="8" fill="var(--n-cap)" class="nb"/><text x="260" y="622" class="nt">AI Growth Plan quiz</text><text x="260" y="640" class="ns">7 steps · email plan</text></g></a>
+<a href="#p-reprises_workshop"><g class="node"><rect x="250" y="680" width="190" height="58" rx="8" fill="var(--n-cap)" class="nb"/><text x="260" y="702" class="nt">Workshop join.reprisesai.com</text><text x="260" y="720" class="ns">90-min live · $50K+/mo owners</text></g></a>
+<a href="#content"><g class="node"><rect x="250" y="290" width="190" height="54" rx="8" fill="var(--n-nur)" class="nb"/><text x="260" y="312" class="nt">Comment NEED → DM</text><text x="260" y="330" class="ns">ManyChat (per podcast)</text></g></a>
+<a href="#content"><g class="node"><rect x="20" y="600" width="170" height="54" rx="8" fill="var(--n-src)" class="nb"/><text x="30" y="622" class="nt">Meta ads · Page &quot;Sync2&quot;</text><text x="30" y="640" class="ns">5+ active from Nov 11</text></g></a>
+<a href="#p-linktree"><g class="node"><rect x="20" y="680" width="170" height="54" rx="8" fill="var(--n-src)" class="nb"/><text x="30" y="702" class="nt">Linktree</text><text x="30" y="720" class="ns">salesdone · sync2</text></g></a>
+<a href="#p-go_reprises_root"><g class="node"><rect x="500" y="640" width="190" height="62" rx="8" fill="var(--n-cap)" class="nb"/><text x="510" y="662" class="nt">go.reprisesai.com verticals</text><text x="510" y="680" class="ns">CPA: $10K + retainer · surgery</text></g></a>
+<a href="#p-sync2_home"><g class="node"><rect x="1000" y="780" width="250" height="54" rx="8" fill="var(--n-money)" class="nb"/><text x="1010" y="802" class="nt">Sync2 AI receptionist</text><text x="1010" y="820" class="ns">SaaS · price UNKNOWN</text></g></a>
+<a href="#p-reprise_learn"><g class="node"><rect x="250" y="760" width="190" height="58" rx="8" fill="var(--n-src)" class="nb"/><text x="260" y="782" class="nt">SEO: /learn · best-agencies</text><text x="260" y="800" class="ns">1,250 resources</text></g></a>
+<a href="#p-reprise_get_started"><g class="node"><rect x="500" y="540" width="190" height="62" rx="8" fill="var(--n-qual)" class="nb"/><text x="510" y="562" class="nt">Free AI Audit quiz</text><text x="510" y="580" class="ns">8 questions · TCPA consent</text></g></a>
+<a href="#p-reprise_growth_plan"><g class="node"><rect x="750" y="560" width="180" height="58" rx="8" fill="var(--n-conv)" class="nb"/><text x="760" y="582" class="nt">Booking calendar</text><text x="760" y="600" class="ns">LeadConnector (GHL)</text></g></a>
+<a href="#p-reprise_faq"><g class="node"><rect x="1000" y="520" width="250" height="62" rx="8" fill="var(--n-money)" class="nb"/><text x="1010" y="542" class="nt">Reprise AI implementation</text><text x="1010" y="560" class="ns">$15K–$150K+ · most $25–75K</text></g></a>
+<a href="#p-reprise_education"><g class="node"><rect x="1000" y="610" width="250" height="54" rx="8" fill="var(--n-money)" class="nb"/><text x="1010" y="632" class="nt">AI Education workshops</text><text x="1010" y="650" class="ns">exec / dept / bootcamp · price ?</text></g></a>
+<a href="#p-n8n_aff"><g class="node"><rect x="1000" y="700" width="250" height="54" rx="8" fill="var(--n-money)" class="nb"/><text x="1010" y="722" class="nt">Tool affiliates (n8n)</text><text x="1010" y="740" class="ns">PartnerStack link</text></g></a>
+</svg></div>
+<h3>Path inventory</h3>
+<div class="tw"><table>
+<tr><th>#</th><th>Path (observed hops)</th><th>Status</th></tr>
+<tr><td>A1</td><td>YouTube bio → <code>theaiaccelerators.com/agency?utm_source=youtube&amp;utm_medium=bio</code> → VSL → Typeform <code>eUf7s5V4</code> → (qualified) Calendly <code>mentorship-1hr/ai-accelerator</code> → <code>/important</code> → sales call → mentorship</td><td><span class="tag v">VERIFIED</span> to <code>/important</code>; call + offer <span class="tag u">UNKNOWN</span></td></tr>
+<tr><td>A2</td><td>Same application → (income &lt;$2k OR "not in a position to invest" OR won't commit to call time) → <code>skool.com/theaiaccelerator/about</code> ($149/mo)</td><td><span class="tag v">VERIFIED</span> (form logic)</td></tr>
+<tr><td>A3</td><td>Ads (inferred) → <code>/register-ads</code> → Typeform <code>IfVonuWE</code> → <code>/registration-complete</code> → calendar (Zoom link) + WhatsApp group + emailed access link → live webinar</td><td><span class="tag v">VERIFIED</span> to thank-you; webinar <span class="tag u">UNKNOWN</span></td></tr>
+<tr><td>A4</td><td>Organic → <code>/register</code> → GHL popup (name, email, phone + SMS consent) → thank-you</td><td><span class="tag v">VERIFIED</span> (form not submitted)</td></tr>
+<tr><td>A5</td><td>Newsletter → <code>/register-now</code> (replay) or <code>/schedule-call</code> (direct Calendly, no application)</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>A6</td><td>YouTube / Skool profile / IG (inferred) → free Skool (20.6k) → in-community posts ("12 spots left…") → AIA+ $149/mo</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>A7</td><td>YouTube description <code>go.teachly.ai/nickp</code> → 301 <code>theaiaccelerators.com/nickp</code> → 301 Skool AIA+</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>A8</td><td>Newsletter → "3-Day AI Business Launch Challenge" (inside AIA+) → Launch Audit → 90-day roadmap</td><td><span class="tag v">VERIFIED</span> (promo); delivery <span class="tag u">UNKNOWN</span></td></tr>
+<tr><td>B1</td><td>YouTube header / descriptions (<code>salesdone.ai</code> 308) → <code>reprisesai.com</code> → embedded 4-step booking form or <code>/get-started</code> → <code>/how-it-works#assessment</code> 8-question audit quiz → "Choose a Time" (opt-in)</td><td><span class="tag v">VERIFIED</span> up to opt-in</td></tr>
+<tr><td>B2</td><td>Newsletter → <code>/ai-business-growth-plan</code> 7-step quiz → plan page + emailed private link; "Work with us" → LeadConnector booking widget</td><td><span class="tag v">VERIFIED</span> up to submit</td></tr>
+<tr><td>B3</td><td>YouTube community posts → <code>join.reprisesai.com/workshop</code> → 3-step registration → live 90-min workshop with short pitch at end</td><td><span class="tag v">VERIFIED</span> to submit; session <span class="tag u">UNKNOWN</span></td></tr>
+<tr><td>B0</td><td>Instagram bio → <code>reprisesai.com/ai-business-growth-plan?utm_source=instagram&amp;utm_medium=bio</code> → 7-step quiz → plan + email; reels → "Comment NEED" → DM resource (ManyChat per podcast) → newsletter/lead magnet</td><td><span class="tag v">VERIFIED</span> bio link and CTA; DM contents <span class="tag u">UNKNOWN</span></td></tr>
+<tr><td>B5</td><td>Meta ads (Page "Sync2", from 11 Nov 2026) → <code>go.reprisesai.com</code> vertical pages (surgery "Patient Profit System"; CPA firms "$10K + retainer") → "Book Your Free AI Strategy Call" → <code>go.reprisesai.com/accounting-schedule-page</code></td><td><span class="tag v">VERIFIED</span> (Ad Library + page capture)</td></tr>
+<tr><td>B4</td><td>Search → <code>/learn/*</code>, <code>/best-ai-agencies-2026</code>, <code>/compare</code>, case studies → Book audit</td><td><span class="tag v">VERIFIED</span> (sitemap)</td></tr>
+</table></div>
+
+<h2 id="pages">3 · Page-by-page evidence</h2>
+<p class="note">Desktop (1366px) and mobile (iPhone 13 emulation) full-page captures, compressed. Click an image for the full capture. Raw DOM/link/request data for each page is in <code>evidence/page-data/</code>.</p>
+<article class="card" id="p-yt_about"><div class="card-head"><span class="stage">Attention</span><h3>YouTube channel @NicholasPuru</h3>
+<p class="url"><a href="https://www.youtube.com/@NicholasPuru/about" rel="noopener">https://www.youtube.com/@NicholasPuru/about</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/yt_about_desktop.webp"><img loading="lazy" src="evidence/screenshots/yt_about_desktop.webp" alt="Desktop screenshot: YouTube channel @NicholasPuru"></a><a href="evidence/screenshots/yt_about_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/yt_about_mobile.webp" alt="Mobile screenshot: YouTube channel @NicholasPuru"></a></div>
+<div class="meta"><p><b>Page title:</b> Nick Puru | AI Automation - YouTube</p>
+<p><b>Redirects:</b> 302 https://googleads.g.doubleclick.net/pagead/id -&gt; https://googleads.g.doubleclick.net/pagead/id?slf_rd=1 · 301 https://youtube.com/ -&gt; https://www.youtube.com/ · 302 https://www.youtube.com/measurement/follow_on/962985656/?backend=innertube&amp;cname=1&amp;cver=2_20261112_10_00&amp;data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20261112_10_00%3Bptype%3Dcview%3Btype%3Dcview%3Butuid%3D4FK5DEcMLB3CyJcbJfZEJA&amp;foc_id=4FK5DEcMLB3CyJcbJfZEJA&amp;label=followon_cvisit&amp;ptype=cview&amp;utuid=4FK5DEcMLB3CyJcbJfZEJA -&gt; https://googleads.g.doubleclick.net/measurement/follow_on/962985656/?backend=innertube&amp;cname=1&amp;cver=2_20261112_10_00&amp;data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20261112_10_00%3Bptype%3Dcview%3Btype%3Dcview%3Butuid%3D4FK5DEcMLB3CyJcbJfZEJA&amp;foc_id=4FK5DEcMLB3CyJcbJfZEJA&amp;label=followon_cvisit&amp;ptype=cview&amp;utuid=4FK5DEcMLB3CyJcbJfZEJA&amp;cv_attributed=0</p>
+<p><b>CTAs:</b> Skip navigation · Search · Show more · Show less · ...more · and 3 more links</p>
+<p><b>Embeds:</b> https://accounts.google.com/ServiceLogin · about:blank</p>
+<p class="ann"><span class="tag v">VERIFIED</span> 96.1K subscribers / 683 videos at capture. Header links to reprisesai.com (+3 more). Channel description links: theaiaccelerators.com/agency, Skool AI Accelerator, ai-core.beehiiv.com — every link carries utm_source=youtube&amp;utm_medium=bio. Video descriptions link salesdone.ai (→Reprise), go.teachly.ai/nickp (→AIA+), Skool, n8n affiliate, and Instagram /nicholas.puru (identity link).</p>
+<p class="src">Evidence: <a href="evidence/page-data/yt_about.json">page-data/yt_about.json</a> · <a href="evidence/screenshots/yt_about_desktop.webp">desktop</a> · <a href="evidence/screenshots/yt_about_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-skool_profile"><div class="card-head"><span class="stage">Attention</span><h3>Skool profile — Nick Puruczky</h3>
+<p class="url"><a href="https://www.skool.com/@nick-puruczky-8573" rel="noopener">https://www.skool.com/@nick-puruczky-8573</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/skool_profile_desktop.webp"><img loading="lazy" src="evidence/screenshots/skool_profile_desktop.webp" alt="Desktop screenshot: Skool profile — Nick Puruczky"></a><a href="evidence/screenshots/skool_profile_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/skool_profile_mobile.webp" alt="Mobile screenshot: Skool profile — Nick Puruczky"></a></div>
+<div class="meta"><p><b>Page title:</b> Nick Puruczky</p>
+
+<p><b>CTAs:</b> LOG IN · VIEW · Memberships · Select a group to see contributions</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Owns: AI Accelerator (free, 20.6k) and AI Accelerator + ($149/mo, 36). Profile links Instagram /nicholas.puru, YouTube, LinkedIn; bio links reprisesai.com. 22k Skool followers, 1.1k contributions.</p>
+<p class="src">Evidence: <a href="evidence/page-data/skool_profile.json">page-data/skool_profile.json</a> · <a href="evidence/screenshots/skool_profile_desktop.webp">desktop</a> · <a href="evidence/screenshots/skool_profile_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-skool_s2s_about"><div class="card-head"><span class="stage">Capture — free community</span><h3>Skool &quot;AI Accelerator&quot; (free)</h3>
+<p class="url"><a href="https://www.skool.com/systems-to-scale-9517/about" rel="noopener">https://www.skool.com/systems-to-scale-9517/about</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/skool_s2s_about_desktop.webp"><img loading="lazy" src="evidence/screenshots/skool_s2s_about_desktop.webp" alt="Desktop screenshot: Skool &quot;AI Accelerator&quot; (free)"></a><a href="evidence/screenshots/skool_s2s_about_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/skool_s2s_about_mobile.webp" alt="Mobile screenshot: Skool &quot;AI Accelerator&quot; (free)"></a></div>
+<div class="meta"><p><b>Page title:</b> AI Accelerator</p>
+
+<p><b>CTAs:</b> LOG IN · JOIN GROUP</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Free community, 20.6k members, 7 admins. Copy promises Claude Code/Codex tutorials, &quot;how to actually SELL AI solutions&quot;, monthly competitions, weekly Q&amp;As. Primary owned-audience asset feeding AIA+ upsells.</p>
+<p class="src">Evidence: <a href="evidence/page-data/skool_s2s_about.json">page-data/skool_s2s_about.json</a> · <a href="evidence/screenshots/skool_s2s_about_desktop.webp">desktop</a> · <a href="evidence/screenshots/skool_s2s_about_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-skool_12spots"><div class="card-head"><span class="stage">Conversion — upsell</span><h3>Skool post &quot;12 spots left before the price goes up!&quot;</h3>
+<p class="url"><a href="https://www.skool.com/systems-to-scale-9517/12-spots-left-before-the-price-goes-up" rel="noopener">https://www.skool.com/systems-to-scale-9517/12-spots-left-before-the-price-goes-up</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/skool_12spots_desktop.webp"><img loading="lazy" src="evidence/screenshots/skool_12spots_desktop.webp" alt="Desktop screenshot: Skool post &quot;12 spots left before the price goes up!&quot;"></a><a href="evidence/screenshots/skool_12spots_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/skool_12spots_mobile.webp" alt="Mobile screenshot: Skool post &quot;12 spots left before the price goes up!&quot;"></a></div>
+<div class="meta"><p><b>Page title:</b> 12 spots left before the price goes up! · AI Accelerator</p>
+
+<p><b>CTAs:</b> LOG IN · Like · Reply · Jump to latest comment · JOIN GROUP · See all leaderboards</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Jun 3 post: AIA+ founders pricing until 50 members (&quot;We&#x27;re at 38 right now&quot;). Classic member-count scarcity. Lists weekly office hours with Keshav + Q&amp;A with Nick.</p>
+<p class="src">Evidence: <a href="evidence/page-data/skool_12spots.json">page-data/skool_12spots.json</a> · <a href="evidence/screenshots/skool_12spots_desktop.webp">desktop</a> · <a href="evidence/screenshots/skool_12spots_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-teachly_nickp"><div class="card-head"><span class="stage">Conversion — low-ticket</span><h3>Skool &quot;AI Accelerator +&quot; ($149/month)</h3>
+<p class="url"><a href="https://www.skool.com/theaiaccelerator/about" rel="noopener">https://www.skool.com/theaiaccelerator/about</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/teachly_nickp_desktop.webp"><img loading="lazy" src="evidence/screenshots/teachly_nickp_desktop.webp" alt="Desktop screenshot: Skool &quot;AI Accelerator +&quot; ($149/month)"></a><a href="evidence/screenshots/teachly_nickp_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/teachly_nickp_mobile.webp" alt="Mobile screenshot: Skool &quot;AI Accelerator +&quot; ($149/month)"></a></div>
+<div class="meta"><p><b>Page title:</b> AI Accelerator +</p>
+<p><b>Redirects:</b> 301 https://go.teachly.ai/nickp -&gt; https://theaiaccelerators.com/nickp · 301 https://theaiaccelerators.com/nickp -&gt; https://www.skool.com/theaiaccelerator · 307 https://www.skool.com/theaiaccelerator -&gt; /theaiaccelerator/about</p>
+<p><b>CTAs:</b> LOG IN · JOIN $149/month</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Reached via go.teachly.ai/nickp → theaiaccelerators.com/nickp → skool.com/theaiaccelerator (301/301/307 chain). 36 members. Claims &quot;~$70k/mo AI agency&quot;, &quot;60+ companies&quot;, &quot;$5M+ for clients&quot;. Offer: CAOS, 3-Day Launch Challenge, 90-Day Roadmap, scripts, weekly masterclasses, annual 1:1. Annual-member guarantee: first paying client in 90 days or money back. Also the redirect target for UNQUALIFIED strategy-call applicants.</p>
+<p class="src">Evidence: <a href="evidence/page-data/teachly_nickp.json">page-data/teachly_nickp.json</a> · <a href="evidence/screenshots/teachly_nickp_desktop.webp">desktop</a> · <a href="evidence/screenshots/teachly_nickp_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-aia_agency"><div class="card-head"><span class="stage">Capture — VSL/application</span><h3>theaiaccelerators.com/agency (VSL)</h3>
+<p class="url"><a href="https://theaiaccelerators.com/agency?utm_source=youtube&amp;utm_medium=bio" rel="noopener">https://theaiaccelerators.com/agency?utm_source=youtube&amp;utm_medium=bio</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/aia_agency_desktop.webp"><img loading="lazy" src="evidence/screenshots/aia_agency_desktop.webp" alt="Desktop screenshot: theaiaccelerators.com/agency (VSL)"></a><a href="evidence/screenshots/aia_agency_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/aia_agency_mobile.webp" alt="Mobile screenshot: theaiaccelerators.com/agency (VSL)"></a></div>
+<div class="meta"><p><b>Page title:</b> AI Accelerator</p>
+
+<p><b>CTAs:</b> Apply for Your Free Strategy Call →</p>
+<p><b>Embeds:</b> https://form.typeform.com/to/eUf7s5V4</p>
+<p class="ann"><span class="tag v">VERIFIED</span> Headline: &quot;How People With No Experience, No Portfolio, And No Track Record Are Landing AI Agency Clients Right Now&quot;. Wistia VSL thumbnail shows $5,000 → $10,000 → $50,000 growth line. Single CTA &quot;Apply for Your Free Strategy Call →&quot; opening Typeform eUf7s5V4. Built on GoHighLevel (LeadConnector assets), Meta Pixel 634223582573401, Clarity.</p>
+<p class="src">Evidence: <a href="evidence/page-data/aia_agency.json">page-data/aia_agency.json</a> · <a href="evidence/screenshots/aia_agency_desktop.webp">desktop</a> · <a href="evidence/screenshots/aia_agency_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-tf_strategy_app"><div class="card-head"><span class="stage">Capture — application</span><h3>Typeform eUf7s5V4 &quot;AI Accelerator&quot; application</h3>
+<p class="url"><a href="https://form.typeform.com/to/eUf7s5V4" rel="noopener">https://form.typeform.com/to/eUf7s5V4</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/tf_strategy_app_desktop.webp"><img loading="lazy" src="evidence/screenshots/tf_strategy_app_desktop.webp" alt="Desktop screenshot: Typeform eUf7s5V4 &quot;AI Accelerator&quot; application"></a><a href="evidence/screenshots/tf_strategy_app_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/tf_strategy_app_mobile.webp" alt="Mobile screenshot: Typeform eUf7s5V4 &quot;AI Accelerator&quot; application"></a></div>
+<div class="meta"><p><b>Page title:</b> AI Accelerator | *Which best describes where you are right now?*</p>
+
+<p><b>CTAs:</b> A I&#x27;m employed and looking to build income on the side · B I&#x27;m a freelancer or agency owner looking to scale · C I run a business and want to add AI services · D I&#x27;m between opportunities and looking for something new · OK</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> 8 screens: situation, obstacle (free text), what you tried (free text), monthly income, commitment-to-invest, contact (first/last/phone/email), show-up commitment, Calendly. Logic: income &quot;Under $2k&quot; OR &quot;not in a position to invest&quot; → Unqualified → redirect to AIA+ $149/mo page. &quot;Not sure I can commit to a time&quot; → Unqualified. Else → Calendly → /important. Hidden fields capture fbp/fbc/fbclid/utm for Meta CAPI-style attribution. partial_responses_to_all_integrations = true (abandoned applications still reach integrations).</p>
+<p class="src">Evidence: <a href="evidence/page-data/tf_strategy_app.json">page-data/tf_strategy_app.json</a> · <a href="evidence/screenshots/tf_strategy_app_desktop.webp">desktop</a> · <a href="evidence/screenshots/tf_strategy_app_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-aia_schedule_call"><div class="card-head"><span class="stage">Conversion — booking</span><h3>theaiaccelerators.com/schedule-call</h3>
+<p class="url"><a href="https://theaiaccelerators.com/schedule-call?utm_source=newsletter" rel="noopener">https://theaiaccelerators.com/schedule-call?utm_source=newsletter</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/aia_schedule_call_desktop.webp"><img loading="lazy" src="evidence/screenshots/aia_schedule_call_desktop.webp" alt="Desktop screenshot: theaiaccelerators.com/schedule-call"></a><a href="evidence/screenshots/aia_schedule_call_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/aia_schedule_call_mobile.webp" alt="Mobile screenshot: theaiaccelerators.com/schedule-call"></a></div>
+<div class="meta"><p><b>Page title:</b> AI-Powered Agency</p>
+
+
+<p><b>Embeds:</b> https://calendly.com/mentorship-1hr/ai-accelerator</p>
+<p class="ann"><span class="tag v">VERIFIED</span> &quot;Book Your Strategy Call To Map Out Your $10k/Month AI Agency Plan In The Next 12 Weeks.&quot; Inline Calendly calendly.com/mentorship-1hr/ai-accelerator. Direct-booking path (no application) linked from newsletter.</p>
+<p class="src">Evidence: <a href="evidence/page-data/aia_schedule_call.json">page-data/aia_schedule_call.json</a> · <a href="evidence/screenshots/aia_schedule_call_desktop.webp">desktop</a> · <a href="evidence/screenshots/aia_schedule_call_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-aia_important"><div class="card-head"><span class="stage">Conversion — pre-call</span><h3>theaiaccelerators.com/important (post-booking)</h3>
+<p class="url"><a href="https://theaiaccelerators.com/important" rel="noopener">https://theaiaccelerators.com/important</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/aia_important_desktop.webp"><img loading="lazy" src="evidence/screenshots/aia_important_desktop.webp" alt="Desktop screenshot: theaiaccelerators.com/important (post-booking)"></a><a href="evidence/screenshots/aia_important_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/aia_important_mobile.webp" alt="Mobile screenshot: theaiaccelerators.com/important (post-booking)"></a></div>
+<div class="meta"><p><b>Page title:</b> Important</p>
+
+<p><b>CTAs:</b> Enable sound</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Typeform &quot;Qualified&quot; redirect. &quot;You&#x27;re Confirmed, But Before You Go.... Please Watch The Videos Below.&quot; Nine objection videos: technical skills, time to first client, what makes program different, market saturation, what will I sell, weekly time, not good at sales, guarantees, support. Then a wall of Skool win-post screenshots. Show-up/indoctrination page.</p>
+<p class="src">Evidence: <a href="evidence/page-data/aia_important.json">page-data/aia_important.json</a> · <a href="evidence/screenshots/aia_important_desktop.webp">desktop</a> · <a href="evidence/screenshots/aia_important_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-aia_register"><div class="card-head"><span class="stage">Capture — webinar (organic)</span><h3>theaiaccelerators.com/register</h3>
+<p class="url"><a href="https://theaiaccelerators.com/register" rel="noopener">https://theaiaccelerators.com/register</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/aia_register_desktop.webp"><img loading="lazy" src="evidence/screenshots/aia_register_desktop.webp" alt="Desktop screenshot: theaiaccelerators.com/register"></a><a href="evidence/screenshots/aia_register_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/aia_register_mobile.webp" alt="Mobile screenshot: theaiaccelerators.com/register"></a></div>
+<div class="meta"><p><b>Page title:</b> AI-Powered Agency</p>
+
+<p><b>CTAs:</b> SAVE YOUR SEAT NOW · Reserve My Seat Now! Limited Spots Are Available</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> &quot;How AI Agencies Are Scaling Fast in Just 12 Weeks&quot; — Sat Oct 31 12:00 PM EST (still live at capture on Nov 15). Show-up bonus &quot;$5k Monthly Retainer Framework&quot;. GHL popup form: full name, email, phone + SMS marketing consent. Bio: &quot;12,000+ members&quot;, &quot;40,000+ subscribers&quot; (stale).</p>
+<p class="src">Evidence: <a href="evidence/page-data/aia_register.json">page-data/aia_register.json</a> · <a href="evidence/screenshots/aia_register_desktop.webp">desktop</a> · <a href="evidence/screenshots/aia_register_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-aia_register_ads"><div class="card-head"><span class="stage">Capture — webinar (paid)</span><h3>theaiaccelerators.com/register-ads</h3>
+<p class="url"><a href="https://theaiaccelerators.com/register-ads" rel="noopener">https://theaiaccelerators.com/register-ads</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/aia_register_ads_desktop.webp"><img loading="lazy" src="evidence/screenshots/aia_register_ads_desktop.webp" alt="Desktop screenshot: theaiaccelerators.com/register-ads"></a><a href="evidence/screenshots/aia_register_ads_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/aia_register_ads_mobile.webp" alt="Mobile screenshot: theaiaccelerators.com/register-ads"></a></div>
+<div class="meta"><p><b>Page title:</b> How To Start An AI Agency</p>
+
+<p><b>CTAs:</b> SAVE YOUR SEAT NOW · Reserve My Seat Now! Limited Spots Are Available</p>
+<p><b>Embeds:</b> https://form.typeform.com/to/IfVonuWE</p>
+<p class="ann"><span class="tag v">VERIFIED</span> Ad-traffic variant (path name + Meta Pixel + Clarity). Softer promise: &quot;How To Start And Scale An AI Agency&quot;. Registration via Typeform IfVonuWE (contact → biggest struggle → what tried → income). Updated bio &quot;90,000+ on YouTube and 70,000+ on Instagram&quot;.</p>
+<p class="src">Evidence: <a href="evidence/page-data/aia_register_ads.json">page-data/aia_register_ads.json</a> · <a href="evidence/screenshots/aia_register_ads_desktop.webp">desktop</a> · <a href="evidence/screenshots/aia_register_ads_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-aia_register_now"><div class="card-head"><span class="stage">Capture — webinar (email)</span><h3>theaiaccelerators.com/register-now</h3>
+<p class="url"><a href="https://theaiaccelerators.com/register-now?utm_source=newsletter&amp;utm_medium=free-ai-training-agency" rel="noopener">https://theaiaccelerators.com/register-now?utm_source=newsletter&amp;utm_medium=free-ai-training-agency</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/aia_register_now_desktop.webp"><img loading="lazy" src="evidence/screenshots/aia_register_now_desktop.webp" alt="Desktop screenshot: theaiaccelerators.com/register-now"></a><a href="evidence/screenshots/aia_register_now_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/aia_register_now_mobile.webp" alt="Mobile screenshot: theaiaccelerators.com/register-now"></a></div>
+<div class="meta"><p><b>Page title:</b> How To Start An AI Agency</p>
+
+<p><b>CTAs:</b> Register For The Training Limited Spots Are Available</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Newsletter variant (utm_source=newsletter). No date shown: &quot;This Training Is FREE&quot; — evergreen/replay positioning.</p>
+<p class="src">Evidence: <a href="evidence/page-data/aia_register_now.json">page-data/aia_register_now.json</a> · <a href="evidence/screenshots/aia_register_now_desktop.webp">desktop</a> · <a href="evidence/screenshots/aia_register_now_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-aia_reg_complete"><div class="card-head"><span class="stage">Nurture — thank-you</span><h3>theaiaccelerators.com/registration-complete</h3>
+<p class="url"><a href="https://theaiaccelerators.com/registration-complete" rel="noopener">https://theaiaccelerators.com/registration-complete</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/aia_reg_complete_desktop.webp"><img loading="lazy" src="evidence/screenshots/aia_reg_complete_desktop.webp" alt="Desktop screenshot: theaiaccelerators.com/registration-complete"></a><a href="evidence/screenshots/aia_reg_complete_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/aia_reg_complete_mobile.webp" alt="Mobile screenshot: theaiaccelerators.com/registration-complete"></a></div>
+<div class="meta"><p><b>Page title:</b> Your Spot is Reserved!</p>
+
+<p><b>CTAs:</b> Add to Calendar → · Apple · Outlook · Share the Webinar → · Close</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> 4 steps: add to calendar (Zoom us06web link embedded in calendar URL), join WhatsApp group, come with your situation ready (&quot;come ready to make a decision&quot;), share with a friend. &quot;This is live and unrecorded&quot; urgency. Says a unique access link was emailed.</p>
+<p class="src">Evidence: <a href="evidence/page-data/aia_reg_complete.json">page-data/aia_reg_complete.json</a> · <a href="evidence/screenshots/aia_reg_complete_desktop.webp">desktop</a> · <a href="evidence/screenshots/aia_reg_complete_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-beehiiv_home"><div class="card-head"><span class="stage">Nurture — newsletter</span><h3>The AI Core newsletter (beehiiv)</h3>
+<p class="url"><a href="https://ai-core.beehiiv.com/" rel="noopener">https://ai-core.beehiiv.com/</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/beehiiv_home_desktop.webp"><img loading="lazy" src="evidence/screenshots/beehiiv_home_desktop.webp" alt="Desktop screenshot: The AI Core newsletter (beehiiv)"></a><a href="evidence/screenshots/beehiiv_home_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/beehiiv_home_mobile.webp" alt="Mobile screenshot: The AI Core newsletter (beehiiv)"></a></div>
+<div class="meta"><p><b>Page title:</b> Home | The AI Core</p>
+<p><b>Redirects:</b> 302 https://ai-core.beehiiv.com/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5aaa7c97cc1e643 -&gt; /cdn-cgi/challenge-platform/h/b/scripts/jsd/f8df4d4a0cd6/main.js?ray=a5aaa7c97cc1e643</p>
+<p><b>CTAs:</b> Subscribe</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Free newsletter. Recent posts promote the webinar replay (register-now), direct call booking (schedule-call), the 3-Day Challenge inside AIA+, and Reprise&#x27;s Growth Plan. In-post poll segments readers: business owner / building an AI business / career.</p>
+<p class="src">Evidence: <a href="evidence/page-data/beehiiv_home.json">page-data/beehiiv_home.json</a> · <a href="evidence/screenshots/beehiiv_home_desktop.webp">desktop</a> · <a href="evidence/screenshots/beehiiv_home_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-bh_3day"><div class="card-head"><span class="stage">Nurture — challenge promo</span><h3>Newsletter: &quot;3 days. One offer. Starts Monday.&quot;</h3>
+<p class="url"><a href="https://ai-core.beehiiv.com/p/3-days-one-offer-starts-monday" rel="noopener">https://ai-core.beehiiv.com/p/3-days-one-offer-starts-monday</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/bh_3day_desktop.webp"><img loading="lazy" src="evidence/screenshots/bh_3day_desktop.webp" alt="Desktop screenshot: Newsletter: &quot;3 days. One offer. Starts Monday.&quot;"></a><a href="evidence/screenshots/bh_3day_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/bh_3day_mobile.webp" alt="Mobile screenshot: Newsletter: &quot;3 days. One offer. Starts Monday.&quot;"></a></div>
+<div class="meta"><p><b>Page title:</b> 3 days. One offer. Starts Monday.</p>
+<p><b>Redirects:</b> 302 https://ai-core.beehiiv.com/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5aaa9ea5cd4e5f8 -&gt; /cdn-cgi/challenge-platform/h/b/scripts/jsd/f8df4d4a0cd6/main.js?ray=a5aaa9ea5cd4e5f8</p>
+<p><b>CTAs:</b> Subscribe</p>
+<p><b>Embeds:</b> https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html</p>
+<p class="ann"><span class="tag v">VERIFIED</span> Aug 13: 3-Day AI Business Launch Challenge &quot;runs inside AI Accelerator+ — $72/month&quot; (vs $149 at capture → price rose). Deliverable: a Launch Audit reviewed against a rubric; unlocks 90-day roadmap. Student stories: Noah ~$5k in a month, Chris $2,500 + $197/mo, Salah first client. Explicit non-promise: &quot;not promising a paying client in three days&quot;.</p>
+<p class="src">Evidence: <a href="evidence/page-data/bh_3day.json">page-data/bh_3day.json</a> · <a href="evidence/screenshots/bh_3day_desktop.webp">desktop</a> · <a href="evidence/screenshots/bh_3day_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-bh_getpaid"><div class="card-head"><span class="stage">Nurture — webinar replay</span><h3>Newsletter: &quot;How to Get Paid for deploying AI&quot;</h3>
+<p class="url"><a href="https://ai-core.beehiiv.com/p/how-to-get-paid-for-deploying-ai" rel="noopener">https://ai-core.beehiiv.com/p/how-to-get-paid-for-deploying-ai</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/bh_getpaid_desktop.webp"><img loading="lazy" src="evidence/screenshots/bh_getpaid_desktop.webp" alt="Desktop screenshot: Newsletter: &quot;How to Get Paid for deploying AI&quot;"></a><a href="evidence/screenshots/bh_getpaid_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/bh_getpaid_mobile.webp" alt="Mobile screenshot: Newsletter: &quot;How to Get Paid for deploying AI&quot;"></a></div>
+<div class="meta"><p><b>Page title:</b> How to Get Paid for deploying AI</p>
+<p><b>Redirects:</b> 302 https://ai-core.beehiiv.com/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5aaa9e54c112d1c -&gt; /cdn-cgi/challenge-platform/h/b/scripts/jsd/f8df4d4a0cd6/main.js?ray=a5aaa9e54c112d1c</p>
+<p><b>CTAs:</b> Subscribe</p>
+<p><b>Embeds:</b> https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html</p>
+<p class="ann"><span class="tag v">VERIFIED</span> Pushes replay + call. Reveals offer price anchors taught: speed-to-lead + ads system $2,000–$4,000/mo; cold email offer = monthly fee + $200–$400 per qualified call.</p>
+<p class="src">Evidence: <a href="evidence/page-data/bh_getpaid.json">page-data/bh_getpaid.json</a> · <a href="evidence/screenshots/bh_getpaid_desktop.webp">desktop</a> · <a href="evidence/screenshots/bh_getpaid_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-reprisesai_home"><div class="card-head"><span class="stage">B2B — agency site</span><h3>reprisesai.com (Reprise AI)</h3>
+<p class="url"><a href="https://www.reprisesai.com/?utm_source=youtube&amp;utm_medium=bio" rel="noopener">https://www.reprisesai.com/?utm_source=youtube&amp;utm_medium=bio</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/reprisesai_home_desktop.webp"><img loading="lazy" src="evidence/screenshots/reprisesai_home_desktop.webp" alt="Desktop screenshot: reprisesai.com (Reprise AI)"></a><a href="evidence/screenshots/reprisesai_home_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/reprisesai_home_mobile.webp" alt="Mobile screenshot: reprisesai.com (Reprise AI)"></a></div>
+<div class="meta"><p><b>Page title:</b> AI Consulting, Engineering &amp; Education | Reprise AI</p>
+
+<p><b>CTAs:</b> Book My Free AI Audit Call · ▶ · ← · Ⅱ Pause · → · 01 Start</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> &quot;$30K+/MONTH OWNERS: We Implement AI to Save Your Team Time…&quot; CTA: Book My Free AI Audit Call. 4.9/5, &quot;100+ companies&quot;, recruiting testimonial (13→3 hrs/week), 3 metric tiles, 4 video testimonials, 23 &quot;client messages, recreated for display&quot;. Embedded 4-step form (contact → business questions → calendar unlock). Built with v0.app (Vercel/Next.js), GTM-MMQJKPSP, GA4 G-VK830JKBQJ, Meta Pixel 1264557215337731. salesdone.ai 308-redirects here.</p>
+<p class="src">Evidence: <a href="evidence/page-data/reprisesai_home.json">page-data/reprisesai_home.json</a> · <a href="evidence/screenshots/reprisesai_home_desktop.webp">desktop</a> · <a href="evidence/screenshots/reprisesai_home_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-reprise_get_started"><div class="card-head"><span class="stage">B2B — audit application</span><h3>reprisesai.com/how-it-works#assessment (Free AI Audit Call)</h3>
+<p class="url"><a href="https://www.reprisesai.com/how-it-works#assessment" rel="noopener">https://www.reprisesai.com/how-it-works#assessment</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/reprise_get_started_desktop.webp"><img loading="lazy" src="evidence/screenshots/reprise_get_started_desktop.webp" alt="Desktop screenshot: reprisesai.com/how-it-works#assessment (Free AI Audit Call)"></a><a href="evidence/screenshots/reprise_get_started_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/reprise_get_started_mobile.webp" alt="Mobile screenshot: reprisesai.com/how-it-works#assessment (Free AI Audit Call)"></a></div>
+<div class="meta"><p><b>Page title:</b> How Reprise AI Works | AI Implementation</p>
+<p><b>Redirects:</b> 307 https://www.reprisesai.com/get-started -&gt; /how-it-works#assessment</p>
+<p><b>CTAs:</b> ▶ Watch the video · 4:16</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> &quot;FOR SERVICE BUSINESSES DOING $25K+/MONTH&quot;. 8-question quiz: revenue, team size, role, what to improve (multi), business name/site, name, work email, phone + TCPA consent covering autodialed, prerecorded and AI-generated messages. CTA &quot;Choose a Time&quot; = opt-in. Fires GA4 event reprise_home_assessment_start.</p>
+<p class="src">Evidence: <a href="evidence/page-data/reprise_get_started.json">page-data/reprise_get_started.json</a> · <a href="evidence/screenshots/reprise_get_started_desktop.webp">desktop</a> · <a href="evidence/screenshots/reprise_get_started_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-reprise_growth_plan"><div class="card-head"><span class="stage">B2B — lead magnet</span><h3>reprisesai.com/ai-business-growth-plan</h3>
+<p class="url"><a href="https://www.reprisesai.com/ai-business-growth-plan?utm_source=newsletter&amp;utm_medium=ai-build-order" rel="noopener">https://www.reprisesai.com/ai-business-growth-plan?utm_source=newsletter&amp;utm_medium=ai-build-order</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/reprise_growth_plan_desktop.webp"><img loading="lazy" src="evidence/screenshots/reprise_growth_plan_desktop.webp" alt="Desktop screenshot: reprisesai.com/ai-business-growth-plan"></a><a href="evidence/screenshots/reprise_growth_plan_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/reprise_growth_plan_mobile.webp" alt="Mobile screenshot: reprisesai.com/ai-business-growth-plan"></a></div>
+<div class="meta"><p><b>Page title:</b> Your Free AI Business Growth Plan | Reprise AI</p>
+
+<p><b>CTAs:</b> Build my free growth plan</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> &quot;Get your free personalized AI roadmap&quot;. 7-step quiz (problem, priority, process area + optional notes, how it works today, [step 5 not captured], revenue, contact). Delivers plan on-page + private link by email; optional opt-in for follow-up; a &quot;Website&quot; field (likely honeypot — <span class="tag i">INFERRED</span>). First-party /api/growth-plan/metrics logs every step view/complete/error. &quot;Work with us&quot; → LeadConnector (GoHighLevel) booking widget.</p>
+<p class="src">Evidence: <a href="evidence/page-data/reprise_growth_plan.json">page-data/reprise_growth_plan.json</a> · <a href="evidence/screenshots/reprise_growth_plan_desktop.webp">desktop</a> · <a href="evidence/screenshots/reprise_growth_plan_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-reprises_workshop"><div class="card-head"><span class="stage">B2B — workshop</span><h3>join.reprisesai.com/workshop</h3>
+<p class="url"><a href="https://join.reprisesai.com/workshop" rel="noopener">https://join.reprisesai.com/workshop</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/reprises_workshop_desktop.webp"><img loading="lazy" src="evidence/screenshots/reprises_workshop_desktop.webp" alt="Desktop screenshot: join.reprisesai.com/workshop"></a><a href="evidence/screenshots/reprises_workshop_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/reprises_workshop_mobile.webp" alt="Mobile screenshot: join.reprisesai.com/workshop"></a></div>
+<div class="meta"><p><b>Page title:</b> Become AI Native - Live Workshop, Wed Oct 7</p>
+
+<p><b>CTAs:</b> Register for Free · × · Back · Continue</p>
+<p><b>Embeds:</b> https://fast.wistia.net/embed/iframe/6zjeb0ir37</p>
+<p class="ann"><span class="tag v">VERIFIED</span> &quot;Use AI to Handle More Client Work With the Team You Already Have&quot; — 90-min live, for $50K+/mo service businesses (dated Wed Oct 7; still live Nov 15). Strong qualification (&quot;Not for you if… you want to start an AI agency&quot;). 22-file attendee packet, 5 workflow kits, 72-hour replay. FAQ admits a short pitch at the end. 3-step registration: email → first name → mobile (SMS reminders consent). GHL + Wistia + Meta Pixel 2115906985918097.</p>
+<p class="src">Evidence: <a href="evidence/page-data/reprises_workshop.json">page-data/reprises_workshop.json</a> · <a href="evidence/screenshots/reprises_workshop_desktop.webp">desktop</a> · <a href="evidence/screenshots/reprises_workshop_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-reprise_faq"><div class="card-head"><span class="stage">B2B — pricing</span><h3>reprisesai.com/faq</h3>
+<p class="url"><a href="https://www.reprisesai.com/faq" rel="noopener">https://www.reprisesai.com/faq</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/reprise_faq_desktop.webp"><img loading="lazy" src="evidence/screenshots/reprise_faq_desktop.webp" alt="Desktop screenshot: reprisesai.com/faq"></a><a href="evidence/screenshots/reprise_faq_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/reprise_faq_mobile.webp" alt="Mobile screenshot: reprisesai.com/faq"></a></div>
+<div class="meta"><p><b>Page title:</b> Frequently Asked Questions | Reprise AI Tampa, FL</p>
+
+<p><b>CTAs:</b> Get Started</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Pricing disclosed: $15K (single workflow) to $150K+ (full AI OS); most $25K–$75K; fixed-scope, outcome-based. 60–90 day delivery. 100% code ownership.</p>
+<p class="src">Evidence: <a href="evidence/page-data/reprise_faq.json">page-data/reprise_faq.json</a> · <a href="evidence/screenshots/reprise_faq_desktop.webp">desktop</a> · <a href="evidence/screenshots/reprise_faq_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-reprise_case-studies"><div class="card-head"><span class="stage">B2B — proof</span><h3>reprisesai.com/case-studies</h3>
+<p class="url"><a href="https://www.reprisesai.com/case-studies" rel="noopener">https://www.reprisesai.com/case-studies</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/reprise_case-studies_desktop.webp"><img loading="lazy" src="evidence/screenshots/reprise_case-studies_desktop.webp" alt="Desktop screenshot: reprisesai.com/case-studies"></a><a href="evidence/screenshots/reprise_case-studies_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/reprise_case-studies_mobile.webp" alt="Mobile screenshot: reprisesai.com/case-studies"></a></div>
+<div class="meta"><p><b>Page title:</b> AI Implementation Case Studies | Reprise AI Tampa, FL</p>
+
+<p><b>CTAs:</b> Get Started</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> HVAC ($340K/yr, 6.4x ROI), dental ($1.05M, 14x), insurance (retention 86.1→90.3%). Anonymized; figures are self-reported (no third-party verification observed).</p>
+<p class="src">Evidence: <a href="evidence/page-data/reprise_case-studies.json">page-data/reprise_case-studies.json</a> · <a href="evidence/screenshots/reprise_case-studies_desktop.webp">desktop</a> · <a href="evidence/screenshots/reprise_case-studies_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-reprise_best_agencies"><div class="card-head"><span class="stage">B2B — SEO</span><h3>reprisesai.com/best-ai-agencies-2026</h3>
+<p class="url"><a href="https://www.reprisesai.com/best-ai-agencies-2026" rel="noopener">https://www.reprisesai.com/best-ai-agencies-2026</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/reprise_best_agencies_desktop.webp"><img loading="lazy" src="evidence/screenshots/reprise_best_agencies_desktop.webp" alt="Desktop screenshot: reprisesai.com/best-ai-agencies-2026"></a><a href="evidence/screenshots/reprise_best_agencies_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/reprise_best_agencies_mobile.webp" alt="Mobile screenshot: reprisesai.com/best-ai-agencies-2026"></a></div>
+<div class="meta"><p><b>Page title:</b> AI Consulting &amp; Implementation Agency in Tampa, FL | Reprise AI</p>
+
+<p><b>CTAs:</b> Get Started · Book a Consultation · Start Your AI Transformation · Book Your Discovery Call</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Self-ranked listicle: Reprise AI #1 above OpenAI Enterprise etc. Claims &quot;Production ROI in 90 days or they fix it for free&quot; and &quot;$50K–$150K&quot; range (differs from FAQ $15K floor). SEO/LLM-answer bait.</p>
+<p class="src">Evidence: <a href="evidence/page-data/reprise_best_agencies.json">page-data/reprise_best_agencies.json</a> · <a href="evidence/screenshots/reprise_best_agencies_desktop.webp">desktop</a> · <a href="evidence/screenshots/reprise_best_agencies_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-reprise_learn"><div class="card-head"><span class="stage">B2B — SEO/content</span><h3>reprisesai.com/learn (Learning Library)</h3>
+<p class="url"><a href="https://www.reprisesai.com/learn" rel="noopener">https://www.reprisesai.com/learn</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/reprise_learn_desktop.webp"><img loading="lazy" src="evidence/screenshots/reprise_learn_desktop.webp" alt="Desktop screenshot: reprisesai.com/learn (Learning Library)"></a><a href="evidence/screenshots/reprise_learn_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/reprise_learn_mobile.webp" alt="Mobile screenshot: reprisesai.com/learn (Learning Library)"></a></div>
+<div class="meta"><p><b>Page title:</b> Learn AI for Business | Nick Puru &amp; Reprise AI</p>
+
+<p><b>CTAs:</b> Get Started · All resources · Questions · Guides · Video sections · Videos</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> 1,250 resources: 32 answers, 4 guides, 344 videos, 870 timestamped sections — YouTube library repurposed into indexable pages (sitemap lists /learn/videos/*).</p>
+<p class="src">Evidence: <a href="evidence/page-data/reprise_learn.json">page-data/reprise_learn.json</a> · <a href="evidence/screenshots/reprise_learn_desktop.webp">desktop</a> · <a href="evidence/screenshots/reprise_learn_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-reprise_education"><div class="card-head"><span class="stage">B2B — offer</span><h3>reprisesai.com/education</h3>
+<p class="url"><a href="https://www.reprisesai.com/education" rel="noopener">https://www.reprisesai.com/education</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/reprise_education_desktop.webp"><img loading="lazy" src="evidence/screenshots/reprise_education_desktop.webp" alt="Desktop screenshot: reprisesai.com/education"></a><a href="evidence/screenshots/reprise_education_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/reprise_education_mobile.webp" alt="Mobile screenshot: reprisesai.com/education"></a></div>
+<div class="meta"><p><b>Page title:</b> AI Consulting &amp; Implementation Agency in Tampa, FL | Reprise AI</p>
+
+<p><b>CTAs:</b> Get Started · Design Your Training</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Corporate training: half-day exec workshop, full-day department deep-dive, 2–3 day technical bootcamp, 2–8 week custom curriculum. No prices shown.</p>
+<p class="src">Evidence: <a href="evidence/page-data/reprise_education.json">page-data/reprise_education.json</a> · <a href="evidence/screenshots/reprise_education_desktop.webp">desktop</a> · <a href="evidence/screenshots/reprise_education_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-skool_mentorship"><div class="card-head"><span class="stage">Delivery — INFERRED</span><h3>Skool &quot;AI Accelerator Mentorship&quot; (private)</h3>
+<p class="url"><a href="https://www.skool.com/ai-accelerator-1318/about" rel="noopener">https://www.skool.com/ai-accelerator-1318/about</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/skool_mentorship_desktop.webp"><img loading="lazy" src="evidence/screenshots/skool_mentorship_desktop.webp" alt="Desktop screenshot: Skool &quot;AI Accelerator Mentorship&quot; (private)"></a><a href="evidence/screenshots/skool_mentorship_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/skool_mentorship_mobile.webp" alt="Mobile screenshot: Skool &quot;AI Accelerator Mentorship&quot; (private)"></a></div>
+<div class="meta"><p><b>Page title:</b> AI Accelerator Mentorship</p>
+
+<p><b>CTAs:</b> LOG IN · JOIN GROUP</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Private, free-listed, 28 members, 8 admins, owner account &quot;AI Accelerator Support&quot; (@nick-puruczky-5731, a second account). Nick is a member. <span class="tag i">INFERRED</span>: delivery space for the high-ticket mentorship sold on strategy calls. Contents not visible.</p>
+<p class="src">Evidence: <a href="evidence/page-data/skool_mentorship.json">page-data/skool_mentorship.json</a> · <a href="evidence/screenshots/skool_mentorship_desktop.webp">desktop</a> · <a href="evidence/screenshots/skool_mentorship_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-n8n_aff"><div class="card-head"><span class="stage">Monetization — affiliate</span><h3>n8n.partnerlinks.io/nick</h3>
+<p class="url"><a href="https://n8n.io/?ps_partner_key=bmlja3B1cnVjemt5ODQ4OA&amp;ps_xid=3VWozkXEdQxBR1&amp;gsxid=3VWozkXEdQxBR1&amp;gspk=bmlja3B1cnVjemt5ODQ4OA" rel="noopener">https://n8n.io/?ps_partner_key=bmlja3B1cnVjemt5ODQ4OA&amp;ps_xid=3VWozkXEdQxBR1&amp;gsxid=3VWozkXEdQxBR1&amp;gspk=bmlja3B1cnVjemt5ODQ4OA</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/n8n_aff_desktop.webp"><img loading="lazy" src="evidence/screenshots/n8n_aff_desktop.webp" alt="Desktop screenshot: n8n.partnerlinks.io/nick"></a><a href="evidence/screenshots/n8n_aff_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/n8n_aff_mobile.webp" alt="Mobile screenshot: n8n.partnerlinks.io/nick"></a></div>
+<div class="meta"><p><b>Page title:</b> AI Workflow Automation Platform - n8n</p>
+<p><b>Redirects:</b> 302 https://n8n.partnerlinks.io/nick -&gt; https://n8n.io/?ps_partner_key=bmlja3B1cnVjemt5ODQ4OA&amp;ps_xid=3VWozkXEdQxBR1&amp;gsxid=3VWozkXEdQxBR1&amp;gspk=bmlja3B1cnVjemt5ODQ4OA</p>
+<p><b>CTAs:</b> PRODUCT · USE CASES · DOCS · COMMUNITY · Product · Use cases</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Redirects to n8n.io with ps_partner_key (PartnerStack) — affiliate revenue on tool sign-ups.</p>
+<p class="src">Evidence: <a href="evidence/page-data/n8n_aff.json">page-data/n8n_aff.json</a> · <a href="evidence/screenshots/n8n_aff_desktop.webp">desktop</a> · <a href="evidence/screenshots/n8n_aff_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-ig_bio_growthplan"><div class="card-head"><span class="stage">Capture — IG bio link</span><h3>Instagram bio destination: AI Business Growth Plan</h3>
+<p class="url"><a href="https://www.reprisesai.com/ai-business-growth-plan?utm_source=instagram&amp;utm_medium=bio" rel="noopener">https://www.reprisesai.com/ai-business-growth-plan?utm_source=instagram&amp;utm_medium=bio</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/ig_bio_growthplan_desktop.webp"><img loading="lazy" src="evidence/screenshots/ig_bio_growthplan_desktop.webp" alt="Desktop screenshot: Instagram bio destination: AI Business Growth Plan"></a><a href="evidence/screenshots/ig_bio_growthplan_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/ig_bio_growthplan_mobile.webp" alt="Mobile screenshot: Instagram bio destination: AI Business Growth Plan"></a></div>
+<div class="meta"><p><b>Page title:</b> Your Free AI Business Growth Plan | Reprise AI</p>
+
+<p><b>CTAs:</b> Build my free growth plan</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> The Instagram bio link (utm_source=instagram&amp;utm_medium=bio) lands on the Reprise growth-plan quiz: Instagram feeds the B2B lead magnet. Same page as the newsletter link (see growth-plan card).</p>
+<p class="src">Evidence: <a href="evidence/page-data/ig_bio_growthplan.json">page-data/ig_bio_growthplan.json</a> · <a href="evidence/screenshots/ig_bio_growthplan_desktop.webp">desktop</a> · <a href="evidence/screenshots/ig_bio_growthplan_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-linktree"><div class="card-head"><span class="stage">Attention</span><h3>Linktree linktr.ee/Nickpuru</h3>
+<p class="url"><a href="https://linktr.ee/Nickpuru" rel="noopener">https://linktr.ee/Nickpuru</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/linktree_desktop.webp"><img loading="lazy" src="evidence/screenshots/linktree_desktop.webp" alt="Desktop screenshot: Linktree linktr.ee/Nickpuru"></a><a href="evidence/screenshots/linktree_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/linktree_mobile.webp" alt="Mobile screenshot: Linktree linktr.ee/Nickpuru"></a></div>
+<div class="meta"><p><b>Page title:</b> Nick Puru Official: TikTok, Instagram, X | Linktree</p>
+
+<p><b>CTAs:</b> Nick Puru Instagram · Nick Puru TikTok · Nick Puru YouTube · Nick Puru X · Cookie Preferences · Explore</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> Links IG, TikTok, YouTube &quot;(40k+)&quot; (stale), X, &quot;Transform your business with AI&quot; (salesdone.ai → Reprise) and &quot;AI front office solutions for healthcare&quot; (sync2.ai).</p>
+<p class="src">Evidence: <a href="evidence/page-data/linktree.json">page-data/linktree.json</a> · <a href="evidence/screenshots/linktree_desktop.webp">desktop</a> · <a href="evidence/screenshots/linktree_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-go_reprises_root"><div class="card-head"><span class="stage">B2B — vertical funnel (paid traffic)</span><h3>go.reprisesai.com → /accounting-ai-installation-page-new</h3>
+<p class="url"><a href="https://go.reprisesai.com/accounting-ai-installation-page-new" rel="noopener">https://go.reprisesai.com/accounting-ai-installation-page-new</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/go_reprises_root_desktop.webp"><img loading="lazy" src="evidence/screenshots/go_reprises_root_desktop.webp" alt="Desktop screenshot: go.reprisesai.com → /accounting-ai-installation-page-new"></a><a href="evidence/screenshots/go_reprises_root_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/go_reprises_root_mobile.webp" alt="Mobile screenshot: go.reprisesai.com → /accounting-ai-installation-page-new"></a></div>
+<div class="meta"><p><b>Page title:</b> —</p>
+<p><b>Redirects:</b> 302 https://go.reprisesai.com/ -&gt; /accounting-ai-installation-page-new</p>
+
+
+<p class="ann"><span class="tag v">VERIFIED</span> Meta ads from the &quot;Sync2&quot; Page land on this subdomain. Root redirects to a CPA-firm page: &quot;FOR FOUNDER-LED CPA FIRMS DOING $50K/MONTH+&quot;, &quot;$10K plus retainer, 14 days&quot;, retainer waived if close not cut 50% in 30 days, &quot;42+ firms installed&quot;, &quot;We take 3 new firms per month. 1 spot remaining for July.&quot; (stale in November). Objection blocks (❌ → ✅). CTA → go.reprisesai.com/accounting-schedule-page. GHL-style subdomain with Meta Pixel and Wistia.</p>
+<p class="src">Evidence: <a href="evidence/page-data/go_reprises_root.json">page-data/go_reprises_root.json</a> · <a href="evidence/screenshots/go_reprises_root_desktop.webp">desktop</a> · <a href="evidence/screenshots/go_reprises_root_mobile.webp">mobile</a></p></div></div></article>
+<article class="card" id="p-sync2_home"><div class="card-head"><span class="stage">B2B — SaaS</span><h3>sync2.ai (Sync2)</h3>
+<p class="url"><a href="https://sync2.ai/" rel="noopener">https://sync2.ai/</a></p></div>
+<div class="card-body"><div class="shots"><a href="evidence/screenshots/sync2_home_desktop.webp"><img loading="lazy" src="evidence/screenshots/sync2_home_desktop.webp" alt="Desktop screenshot: sync2.ai (Sync2)"></a><a href="evidence/screenshots/sync2_home_mobile.webp"><img loading="lazy" class="m" src="evidence/screenshots/sync2_home_mobile.webp" alt="Mobile screenshot: sync2.ai (Sync2)"></a></div>
+<div class="meta"><p><b>Page title:</b> Sync2 | AI Call agent</p>
+
+<p><b>CTAs:</b> Will patients know they&#x27;re talking to AI? · How long to get set up? · Is this HIPAA compliant? · Does this replace our ad agency? · What specialties do you support? · What does my staff need to do?</p>
+
+<p class="ann"><span class="tag v">VERIFIED</span> &quot;Your front desk, powered by AI&quot; for plastic surgery, med spa, dental, aesthetic practices. Live browser voice demo (&quot;Talk to our AI receptionist&quot;), &quot;2,400+ calls handled&quot;, &quot;93% resolution rate&quot;, industry stats cited. CTA: Book a Demo; provider login. No founders named on page; linked from Nick&#x27;s Linktree and named as a co-founded company in his webinar bio.</p>
+<p class="src">Evidence: <a href="evidence/page-data/sync2_home.json">page-data/sync2_home.json</a> · <a href="evidence/screenshots/sync2_home_desktop.webp">desktop</a> · <a href="evidence/screenshots/sync2_home_mobile.webp">mobile</a></p></div></div></article>
+<h3 id="formwalks">Form walk-throughs (no submissions)</h3>
+<p>Each form was opened in Playwright with <b>every non-GET request aborted</b>. Once the page loaded, <b>all</b> network traffic was aborted ("lockdown") before any synthetic value (<code>test@example.invalid</code>, <code>5555550100</code>) was typed. The final submit or opt-in buttons were never clicked. Logs of what the browser <i>tried</i> to send are in <code>evidence/form-walks/*.json</code>.</p>
+<div class="two">
+<div class="box"><h3>Reprise "Free AI Audit Call" (8 steps)</h3><ol><li>Average monthly revenue (Under $25K … $500K+)</li><li>Team size (Just me … 51+)</li><li>Role (Owner / Exec / Team lead / Other)</li><li>What to improve — multi-select (leads &amp; follow-up, onboarding, support, reporting/admin, documents, invoicing, hiring, other)</li><li>Business name or website</li><li>Name</li><li>Work email</li><li>Phone + consent to "autodialed, prerecorded, and AI-generated messages… even if your number is on a Do Not Call list"; "Clicking 'Choose a Time' is your opt-in."</li></ol><p class="src"><a href="evidence/form-walks/reprise_audit_quiz_full.json">log</a> · <a href="evidence/form-walks/reprise_audit_quiz_full_step7.webp">step 8 screenshot</a></p></div>
+<div class="box"><h3>Reprise "AI Business Growth Plan" (7 steps)</h3><ol><li>Main problem (copying/chasing between tools · stuck on one person · systems break · need more clients · not sure)</li><li>Biggest difference (time back · work without me · margins · reliability · growth)</li><li>Work to take off your plate + 3 optional notes</li><li>How the process works today (manual · one person · broken automation · works · need to understand)</li><li><span class="tag u">UNKNOWN</span> (skipped by the walker)</li><li>Monthly revenue ("Your plan is free at every level")</li><li>First name, email, phone, optional follow-up opt-in, hidden "Website" field (likely honeypot <span class="tag i">INFERRED</span>) → "Show my growth plan"</li></ol><p class="src">Each step POSTs to <code>/api/growth-plan/metrics</code> (view/complete/error events). <a href="evidence/form-walks/growth_plan2.json">log</a></p></div>
+<div class="box"><h3>Strategy-call application (Typeform eUf7s5V4)</h3><p>Read from the public form definition (not filled in, because <code>partial_responses_to_all_integrations=true</code> means even unfinished answers reach their integrations).</p><ol><li>Which best describes you? (employed/side income · freelancer/agency · business adding AI · between opportunities)</li><li>Biggest obstacle building your AI agency (text)</li><li>What have you tried, why didn't it work? (text)</li><li>Monthly income (&lt;$2k · $2–5k · $5–10k · $10k+)</li><li>"If we can guarantee you close your first agency client within the next 90 days, how committed are you to starting today?"</li><li>First/last name, phone, email</li><li>"Will you commit to showing up…?" — "Calls cannot be rescheduled."</li><li>Calendly picker → redirect <code>/important</code></li></ol><p class="src"><a href="evidence/forms/typeform_eUf7s5V4.txt">full definition + logic</a></p></div>
+<div class="box"><h3>Webinar registrations</h3><p><b>/register-ads → Typeform IfVonuWE:</b> contact (4 fields) → biggest struggle (finding clients / what to sell / closing) → what you've tried → monthly income → <code>/registration-complete</code>. Hidden: utm_*, fbp, fbc, fbclid, user_agent, referrer.</p><p><b>/register → GHL popup:</b> full name, email, phone (country picker), SMS marketing consent, "Submit My Registration!"</p><p><b>join.reprisesai.com/workshop:</b> email → first name → mobile ("you agree to receive webinar text reminders").</p><p class="src"><a href="evidence/forms/typeform_IfVonuWE.txt">Typeform definition</a> · <a href="evidence/form-walks/aia_register_popup.webp">popup</a> · <a href="evidence/form-walks/workshop_reg.json">workshop log</a></p></div>
+</div>
+
+<h2 id="content">4 · Content &amp; CTA inventory</h2>
+<h3>Instagram — profile <span class="tag v">VERIFIED</span></h3>
+<div class="two"><div class="box"><p><b>@nicholas.puru</b> · "Nick Puruczky | AI Automation" · ~91.3K followers · 347 posts (logged-out view, 15 Nov 2026)</p>
+<p><b>Bio:</b> "🤖 I help businesses implement AI / 📹 90K YouTube / 👇 Free AI Growth Plan for your biz"</p>
+<p><b>Bio link:</b> <code>reprisesai.com/ai-business-growth-plan?utm_source=instagram&amp;utm_medium=bio</code> + 4 more links (not visible logged out)</p>
+<p><b>Highlights:</b> "USE AI", "RESULTS" (contents login-walled)</p>
+<p class="src"><a href="evidence/external/ig_profile_public.webp">profile screenshot</a> · <a href="#p-ig_bio_growthplan">bio-link destination capture</a></p></div>
+<div class="box"><p><b>Content pillars</b> <span class="tag i">INFERRED</span> from the 12 visible reels + YouTube: (1) AI news / new model drops; (2) tool tutorials with a downloadable setup guide; (3) "AI for your business" use cases (Claude Cowork, rebuilding SaaS tools); (4) security warnings; (5) sponsored tool demos. Agency-building content lives mainly on YouTube and the newsletter. Instagram positions him as the person who "implements AI for businesses".</p>
+<p><b>How content moves people to an offer:</b> reel → "Comment NEED" → automated DM with a resource → (per podcast) newsletter / lead magnet → newsletter CTAs to webinar, call, challenge, or growth plan. In parallel, the bio link goes straight to the B2B growth-plan quiz.</p></div></div>
+<h3>Instagram — 12 latest reels (all visible logged out) <span class="tag v">VERIFIED</span></h3>
+<p class="note">Likes / comments as shown on each public reel page. "unknown" = not shown. The 100-post analysis requested was not possible: only these 12 load logged out (see §8). Comment counts are inflated by keyword replies.</p>
+<div class="tw"><table><tr><th>Reel</th><th>Date</th><th>Likes / comments</th><th>DM keyword</th><th>Hook / caption excerpt</th><th>Pillar</th><th>Evidence</th></tr>
+<tr><td><a href="https://www.instagram.com/reel/DfsLm8UIOlc/">DfsLm8UIOlc</a></td><td>2026-11-13</td><td>19 / 33</td><td>NEED</td><td>&quot;Comment NEED if you want my Claude Code Router setup guide…&quot;</td><td>Tool tutorial</td><td><a href="evidence/external/ig_reel_DfsLm8UIOlc.webp">shot</a></td></tr>
+<tr><td><a href="https://www.instagram.com/reel/DfnGXi6InXL/">DfnGXi6InXL</a></td><td>2026-11-11</td><td>11 / 3</td><td>— (promo code in comment)</td><td>&quot;How to run Hermes Agent 24/7… Sponsored by Cloudways… #ad&quot;</td><td>Sponsored</td><td><a href="evidence/external/ig_reel_DfnGXi6InXL.webp">shot</a></td></tr>
+<tr><td><a href="https://www.instagram.com/reel/DfiUoSZAPxy/">DfiUoSZAPxy</a></td><td>2026-11-09</td><td>62 / 4</td><td>—</td><td>&quot;The smartest AI model in the world just released…&quot;</td><td>News</td><td><a href="evidence/external/ig_reel_DfiUoSZAPxy.webp">shot</a></td></tr>
+<tr><td><a href="https://www.instagram.com/reel/DffKR6cIVQ8/">DffKR6cIVQ8</a></td><td>2026-11-08</td><td>90 / 149</td><td>NEED</td><td>&quot;…my setup guide with the five agents I&#x27;d start with… 140 specialized AI agents&quot;</td><td>Free resource</td><td><a href="evidence/external/ig_reel_DffKR6cIVQ8.webp">shot</a></td></tr>
+<tr><td><a href="https://www.instagram.com/reel/DfcQvBXIbqW/">DfcQvBXIbqW</a></td><td>2026-11-07</td><td>95 / 38</td><td>— (&quot;Follow for more AI…&quot;)</td><td>&quot;How To Use Claude AI For Business… Claude Cowork…&quot;</td><td>Business use</td><td><a href="evidence/external/ig_reel_DfcQvBXIbqW.webp">shot</a></td></tr>
+<tr><td><a href="https://www.instagram.com/reel/DfZen8Co_D1/">DfZen8Co_D1</a></td><td>2026-11-06</td><td>unknown</td><td>NEED</td><td>&quot;Claude Haiku 5.5 is the cheapest Claude model yet…&quot;</td><td>News</td><td><a href="evidence/external/ig_reel_DfZen8Co_D1.webp">shot</a></td></tr>
+<tr><td><a href="https://www.instagram.com/reel/DfZcFpOIuIF/">DfZcFpOIuIF</a></td><td>2026-11-06</td><td>86 / 59</td><td>NEED</td><td>&quot;…the install command and the exact prompt I use and I&#x27;ll send it to your DMs&quot;</td><td>Tool tutorial</td><td><a href="evidence/external/ig_reel_DfZcFpOIuIF.webp">shot</a></td></tr>
+<tr><td><a href="https://www.instagram.com/reel/DfVP6H-ofxd/">DfVP6H-ofxd</a></td><td>2026-11-04</td><td>unknown</td><td>NEED</td><td>&quot;…setup guide so you can rebuild your first tool… cut software costs&quot;</td><td>Business use</td><td><a href="evidence/external/ig_reel_DfVP6H-ofxd.webp">shot</a></td></tr>
+<tr><td><a href="https://www.instagram.com/reel/DfOCAjfIkY2/">DfOCAjfIkY2</a></td><td>2026-11-01</td><td>48 / 13</td><td>NEED</td><td>&quot;Your website might be wide open right now. 🚨&quot;</td><td>Warning</td><td><a href="evidence/external/ig_reel_DfOCAjfIkY2.webp">shot</a></td></tr>
+<tr><td><a href="https://www.instagram.com/reel/DfH_EHrIrYi/">DfH_EHrIrYi</a></td><td>2026-10-30</td><td>55 / 21</td><td>NEED</td><td>&quot;…start using Tripo completely free… code NICK500&quot;</td><td>Sponsored</td><td><a href="evidence/external/ig_reel_DfH_EHrIrYi.webp">shot</a></td></tr>
+<tr><td><a href="https://www.instagram.com/reel/DfFaVqeI-Dp/">DfFaVqeI-Dp</a></td><td>2026-10-29</td><td>62 / 18</td><td>FLEX</td><td>&quot;Your Data Sync Shouldn&#x27;t Be Your Privacy Risk… #AirbytePartner&quot;</td><td>Sponsored</td><td><a href="evidence/external/ig_reel_DfFaVqeI-Dp.webp">shot</a></td></tr>
+<tr><td><a href="https://www.instagram.com/reel/DfAH_wHoZCx/">DfAH_wHoZCx</a></td><td>2026-10-27</td><td>95 / 60</td><td>NEED</td><td>&quot;…the link to connect your own AI… Bird just launched the Agentic Harness&quot;</td><td>News</td><td><a href="evidence/external/ig_reel_DfAH_wHoZCx.webp">shot</a></td></tr>
+</table></div>
+<div class="grid" style="margin-top:14px"><div class="box"><b>Comment-to-DM</b><p>9 of 12 reels say "Comment NEED"; 1 sponsored reel uses "FLEX". Comment threads are dominated by the keyword. The same "Comment NEED" formula appears on Threads and was pasted into a YouTube Short description (OCGVY-IGc_k). <span class="tag v">VERIFIED</span>. Tool: ManyChat per <a href="https://podwise.ai/episodes/7997426">Build With AI ep. 165</a> (he claims "4M views on Instagram in 30 days" and "6,000+ newsletter signups" from an AI-assisted content system) <span class="tag i">INFERRED</span>.</p></div>
+<div class="box"><b>Caption format</b><p>Hook line → value promise → keyword CTA → *asterisk SEO keywords* → 5 hashtags (#claudeai #aiautomation #smallbusiness #aiforbusiness…). Two reels carry Meta's "AI content" label. Cadence ≈ one reel every 1–2 days (Oct 27–Nov 13).</p></div>
+<div class="box"><b>Cross-posting</b><p>At least 5 reels match YouTube Shorts with near-identical titles (e.g. "140 FREE AI Employees" = Short vGKy4ZX-CmU; Tripo reel = Short Re4TeFEZSuY) <span class="tag i">INFERRED</span>, strongly supported. Threads @nicholas.puru (~389 followers) reuses captions.</p></div></div>
+<h3>YouTube — top videos by views <span class="tag v">VERIFIED</span></h3><div class="tw"><table><tr><th>Title</th><th>Views</th><th>Age</th></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=PwwvZQORy1I">I Built an AI Agent That Does EVERYTHING for You! (100% Automated)</a></td><td>524K</td><td>2y</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=Dif1hwBejCk">Stop Learning n8n in 2025... Learn THIS Instead</a></td><td>248K</td><td>1y</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=VQRiwK7q1Do">Stop Selling n8n Agents, Sell AI Systems - Here&#x27;s How</a></td><td>142K</td><td>1y</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=vUnG7hsPe5E">How to Build an AI Agent for Data Analysis, Visualization, AND Reporting (n8n)</a></td><td>120K</td><td>1y</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=0BeG0lqA374">AI Reverse Engineering Is the Most Dangerous Thing on the Internet</a></td><td>120K</td><td>1mo</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=8wDF9K1GPI8">This AI Phone Agent Can Handle EVERYTHING For You (free n8n template)</a></td><td>100K</td><td>1y</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=X_mHYolYpfg">This New AI Employee Can Actually Run Your Business For You</a></td><td>80K</td><td>5mo</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=Yp5KiHBSpZo">Paperclip AI Explained: The Truth About &quot;Zero Human Companies&quot;</a></td><td>77K</td><td>7mo</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=EQq_qQ_P67c">Claude Code for Business: Run Your Entire Company With an AI Team</a></td><td>51K</td><td>4mo</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=NZlblvXPJmI">How to Use Claude Cowork To Do EVERYTHING For You (Complete Guide)</a></td><td>46K</td><td>9mo</td></tr>
+</table></div><h3>YouTube — recent uploads</h3><div class="tw"><table><tr><th>Title</th><th>Views</th><th>Age</th></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=vc5sJDc3L8A">How I&#x27;d Land My First AI Agency Client in 2027 (No Case Studies) [3:59:34]</a></td><td>740</td><td>10h</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=EHpUBR2OXLo">This Boring Ugly GitHub Repo Makes $25K/Month</a></td><td>4.8K</td><td>3d</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=LUykxdd7g3o">Be CAREFUL Using Claude Fable 5.2 on Max</a></td><td>1.5K</td><td>5d</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=4A7uzDwAlN8">Be CAREFUL when using ChatGpt now!</a></td><td>12K</td><td>9d</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=VJnTQXDX0lU">Claude Watches My Screen Every 5 Seconds to Know What to Automate Next..</a></td><td>7.7K</td><td>13d</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=YUlumGjB-dM">speedrunning a $10K/Month AI Agency From $0</a></td><td>1.9K</td><td>2w</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=16aUA3WJm9k">The 5 Levels of Running Coding Agents..</a></td><td>6.3K</td><td>2w</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=h8VwtISoohI">One-person AI businesses are failing... and now we know why</a></td><td>6.9K</td><td>3w</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=IHnYXbZru4w">no one wants to hear this, but the claude code era is coming to an end..</a></td><td>30K</td><td>1mo</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=ElrC9j2XiMg">$100,000/month selling ai websites...</a></td><td>24K</td><td>1mo</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=Lu2WpMQaEBQ">Be CAREFUL when using Claude now!</a></td><td>32K</td><td>2mo</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=QdsskvceVG0">Claude Code is now free...</a></td><td>20K</td><td>2mo</td></tr>
+</table></div><p class="note">Evidence: <a href="evidence/external/yt_videos_popular.webp">popular</a> · <a href="evidence/external/yt_videos_latest.webp">latest</a> · <a href="evidence/external/yt_shorts.webp">shorts</a>. Shorts typically get 1–12K views; best recent: "This FREE Website Shows The Whole Planet Live" (27K). Topics moved from n8n (2024–25) to Claude Code / Cowork / Hermes / GPT-6 (2026). Hook formulas: "Be CAREFUL when using X now!", "Stop X… Learn THIS Instead", "X Just KILLED Y", "This FREE X", "No one wants to hear this, but…", big monthly numbers ("$25K/Month", "$100,000/month"), lowercase titles ending "..".</p>
+<h3>CTA inventory (all channels)</h3><div class="tw"><table><tr><th>Placement</th><th>CTA text / link</th><th>Destination</th><th>Status</th></tr>
+<tr><td>Instagram bio</td><td>"👇 Free AI Growth Plan for your biz"</td><td>reprisesai.com/ai-business-growth-plan (utm instagram/bio)</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Instagram reels</td><td>"Comment NEED…" / "Comment FLEX"</td><td>DM automation → resource</td><td><span class="tag v">VERIFIED</span> CTA · contents <span class="tag u">UNKNOWN</span></td></tr>
+<tr><td>Linktree <a href="https://linktr.ee/Nickpuru">linktr.ee/Nickpuru</a></td><td>IG, TikTok, YouTube "(40k+)", X, "Transform your business with AI", "AI front office solutions for healthcare"</td><td>salesdone.ai → reprisesai.com; sync2.ai</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>YouTube header</td><td>reprisesai.com + 3 more</td><td>reprisesai.com, theaiaccelerators.com/agency, Skool, beehiiv</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>YouTube descriptions</td><td>"🤖 Transform your business with AI", "📚 Learn How to Start and Grow Your AI Business in 3 Days", "Join the best community for AI entrepreneurs", "Sign up to n8n (free)"</td><td>salesdone.ai, go.teachly.ai/nickp → AIA+, Skool, n8n affiliate</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>YouTube community posts</td><td>workshop &amp; webinar links</td><td>join.reprisesai.com/workshop, theaiaccelerators.com/register(-ads), /agency</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Newsletter</td><td>"Watch the training →", "book a call with my team", "Join and be in Monday's cohort", "Get your free AI Business Growth Plan"</td><td>/register-now, /schedule-call, Skool AIA+, growth plan</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Skool free group</td><td>"12 spots left before the price goes up!"</td><td>AIA+ $149/mo</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Meta ads (Page "Sync2")</td><td>"Turn Enquiries Into Consultations — See the Patient Profit System" / "Book a free Growth Review"</td><td>go.reprisesai.com</td><td><span class="tag v">VERIFIED</span> (<a href="evidence/external/adlib_exact_reprisesai.webp">Ad Library</a>; IDs 1468396645218484, 1448886903365914, 987198244455231, 1776104196796336, 1201926085841742)</td></tr>
+</table></div>
+
+<h2 id="offers">5 · Offer breakdown</h2>
+<div class="tw"><table>
+<tr><th>Offer</th><th>Audience / problem</th><th>Promise &amp; mechanism</th><th>Deliverables / fulfilment</th><th>Price · terms · urgency</th><th>Proof &amp; authority</th></tr>
+<tr><td><b>AI Accelerator</b> (free Skool)</td><td>Anyone wanting to "learn AI, or build an AI business"; fear of being replaced</td><td>"Two kinds of people: the ones who command AI, and the ones who got replaced by them"</td><td>Tutorials (Claude Code, Codex, Hermes, OpenClaw), tool breakdowns, selling AI, masterclasses, monthly competitions, weekly Q&amp;A/live builds</td><td>Free <span class="tag v">VERIFIED</span></td><td>"18,000+ founders" in copy; 20.6k counter</td></tr>
+<tr><td><b>AI Accelerator +</b></td><td>Beginners with no coding experience or audience who want a first AI client</td><td>"Build a profitable AI business within 90 days"; CAOS = Offer → Proof → Pipeline → Client</td><td>3-Day Launch Challenge + roadmap review, 90-Day Roadmap, AI/agent training, offers &amp; demos, scripts/proposals/pricing, business audit, weekly accountability &amp; masterclasses, annual 1:1 call; weekly office hours with Keshav + Q&amp;A with Nick (June post)</td><td>$149/mo now; $72/mo (Aug 13 newsletter); "founders pricing" until 50 members (June). Guarantee (annual members): first paying client in 90 days "or your money back" if roadmap followed <span class="tag v">VERIFIED</span>. Annual price <span class="tag u">UNKNOWN</span></td><td>"~$70k/mo AI agency", "60+ companies", "$5M+ for clients"</td></tr>
+<tr><td><b>Strategy-call mentorship</b> (high-ticket)</td><td>Employed side-hustlers, freelancers, business owners, people "between opportunities"; earning ≥$2k/mo and willing to invest</td><td>"$10k/Month AI Agency Plan In The Next 12 Weeks"; application asks how committed you'd be "if we can guarantee you close your first agency client within the next 90 days"</td><td>Delivery <span class="tag i">INFERRED</span>: private Skool "AI Accelerator Mentorship" (28 members, 8 admins, owned by an "AI Accelerator Support" account)</td><td><span class="tag u">UNKNOWN</span> price, payment plans, contract. T&amp;Cs say calls may present "paid mentorship programmes" and missed calls may not be rebooked</td><td>Win-post wall on <code>/important</code>; VSL thumbnail $5k → $10k → $50k</td></tr>
+<tr><td><b>Webinar</b> "How To Start And Scale An AI Agency"</td><td>Same as above; "no tech skills"</td><td>4 AI services that sell, finding clients, closing, niche selection, repeat business</td><td>~60–90 min Zoom; bonus "$5k Monthly Retainer Framework" for live attendees; WhatsApp group; replay later via newsletter</td><td>Free. "Limited Spots", "live and unrecorded" (later released as replay) <span class="tag v">VERIFIED</span></td><td>Host bio with audience-size claims</td></tr>
+<tr><td><b>Reprise AI implementation</b></td><td>Service businesses $25–30K+/mo, 3–200 staff; teams doing "$15/hr work"</td><td>"We Implement AI to Save Your Team Time and Make Your Business More Profitable"; 5-layer "AI Operating System"</td><td>Scope → build → train → improve; 60–90 days; client owns 100% of code</td><td>$15K–$150K+, most $25–75K, fixed-scope outcome-based (FAQ). "Production ROI in 90 days or they fix it for free" (self-ranked listicle)</td><td>4.9/5, 100+ companies, 4 video testimonials, 23 "recreated" message screenshots, 3 case studies, "average $600K ROI in first year"</td></tr>
+<tr><td><b>Become AI Native workshop</b></td><td>Service-business owners $50K+/mo, team 3–50</td><td>Build and test one AI workflow in 90 minutes; leave with a 7-day plan</td><td>22-file packet, 5 workflow kits, Claude free plan, 72h replay</td><td>Free; short pitch at end (disclosed in FAQ)</td><td>Clinic ops-lead quote; hosts Nick + Keshav</td></tr>
+<tr><td><b>AI Business Growth Plan</b></td><td>Owners unsure where to start</td><td>"Personalized AI roadmap to buy back your time"</td><td>4-page on-screen plan + private email link</td><td>Free, "No call required"</td><td>"100+ businesses"</td></tr>
+<tr><td><b>Vertical AI install</b> (go.reprisesai.com — CPA firms)</td><td>Founder-led CPA firms $50K+/mo</td><td>"Cuts Monthly Close In Half — In 14 Days"; vertical-specific integrations (QuickBooks, payroll, Dentrix, Buildium)</td><td>Custom AI system installed one workflow at a time</td><td>"$10K plus retainer"; retainer waived if close not cut 50% in 30 days; "We take 3 new firms per month. 1 spot remaining for July."</td><td>"42+ firms installed", 4.9 rating, one anonymised case (~$1.4M/yr firm)</td></tr>
+<tr><td><b>Sync2</b> (SaaS + "Patient Profit System")</td><td>Plastic surgery, med spa, dental, aesthetic practices</td><td>AI receptionist answers every call, books consultations, follows up; ads + landing page + AI setter</td><td>Software with live voice demo, EHR sync; done-for-you ads system (per ad copy)</td><td><span class="tag u">UNKNOWN</span> ("Book a Demo" / "free Growth Review")</td><td>"2,400+ calls handled", "93% resolution rate"</td></tr>
+<tr><td><b>Sponsorships</b></td><td>Tool brands that want to reach AI builders</td><td>Reels with promo codes / #ad</td><td>Cloudways, Tripo AI (code NICK500), Airbyte — 3 of 12 latest reels</td><td><span class="tag u">UNKNOWN</span> fees</td><td>—</td></tr>
+<tr><td><b>AI Education</b> (corporate)</td><td>Teams that "tried AI and failed"</td><td>Department-specific hands-on training</td><td>Half-day exec, full-day department, 2–3 day bootcamp, 2–8 week curriculum</td><td><span class="tag u">UNKNOWN</span></td><td>—</td></tr>
+</table></div>
+<p class="note">Probable customer journey <span class="tag i">INFERRED</span>: free content → free Skool or newsletter → webinar or VSL → application → call → mentorship (or, if rejected, $149/mo Skool) → in-community upsells and challenges. Business owners who show up are routed to Reprise. Agency case studies then become proof for the education product ("I run a ~$70k/mo AI agency").</p>
+
+<h2 id="psych">6 · Copy &amp; sales psychology</h2>
+<div class="two">
+<div>
+<h3>Headline and hook patterns</h3>
+<blockquote>"How People With No Experience, No Portfolio, And No Track Record Are Landing AI Agency Clients Right Now"<cite>theaiaccelerators.com/agency — objection-removal headline (they say you don't need the three things you think you need)</cite></blockquote>
+<blockquote>"In 5 years there'll be two kinds of people: the ones who command AI, and the ones who got replaced by them."<cite>skool.com/systems-to-scale-9517/about — fear and identity split</cite></blockquote>
+<blockquote>"Your best people are doing $15/hr work"<cite>join.reprisesai.com/workshop — cost reframe for B2B</cite></blockquote>
+<blockquote>"Stop collecting tutorials. Start building systems people will pay for."<cite>skool.com/theaiaccelerator/about — names the learner's real problem</cite></blockquote>
+<blockquote>"They have a decision problem."<cite>ai-core.beehiiv.com/p/what-youll-walk-out-with-on-monday — re-diagnoses the problem as indecision, not lack of knowledge</cite></blockquote>
+<h3>Recurring persuasion devices</h3>
+<ul>
+<li><b>Pattern-interrupt "Stop X, do Y" titles</b> on YouTube ("Stop Learning n8n in 2025… Learn THIS Instead", "Stop Selling n8n Agents, Sell AI Systems") <span class="tag v">VERIFIED</span>.</li>
+<li><b>Warning hooks</b> ("Be CAREFUL Using…", "…Most Dangerous Thing on the Internet") <span class="tag v">VERIFIED</span>.</li>
+<li><b>Self-filtering ("This is for you / Not for you if")</b> on the workshop and newsletter. Excluding some readers makes the rest feel more qualified and trust the offer more.</li>
+<li><b>Bounded promises</b>: "What I'm not promising: a paying client in three days." Admitting what you can't promise makes the claims you do make more believable.</li>
+<li><b>Named frameworks</b> to make a method feel ownable: CAOS, AI Operating System (5 layers), "10 steps ahead" principle, "$5k Monthly Retainer Framework", Launch Audit.</li>
+<li><b>Specific numbers</b>: "3–4 hrs → 18 sec", "70 → 250 leads", "13 hours a week… It's 3 now", "$2,500 build plus $197/month".</li>
+</ul>
+</div>
+<div>
+<h3>Scarcity and urgency</h3>
+<ul><li>Member-count price rise: "Once we hit 50 members, the price goes up… 12 spots left" (June); price later went from $72 to $149 <span class="tag v">VERIFIED</span>.</li>
+<li>"Limited Spots Are Available" on free webinars; "live and unrecorded, if you miss it, the session and the bonus are gone" — later re-sent as a replay. That contradiction weakens trust <span class="tag v">VERIFIED</span>.</li>
+<li>Show-up bonus only for live attendees.</li>
+<li>"Calls cannot be rescheduled. If you miss the call, you will not be able to book again." This makes the booked call feel scarce and should raise show-up rates.</li></ul>
+<h3>Objection handling</h3>
+<p>The nine pre-call videos on <code>/important</code> cover the standard high-ticket objections in order: ability (technical skills), time to result, differentiation, market saturation, what to sell, time commitment, sales confidence, risk (guarantee), support. The Reprise FAQ covers cost, ownership, lock-in, timeline, and "Is this a pitch?" (answered openly).</p>
+<h3>Trust building</h3>
+<ul><li>Income disclaimers on every theaiaccelerators.com page ("not typical… many people… see little to no results").</li>
+<li>B2B proof labelled carefully ("Client messages, recreated for display", "Separate, anonymized client examples").</li>
+<li>Faces and voices: four client video interviews, Nick on camera in every VSL thumbnail.</li>
+<li>Third-party-style authority built in-house: a self-published "Best AI Agencies 2026" list that ranks Reprise #1 (a weak tactic that can backfire).</li></ul>
+<h3>Qualification psychology</h3>
+<p>The application asks "If we can guarantee you close your first agency client within the next 90 days, how committed are you…?" This plants the guarantee before the call and makes the applicant state their own buying intent. Asking for income splits people who can afford the high-ticket offer from those who get the $149/mo downsell.</p>
+</div></div>
+
+<h2 id="tech">7 · Technology stack</h2>
+<div class="tw"><table>
+<tr><th>Layer</th><th>Tool</th><th>Where</th><th>Evidence</th><th>Confidence</th></tr>
+<tr><td>Funnel pages</td><td>GoHighLevel (LeadConnector) funnels</td><td>theaiaccelerators.com, join.reprisesai.com</td><td>Requests to <code>*.leadconnectorhq.com</code> on every page; GHL popup form on /register</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Agency website</td><td>Next.js app generated with v0 (Vercel)</td><td>reprisesai.com</td><td><code>&lt;meta name="generator" content="v0.app"&gt;</code>, <code>/_next/</code> in robots.txt</td><td><span class="tag v">VERIFIED</span> (v0) · Vercel hosting <span class="tag i">INFERRED</span></td></tr>
+<tr><td>CRM / booking (B2B)</td><td>GoHighLevel booking widget</td><td>Growth plan "Work with us"</td><td><code>api.leadconnectorhq.com/widget/booking/Jc4Ezc6xuTl1SJF4MRvr</code></td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Booking (B2C sales calls)</td><td>Calendly</td><td>/schedule-call, Typeform calendly block</td><td><code>calendly.com/mentorship-1hr/ai-accelerator</code></td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Forms</td><td>Typeform (2 forms), GHL forms, custom React forms</td><td>/agency, /register-ads; /register; reprisesai.com</td><td>Form IDs <code>eUf7s5V4</code>, <code>IfVonuWE</code>; partial responses on</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Community &amp; payments</td><td>Skool + Stripe</td><td>3 Skool groups</td><td>Skool pages load <code>js.stripe.com</code>; "JOIN $149/month"</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Email</td><td>beehiiv (newsletter); Google Workspace (reprisesai.com MX)</td><td>ai-core.beehiiv.com</td><td>beehiiv-hosted; MX → aspmx.l.google.com</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>SMS / voice follow-up</td><td>Likely GHL (LC Phone) workflows</td><td>Audit quiz, webinar, workshop</td><td>Consent copy covers SMS, autodialed, prerecorded and "AI-generated" messages; GHL on pages</td><td><span class="tag i">INFERRED</span></td></tr>
+<tr><td>Community chat</td><td>WhatsApp group</td><td>Webinar thank-you</td><td><code>chat.whatsapp.com/…</code> link</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Live events</td><td>Zoom</td><td>Webinar</td><td><code>us06web.zoom.us/j/858…</code> in add-to-calendar links</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Video</td><td>Wistia</td><td>VSL, workshop, Skool about</td><td><code>fast.wistia.net/embed/iframe/6zjeb0ir37</code>, distillery.wistia.com</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Ad pixels</td><td>Meta Pixel ×3 owned</td><td>AIA funnel / Reprise site / shared GHL pages</td><td><code>634223582573401</code> (theaiaccelerators.com), <code>1264557215337731</code> (reprisesai.com), <code>2115906985918097</code> (both /schedule-call and join.reprisesai.com). <code>377423971634690</code> also appears on an unrelated Skool group, so it is Skool's platform pixel.</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Server-side attribution</td><td>Meta CAPI-ready hidden fields</td><td>Both Typeforms</td><td>Hidden fields <code>fbp, fbc, fbclid, event_source_url, user_agent</code></td><td><span class="tag v">VERIFIED</span> fields · CAPI use <span class="tag i">INFERRED</span></td></tr>
+<tr><td>Analytics</td><td>GA4 <code>G-VK830JKBQJ</code> + GTM <code>GTM-MMQJKPSP</code></td><td>reprisesai.com <b>and</b> beehiiv newsletter (same GA4 ID)</td><td>collect requests; custom event <code>reprise_home_assessment_start</code></td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Session replay</td><td>Microsoft Clarity (<code>xio6pbz1ss</code>, <code>yi1bzj0hst</code>, <code>wwizfbklxh</code>)</td><td>theaiaccelerators.com pages</td><td><code>clarity.ms/tag/…</code></td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Edge / CDN</td><td>Cloudflare (RUM beacons)</td><td>GHL domains</td><td><code>/cdn-cgi/rum</code></td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>First-party funnel analytics</td><td>Custom API</td><td>Growth plan</td><td><code>POST /api/growth-plan/metrics</code> per step</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>Affiliates</td><td>PartnerStack (n8n), Teachly short link</td><td>YouTube descriptions</td><td><code>ps_partner_key</code> on n8n redirect; <code>go.teachly.ai/nickp</code> 301 chain</td><td><span class="tag v">VERIFIED</span></td></tr>
+<tr><td>UTM conventions</td><td><code>utm_source=youtube&amp;utm_medium=bio</code>; <code>utm_source=newsletter&amp;utm_medium=&lt;post-slug&gt;</code></td><td>All bio and newsletter links</td><td>Observed URLs; Typeform passes UTMs into redirect URLs</td><td><span class="tag v">VERIFIED</span></td></tr>
+</table></div>
+
+<h2 id="unknowns">8 · Unknowns &amp; inaccessible steps</h2>
+<ul>
+<li><b>Instagram beyond the 12 latest reels</b> (the other ~335 posts, highlight contents, pinned posts, engagement on older posts): <span class="tag u">BLOCKED</span>. The logged-out profile shows only the latest 12 grid items, and some loads redirect to <code>/accounts/login</code>. Official embed pages returned "link may be broken", which suggests embedding is disabled. A request to Instagram's internal profile API was refused by this session's safety policy as an access-control bypass and was not retried. Third-party scraper mirrors were deliberately not used. The 100-post analysis requested was therefore not possible.</li>
+<li><b>DM automation contents</b>: what the "NEED" DM actually sends, and any follow-up sequence, are <span class="tag u">UNKNOWN</span> because no comments or messages were sent. ManyChat as the tool is <span class="tag i">INFERRED</span> from the podcast description.</li>
+<li><b>X, LinkedIn and Facebook page</b> content: blank render or sign-in wall when logged out. TikTok (linked from Linktree) was not checked.</li>
+<li><b>High-ticket mentorship price, payment plans, contract, refund terms</b>: <span class="tag u">UNKNOWN</span>. These are only revealed on the sales call.</li>
+<li><b>Webinar content and pitch, replay page, email/SMS sequences</b>: <span class="tag u">UNKNOWN</span>. They would need a real registration.</li>
+<li><b>Post-opt-in automations</b> (confirmation emails, SMS reminders, AI voice follow-up): <span class="tag u">UNKNOWN</span>. Consent language suggests they exist (<span class="tag i">INFERRED</span>).</li>
+<li><b>Inside Skool groups</b> (classroom, calendar, member posts beyond public ones): login required.</li>
+<li><b>AIA+ annual price and guarantee terms</b>: <span class="tag u">UNKNOWN</span>.</li>
+<li><b>Growth-plan step 5</b>: not captured (walker skipped it).</li>
+<li><b>Ads for the coaching funnel</b>: none found in the Meta Ad Library. The library started returning "No ads" even for a control query (Nike) late in the session, so these negative results are <b>unreliable</b>. The <code>/register-ads</code> path and pixels suggest ads run at least some of the time (<span class="tag i">INFERRED</span>). Google/YouTube ads were not checked.</li>
+<li><b>Sync2 ownership</b>: Sync2 is linked from Nick's Linktree and listed as a co-founded company in his webinar bio, and its Meta ads land on <code>go.reprisesai.com</code>. Its exact ownership and revenue are <span class="tag u">UNKNOWN</span>.</li>
+<li><b>YouTube video descriptions</b> for recent uploads: watch pages returned Google's "unusual traffic" CAPTCHA, which was not bypassed.</li>
+<li><b>Conversion rates, revenue, member churn</b>: never observable; not estimated.</li>
+</ul>
+
+<h2 id="recs">9 · Recommendations — building an original, better funnel</h2>
+<p class="note">These borrow the principles that work here, not the copy, branding or assets. They are ordered by expected impact relative to build effort.</p>
+<ol>
+<li><b>Hard-gated application with a designed downsell (P1).</b> Keep the four-signal gate (situation, pain, income, willingness to invest), but make the downsell explicit rather than a silent redirect: "Based on your answers, the best next step is X." This captures revenue from rejects while protecting closers' calendars.</li>
+<li><b>A post-booking "show-up" page with objection videos (P1).</b> Record 6–9 videos of 60–90s each, matched to the objections your closers actually hear. Add a "watch before your call" checklist and an SMS/email sequence that links each video one at a time. Measure show rate, a metric you can track.</li>
+<li><b>One field per step on every form (P1).</b> Email first (so a later drop-off can still be recovered), then name, then phone with honest consent copy. Narrow your consent language: Reprise's "even if your number is on a Do Not Call list… AI-generated messages" is aggressive. Get your own TCPA counsel.</li>
+<li><b>Fix the trust leaks that are easy to see (P1).</b> Unlike the target: retire past event dates automatically (switch to evergreen or "next session"), use one consistent set of proof numbers driven from a single source, never publish a contact address on an unconfigured domain, and don't say "unrecorded" if you send the replay later.</li>
+<li><b>Two audiences, two lanes (P2).</b> Keep a B2B "done-for-you" lane and a B2C "learn to do it" lane separate, each with explicit "not for you if" filters, so neither audience sees the other's pitch. Route by a single self-ID question (as the newsletter poll does).</li>
+<li><b>Interactive lead magnet that outputs a personalised plan (P2).</b> A diagnostic quiz is more valuable and more qualifying than a PDF. Instrument every step server-side (view/complete/error) as Reprise does, so you can find the drop-off step.</li>
+<li><b>Content library → SEO pages (P2).</b> Turn each long video into a page with timestamped answers. Skip self-ranked "best agencies" listicles, which buyers and AI answer engines increasingly discount.</li>
+<li><b>Attribution from day one (P2).</b> Pass utm_*, fbclid, fbp/fbc through every form as hidden fields, forward conversions server-side (CAPI), and use one analytics property across owned media.</li>
+<li><b>Community as the hub, with a visible ladder (P3).</b> Free community → low-ticket cohort "challenge" with a concrete deliverable reviewed against a rubric → high-touch program. The 3-Day "Launch Audit" with human review is the strongest low-ticket design observed here.</li>
+<li><b>Bounded guarantees (P3).</b> Promise only what you control (deliverables, reviews, response times), stated as plainly as the "What I'm not promising" line.</li>
+</ol>
+
+<h2 id="blueprint">10 · Implementation blueprint</h2>
+<div class="tw"><table>
+<tr><th>#</th><th>Asset</th><th>Copy outline (original)</th><th>Automations</th><th>Tools</th><th>Effort</th></tr>
+<tr><td>1</td><td>Link-in-bio hub</td><td>3 buttons max: "I run a business" · "I want to build an AI service" · "Free weekly newsletter"</td><td>UTM per platform; click events</td><td>Own site (Next.js / Framer) or Stan/Beacons</td><td>0.5 day</td></tr>
+<tr><td>2</td><td>Free community</td><td>Identity promise · 3 concrete weekly rituals · "start here" path · first quick win in 24h</td><td>Welcome DM, onboarding questionnaire → tags</td><td>Skool / Circle</td><td>2–3 days + ongoing</td></tr>
+<tr><td>3</td><td>Comment-to-DM lead magnets</td><td>One keyword per reel → specific resource (template, checklist) → soft CTA to community</td><td>Keyword trigger, follow-up after 24h, tag by keyword</td><td>ManyChat (IG) + CRM sync</td><td>1–2 days</td></tr>
+<tr><td>4</td><td>VSL + application page</td><td>Objection-removal headline · 8–15 min VSL (problem → mechanism → proof → who it's for/not for → apply) · single CTA</td><td>Hidden UTM/fbclid/fbp/fbc fields; partial-response capture; logic → qualified / downsell / nurture</td><td>Typeform or Tally + Calendly/GHL calendar</td><td>4–6 days (incl. VSL shoot)</td></tr>
+<tr><td>5</td><td>Show-up page + reminders</td><td>"You're booked — watch these first" · 6–9 objection videos · proof wall with permission-cleared results</td><td>Confirmation email + SMS at T-24h, T-2h, T-10m; no-show re-engagement branch</td><td>GHL / HubSpot + Twilio</td><td>3–4 days</td></tr>
+<tr><td>6</td><td>Webinar / workshop</td><td>Workshop format (build something live) beats a pitch-heavy webinar · disclose the pitch up front · evergreen next-date logic</td><td>Registration → calendar file → reminders → replay with 72h expiry → call CTA</td><td>Zoom/StreamYard + GHL or Kit</td><td>5–7 days</td></tr>
+<tr><td>7</td><td>Low-ticket cohort / challenge</td><td>Single deliverable (e.g., "Offer Audit") reviewed against a public rubric → unlocks roadmap</td><td>Stripe checkout → community access → rubric review queue</td><td>Stripe + Skool/Circle + Airtable</td><td>4–5 days</td></tr>
+<tr><td>8</td><td>B2B diagnostic quiz</td><td>5–7 questions → personalised plan page + email link → "book a scoping call"</td><td>Server-side step metrics; lead scoring by revenue/team size; route to calendar</td><td>Next.js + Postgres or Typeform + Make/n8n</td><td>5–8 days</td></tr>
+<tr><td>9</td><td>Newsletter</td><td>Weekly: one idea, one case, one CTA · in-post self-ID poll for segmentation</td><td>Poll answer → tag → lane-specific CTA</td><td>beehiiv / Kit</td><td>1 day setup + weekly</td></tr>
+<tr><td>10</td><td>Measurement</td><td>—</td><td>GA4 + server-side Meta CAPI; dashboard: opt-in rate, app completion, qualified %, show rate, close rate, CAC by source</td><td>GTM server container or Stape; Looker Studio</td><td>2–3 days</td></tr>
+</table></div>
+<p class="note">Total effort, rough: 4–6 weeks for one operator with a contractor for video editing. Run the lanes one at a time. Ship 1, 3, 4, 5 first (the call funnel), then 2, 9, then 6–8.</p>
+
+<h2 id="method">Method &amp; evidence index</h2>
+<ul>
+<li>Captured with Playwright/Chromium (desktop 1366×900 and iPhone 13 emulation), recording final URL, redirects, links, buttons, forms, iframes, script globals and up to 400 network requests per page: <code>evidence/tools/cap.js</code>.</li>
+<li>Form walks: <code>walk_quiz.js</code>, <code>walk_lock.js</code>, <code>walk_modal*.js</code>. All non-GET requests were aborted, then all requests ("lockdown") before any synthetic text was typed. Final submit/opt-in buttons were never pressed.</li>
+<li>Typeform definitions were parsed from the public form HTML (<code>tf.py</code>), with no responses entered.</li>
+<li>DNS/MX via Google Public DNS JSON API; sitemaps and robots.txt fetched directly.</li>
+<li>Identity verification: YouTube video description (<code>youtube.com/watch?v=OsIF8U5sOz4</code>) and Skool profile (<code>skool.com/@nick-puruczky-8573</code>) both link to <code>instagram.com/nicholas.puru</code>.</li>
+<li>Excluded: <code>skool.com/rising-tides-9034</code> ("AI Learning Hub", owned by a different Nick, Nick Mohler). It turned up in an early search and is unrelated.</li>
+</ul>
+<footer>Prepared for internal competitive research. Quoted excerpts are short and attributed; longer copy is summarised. Screenshots are of publicly accessible pages captured 15 Nov 2026 and may change.</footer>
+</main>
+</body>
+</html>

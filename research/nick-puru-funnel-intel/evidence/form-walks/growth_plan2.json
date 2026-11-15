@@ -1,0 +1,169 @@
+{
+ "url": "https://www.reprisesai.com/ai-business-growth-plan",
+ "log": [
+  {
+   "s": 0,
+   "t": "Back\n1 / 7 · The problem\nYOUR AI BUSINESS GROWTH PLAN\nWhat is getting in the way?\nWhat is the main problem you want to fix?\nToo much copying, chasing and moving work between tools\nWork gets stuck waiting for me or one key person\nOur systems break, miss things or go unused\nWe need more clients or demand\nI am not sure where to start\nContinue\n\nYour answers shape your plan. There are no right or wrong answers.",
+   "inputs": [],
+   "opts": [
+    "Back",
+    "Too much copying, chasing and moving work between tools",
+    "Work gets stuck waiting for me or one key person",
+    "Our systems break, miss things or go unused",
+    "We need more clients or demand",
+    "I am not sure where to start",
+    "Continue"
+   ]
+  },
+  {
+   "s": 1,
+   "t": "Back\n2 / 7 · Your priority\nYOUR AI BUSINESS GROWTH PLAN\nWhat would a better week look like?\nWhat would make the biggest difference right now?\nGet time back from day-to-day work\nHave work move without depending on me\nReduce costs or improve margins\nMake delivery more reliable for clients\nHandle more work or support growth\n\nChoose an answer.\n\nPlease complete the highlighted answer.\n\nContinue\n\nYour answers shape your plan. There are no right or wrong answers.",
+   "inputs": [],
+   "opts": [
+    "Back",
+    "Get time back from day-to-day work",
+    "Have work move without depending on me",
+    "Reduce costs or improve margins",
+    "Make delivery more reliable for clients",
+    "Handle more work or support growth",
+    "Continue"
+   ]
+  },
+  {
+   "s": 2,
+   "t": "Back\n3 / 7 · Your process\nYOUR AI BUSINESS GROWTH PLAN\nWhich work should we focus on?\nWhich part of the work would you most like off your plate?\nCollecting client information and getting work started\nMoving data, reviewing documents or building reports\nResponding to inquiries, quotes and follow-ups\nAssigning work, getting approvals and keeping delivery moving\nHandling customer requests and repeat questions\nSomething else / help me choose\n\nChoose an answer.\n\nAdd a note for your team\nOptional\n\nPlease complete the highlighted answer.\n\nContinue\n\nYour answers shape your plan. There are no right or wrong answers.",
+   "inputs": [
+    {
+     "type": "textarea",
+     "name": "",
+     "ph": "For example: a bookkeeping firm serving small businesses.",
+     "id": ""
+    },
+    {
+     "type": "textarea",
+     "name": "",
+     "ph": "For example: chasing missing client documents. Unsure is okay.",
+     "id": ""
+    },
+    {
+     "type": "textarea",
+     "name": "",
+     "ph": "For example: email, spreadsheets and our CRM. Unsure is okay.",
+     "id": ""
+    }
+   ],
+   "opts": [
+    "Back",
+    "Collecting client information and getting work started",
+    "Moving data, reviewing documents or building reports",
+    "Responding to inquiries, quotes and follow-ups",
+    "Assigning work, getting approvals and keeping delivery moving",
+    "Handling customer requests and repeat questions",
+    "Something else / help me choose",
+    "Continue"
+   ]
+  },
+  {
+   "s": 3,
+   "t": "Back\n4 / 7 · How it works\nYOUR AI BUSINESS GROWTH PLAN\nHow does this process work today?\n\nMoving data, reviewing documents or building reports\n\nChoose the closest description of this process.\nMostly manual, but we can explain the steps\nIt relies on one person's knowledge or approvals\nWe have automation, but it breaks or goes unused\nIt works reliably; we want it to take less effort\nWe need to understand it better first\n\nChoose an answer.\n\nPlease complete the highlighted answer.\n\nContinue\n\nYour answers shape your plan. There are no right or wrong answers.",
+   "inputs": [],
+   "opts": [
+    "Back",
+    "Mostly manual, but we can explain the steps",
+    "It relies on one person's knowledge or approvals",
+    "We have automation, but it breaks or goes unused",
+    "It works reliably; we want it to take less effort",
+    "We need to understand it better first",
+    "Continue"
+   ]
+  },
+  {
+   "s": 4,
+   "t": "Back\n6 / 7 · Your business\nYOUR AI BUSINESS GROWTH PLAN\nWhat is your average monthly business revenue?\nWhat is your average monthly business revenue?\n\nAmounts are in USD per month, not annual revenue. Your plan is free at every level.\n\nUnder $25K\n$25K to under $50K\n$50K to under $100K\n$100K to under $250K\n$250K to under $500K\n$500K+\nPrefer not to say\nContinue\n\nYour answers shape your plan. There are no right or wrong answers.",
+   "inputs": [],
+   "opts": [
+    "Back",
+    "Under $25K",
+    "$25K to under $50K",
+    "$50K to under $100K",
+    "$100K to under $250K",
+    "$250K to under $500K",
+    "$500K+",
+    "Prefer not to say",
+    "Continue"
+   ]
+  },
+  {
+   "s": 5,
+   "t": "Back\n7 / 7 · Your plan\nYOUR AI BUSINESS GROWTH PLAN\nWhere should we send your plan?\n\nRead your personalized plan on the next page. We’ll also email a private link so you can return to it.\n\nFirst name\nEmail address\nPhone number\nUS or Canada number, or include + and your country code.\nEmail me a practical follow-up about using my plan and relevant Reprise implementation help. Optional; unsubscribe anytime.\nWebsite\n\nBy requesting your plan, you agree to our Terms and Privacy Policy. We’ll use your email to deliver the plan you requested.\n\nShow my growth plan\n\nYour plan is free. No call required.",
+   "inputs": [
+    {
+     "type": "text",
+     "name": "given-name",
+     "ph": "Your first name",
+     "id": ""
+    },
+    {
+     "type": "email",
+     "name": "email",
+     "ph": "you@yourbusiness.com",
+     "id": ""
+    },
+    {
+     "type": "tel",
+     "name": "tel",
+     "ph": "Your phone number",
+     "id": ""
+    },
+    {
+     "type": "text",
+     "name": "",
+     "ph": "",
+     "id": ""
+    }
+   ],
+   "opts": [
+    "Back",
+    "First name",
+    "Email address",
+    "Phone number\nUS or Canada number, or include + and your country code.",
+    "Email me a practical follow-up about using my plan and relevant Reprise implementation help. Optional; unsubscribe anytime.",
+    "Website",
+    "Show my growth plan"
+   ]
+  },
+  {
+   "s": 6,
+   "note": "no change; stop"
+  }
+ ],
+ "blocked": [
+  "POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_view\"}",
+  "POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708546606&gcd=13l3l3l3l1l1&npa=0& ",
+  "POST https://www.google.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708546606&gcd=13l3l3l3l1l1&npa=0&dma=0&cid= ",
+  "[LOCK] POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za208zb9225360811zd9225360811xf1&_p=1794708546606&gcd=13l3l3l3l1l1&npa=0& ",
+  "[LOCK] POST https://www.google.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za208zb9225360811zd9225360811xf1&_p=1794708546606&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu= ",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_started\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_started_hero\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_one_view\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_one_complete\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_two_view\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_two_error\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_two_complete\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_three_view\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_three_error\"}",
+  "[LOCK] POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708546606&gcd=13l3l3l3l1l1&npa=0& en=growth_plan_started&_ee=1&ep.release=lead-handling-2026-10-23&ep.funnel=growth-plan-v3&_et=5073\r\nen=growth_plan_started_hero&_ee=1&ep.release=lead-handling-2026-10-23&ep.funnel=growth-plan-v3&_et=3",
+  "[LOCK] POST https://www.google.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708546606&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu= en=growth_plan_started&_ee=1&ep.release=lead-handling-2026-10-23&ep.funnel=growth-plan-v3&_et=5073\r\nen=growth_plan_started_hero&_ee=1&ep.release=lead-handling-2026-10-23&ep.funnel=growth-plan-v3&_et=3",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_three_complete\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_four_view\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_four_error\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_four_complete\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_five_view\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_five_complete\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_six_view\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_six_complete\"}",
+  "[LOCK] POST https://www.reprisesai.com/api/growth-plan/metrics {\"event\":\"growth_plan_step_seven_view\"}",
+  "[LOCK] POST https://www.google-analytics.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708546606&gcd=13l3l3l3l1l1&npa=0& en=growth_plan_step_three_complete&_ee=1&ep.release=lead-handling-2026-10-23&ep.funnel=growth-plan-v3&_et=91411\r\nen=growth_plan_question_view&_ee=1&ep.release=lead-handling-2026-10-23&ep.funnel=growth",
+  "[LOCK] POST https://www.google.com/g/collect?v=2&tid=G-VK830JKBQJ&gtm=45je6bb1v9251366175za200zb9225360811zd9225360811xf1&_p=1794708546606&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu= en=growth_plan_step_three_complete&_ee=1&ep.release=lead-handling-2026-10-23&ep.funnel=growth-plan-v3&_et=91411\r\nen=growth_plan_question_view&_ee=1&ep.release=lead-handling-2026-10-23&ep.funnel=growth"
+ ]
+}
